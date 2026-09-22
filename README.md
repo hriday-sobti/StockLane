@@ -2,6 +2,24 @@
 
 StockLane is an end-to-end inventory planning and dark store replenishment system built for quick-commerce networks. 
 
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+[![Database](https://img.shields.io/badge/Database-SQLite%20%26%20PostgreSQL-orange.svg)](https://duckdb.org/)
+[![Tests](https://img.shields.io/badge/Tests-229%20Passing-brightgreen.svg)](https://pytest.org/)
+[![Power BI Ready](https://img.shields.io/badge/Power%20BI-Ready-yellow.svg)](https://powerbi.microsoft.com/)
+[![Excel](https://img.shields.io/badge/Excel-Scenario%20Model-success.svg)](reports/stocklane_scenario_model.xlsx)
+[![Author](https://img.shields.io/badge/Author-Hriday%20Singh%20Sobti-lightgrey.svg)](https://github.com/hriday-sobti)
+
+---
+
+## Overview & Technical Summary
+
+- **Environment:** Python 3.10+
+- **Database:** SQLite & PostgreSQL (with embedded DuckDB execution)
+- **Automated Tests:** 229 Passing (covering inventory balance, constraints, forecasting, and data quality)
+- **Business Intelligence:** Power BI Ready (5-page operational dashboard specifications, DAX measures, and pre-exported analytical tables)
+- **Decision Tools:** Interactive Excel Scenario Model (`reports/stocklane_scenario_model.xlsx`)
+- **Author:** Hriday Singh Sobti
+
 In quick commerce (10- to 20-minute delivery), city-wide inventory numbers can be misleading. A city might have plenty of stock on paper, but if Store A has 10 days of cover while Store B two neighborhoods over runs out in two hours, customers experience stockouts. StockLane simulates a 40-store network across 4 cities over 180 days, tracks stock at the SKU-store-day grain, and generates automated replenishment and lateral redistribution transfers to keep products in stock.
 
 ---
@@ -27,7 +45,7 @@ Simulated Operational Telemetry (Demand, Footfall, Lead Times)
 Raw Staging & Quarantine (Data Quality, Balance Checks)
                            │
                            ▼
-Core Relational Warehouse (PostgreSQL / DuckDB Schemas & Views)
+Core Relational Warehouse (PostgreSQL / SQLite / DuckDB Schemas & Views)
                            │
                            ▼
 Time-Series Forecasting (Moving Average vs Seasonal Naive vs Holt-Winters)
@@ -98,7 +116,7 @@ When one store has impending shortages and a nearby store in the same city has e
 
 ---
 
-## Power BI Operational Dashboards
+## Power BI Operational Dashboards & Excel Model
 
 The repository includes pre-exported datasets and DAX measures for 5 operational dashboard pages:
 1. **Instock Command Center:** Network availability trends, fill rates, critical exception counts, and lost sales exposure.
@@ -107,7 +125,10 @@ The repository includes pre-exported datasets and DAX measures for 5 operational
 4. **Demand & Forecasting:** Forecast vs actual trends, WAPE scorecards by category, and day-of-week demand curves.
 5. **Replenishment Control:** Supplier on-time SLA adherence, delivery status breakdowns, and plan-vs-actual variance.
 
-Exported CSVs are stored in `powerbi/exports/`, DAX definitions are in `powerbi/measures/dax_measures.dax`, and semantic relationships are defined in `powerbi/model/schema_relationships.py`.
+- Exported CSVs are in `powerbi/exports/`.
+- DAX definitions are in `powerbi/measures/dax_measures.dax`.
+- Semantic relationships are in `powerbi/model/schema_relationships.py`.
+- An interactive scenario model is in `reports/stocklane_scenario_model.xlsx`.
 
 ---
 
@@ -126,7 +147,7 @@ StockLane/
 │   ├── common/                     # Config loader and structured logger
 │   ├── generation/                 # Dimensions, latent demand, and daily inventory simulation
 │   ├── validation/                 # Schema checks, referential integrity, and quarantine routing
-│   ├── database/                   # Dual PostgreSQL and DuckDB gateway
+│   ├── database/                   # Dual PostgreSQL, SQLite, and DuckDB gateway
 │   ├── forecasting/                # Moving average, Seasonal Naive, and Holt-Winters engine
 │   ├── inventory/                  # Days of Cover, safety stock, risk scoring, action queue
 │   ├── replenishment/              # Constrained replenishment orders (MOQ, case packs, capacity)
@@ -144,7 +165,8 @@ StockLane/
 ├── reports/
 │   ├── fact_sheet.yaml             # Machine-readable verified run metrics
 │   ├── executive_summary.md        # Summary of operational findings and scenario results
-│   └── validation_report.md        # Data quality and reconciliation audit log
+│   ├── validation_report.md        # Data quality and reconciliation audit log
+│   └── stocklane_scenario_model.xlsx # Excel scenario modeling workbook
 ├── docs/
 │   ├── architecture.md             # End-to-end system design
 │   ├── data_dictionary.md          # Table grains, schemas, and column descriptions
@@ -153,9 +175,11 @@ StockLane/
 │   └── limitations.md              # Documented operational simplifications
 ├── tests/
 │   ├── test_stocklane.py           # Core integration and invariant tests
-│   └── test_comprehensive.py       # 150+ parameterized boundary condition tests
+│   ├── test_comprehensive.py       # 150+ parameterized boundary condition tests
+│   └── test_additional_cases.py    # SQLite, capacity buffers, and plan variance tests (229 total)
 └── scripts/
-    └── run_pipeline.py             # End-to-end orchestrator script
+    ├── run_pipeline.py             # End-to-end orchestrator script
+    └── build_excel_model.py        # Scenario model workbook generator
 ```
 
 ---
@@ -177,7 +201,7 @@ python scripts/run_pipeline.py
 ```
 
 ### 3. Run the Test Suite
-Runs 154 unit and integration tests covering inventory reconciliation, pricing math, safety stock, and redistribution constraints:
+Runs all 229 unit and integration tests covering inventory reconciliation, pricing math, safety stock, SQLite, and redistribution constraints:
 ```bash
 python -m pytest tests/ -v
 ```
