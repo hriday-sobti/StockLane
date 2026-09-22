@@ -1,0 +1,54 @@
+# System Configuration
+random_seed: 42
+num_cities: 4
+stores_per_city: 10
+num_skus: 300
+simulation_days: 180
+start_date: "2026-01-01"
+
+# Service Level & Inventory Mathematics
+service_level: 0.95
+z_score: 1.645
+minimum_days_of_cover: 2.0
+excess_days_of_cover: 14.0
+coverage_horizon_days: 7
+forecast_horizon_days: 14
+stockout_warning_hours: 24.0
+
+# Store & Physical Constraints
+store_capacity_buffer: 0.90
+default_moq: 10
+default_case_pack: 6
+replenishment_sla_hours: 24.0
+
+# Redistribution Constraints
+transfer_distance_limit_km: 25.0
+transfer_cost_per_km: 1.50
+transfer_base_cost: 20.0
+min_transfer_units: 6
+source_protection_doc: 4.0
+
+# Risk Thresholds
+risk_thresholds:
+  low: [0, 30]
+  medium: [31, 60]
+  high: [61, 80]
+  critical: [81, 100]
+
+# Database Configuration
+database:
+  backend: "duckdb" # or "postgres"
+  duckdb_path: "data/stocklane.duckdb"
+  postgres_host: "localhost"
+  postgres_port: 5432
+  postgres_user: "postgres"
+  postgres_password: ""
+  postgres_db: "stocklane"
+
+# Paths
+paths:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  quarantine_dir: "data/quarantine"
+  powerbi_dir: "powerbi/exports"
+  reports_dir: "reports"

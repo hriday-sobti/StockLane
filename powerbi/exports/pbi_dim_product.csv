@@ -1,0 +1,301 @@
+sku_id,sku_name,category,subcategory,unit_cost,selling_price,lead_time_hours,shelf_life_days,priority_class,velocity_class,minimum_order_quantity,case_pack_size,active_flag
+1,DAIR_MILK_01,Dairy,Milk,70.55,95.23,24,8,A,High,16,8,True
+2,DAIR_CURD_02,Dairy,Curd,35.11,47.2,24,5,A,High,16,4,True
+3,DAIR_BUTT_03,Dairy,Butter,58.56,70.68,12,9,A,High,24,24,True
+4,DAIR_CHEE_04,Dairy,Cheese,48.68,63.86,48,9,A,High,4,4,True
+5,DAIR_PANE_05,Dairy,Paneer,69.65,94.1,24,10,A,High,24,8,True
+6,DAIR_MILK_06,Dairy,Milk,43.02,50.9,12,4,A,High,6,6,True
+7,DAIR_CURD_07,Dairy,Curd,128.43,154.99,24,7,A,High,72,24,True
+8,DAIR_BUTT_08,Dairy,Butter,112.98,138.28,72,9,A,High,12,4,True
+9,DAIR_CHEE_09,Dairy,Cheese,138.24,167.11,36,3,A,High,32,8,True
+10,DAIR_PANE_10,Dairy,Paneer,83.61,104.2,12,6,A,High,24,8,True
+11,DAIR_MILK_11,Dairy,Milk,172.9,214.92,72,10,B,High,8,8,True
+12,DAIR_CURD_12,Dairy,Curd,108.83,143.6,72,3,B,High,12,12,True
+13,DAIR_BUTT_13,Dairy,Butter,87.06,121.24,12,7,B,High,16,4,True
+14,DAIR_CHEE_14,Dairy,Cheese,148.7,190.76,48,9,B,High,24,24,True
+15,DAIR_PANE_15,Dairy,Paneer,37.46,51.04,24,9,B,High,8,8,True
+16,DAIR_MILK_16,Dairy,Milk,104.92,137.79,72,9,B,High,36,12,True
+17,DAIR_CURD_17,Dairy,Curd,86.01,108.57,72,6,B,High,12,4,True
+18,DAIR_BUTT_18,Dairy,Butter,158.8,203.24,36,4,B,High,6,6,True
+19,DAIR_CHEE_19,Dairy,Cheese,139.36,189.48,72,3,B,High,24,24,True
+20,DAIR_PANE_20,Dairy,Paneer,115.11,139.53,12,9,B,High,12,6,True
+21,DAIR_MILK_21,Dairy,Milk,43.02,59.48,36,4,B,High,8,4,True
+22,DAIR_CURD_22,Dairy,Curd,44.58,53.74,36,3,B,High,12,12,True
+23,DAIR_BUTT_23,Dairy,Butter,47.94,57.13,36,7,B,High,24,8,True
+24,DAIR_CHEE_24,Dairy,Cheese,82.98,103.72,72,7,B,High,48,12,True
+25,DAIR_PANE_25,Dairy,Paneer,156.18,185.79,36,4,B,High,24,24,True
+26,DAIR_MILK_26,Dairy,Milk,59.9,78.21,72,6,B,High,6,6,True
+27,DAIR_CURD_27,Dairy,Curd,79.78,103.33,72,3,B,High,16,4,True
+28,DAIR_BUTT_28,Dairy,Butter,28.31,39.17,48,3,B,High,96,24,True
+29,DAIR_CHEE_29,Dairy,Cheese,164.42,229.45,24,9,B,High,32,8,True
+30,DAIR_PANE_30,Dairy,Paneer,122.8,165.95,48,4,B,High,72,24,True
+31,BEVE_JUIC_01,Beverages,Juices,68.99,94.42,72,173,A,High,24,12,True
+32,BEVE_COLD_02,Beverages,Cold Drinks,82.15,101.75,12,115,A,High,16,8,True
+33,BEVE_TEA _03,Beverages,Tea & Coffee,58.77,72.36,24,156,A,High,16,8,True
+34,BEVE_ENER_04,Beverages,Energy Drinks,49.39,62.4,12,214,A,High,12,6,True
+35,BEVE_WATE_05,Beverages,Water,114.63,158.37,72,177,A,High,24,12,True
+36,BEVE_JUIC_06,Beverages,Juices,71.22,97.34,36,208,A,High,24,6,True
+37,BEVE_COLD_07,Beverages,Cold Drinks,70.94,93.59,12,142,A,High,12,4,True
+38,BEVE_TEA _08,Beverages,Tea & Coffee,36.25,48.32,36,245,A,High,24,24,True
+39,BEVE_ENER_09,Beverages,Energy Drinks,79.51,95.49,48,221,A,High,8,8,True
+40,BEVE_WATE_10,Beverages,Water,113.27,137.08,72,263,A,High,16,4,True
+41,BEVE_JUIC_11,Beverages,Juices,77.34,104.58,72,233,B,High,96,24,True
+42,BEVE_COLD_12,Beverages,Cold Drinks,41.61,54.5,12,107,B,High,24,8,True
+43,BEVE_TEA _13,Beverages,Tea & Coffee,32.99,43.03,12,193,B,High,16,8,True
+44,BEVE_ENER_14,Beverages,Energy Drinks,69.88,94.2,72,234,B,High,16,8,True
+45,BEVE_WATE_15,Beverages,Water,77.96,107.96,72,111,B,High,12,12,True
+46,BEVE_JUIC_16,Beverages,Juices,24.21,32.07,48,165,B,High,96,24,True
+47,BEVE_COLD_17,Beverages,Cold Drinks,85.48,107.14,48,252,B,High,96,24,True
+48,BEVE_TEA _18,Beverages,Tea & Coffee,43.41,54.7,36,146,B,High,6,6,True
+49,BEVE_ENER_19,Beverages,Energy Drinks,30.52,42.3,36,169,B,High,24,12,True
+50,BEVE_WATE_20,Beverages,Water,91.62,119.26,72,259,B,High,24,6,True
+51,BEVE_JUIC_21,Beverages,Juices,65.33,82.5,48,268,B,High,12,4,True
+52,BEVE_COLD_22,Beverages,Cold Drinks,114.88,138.55,24,243,B,High,72,24,True
+53,BEVE_TEA _23,Beverages,Tea & Coffee,27.8,36.4,12,214,B,High,8,8,True
+54,BEVE_ENER_24,Beverages,Energy Drinks,62.7,85.37,36,143,B,High,48,24,True
+55,BEVE_WATE_25,Beverages,Water,61.44,76.58,36,256,B,High,48,12,True
+56,BEVE_JUIC_26,Beverages,Juices,26.61,37.24,12,249,B,High,24,12,True
+57,BEVE_COLD_27,Beverages,Cold Drinks,102.87,123.8,48,270,B,High,12,4,True
+58,BEVE_TEA _28,Beverages,Tea & Coffee,83.26,99.9,48,252,B,High,24,24,True
+59,BEVE_ENER_29,Beverages,Energy Drinks,40.29,48.81,72,230,B,High,24,24,True
+60,BEVE_WATE_30,Beverages,Water,110.62,146.5,72,96,B,High,4,4,True
+61,SNAC_CHIP_01,Snacks,Chips,17.23,22.63,72,162,A,High,24,24,True
+62,SNAC_BISC_02,Snacks,Biscuits,128.92,153.75,48,162,A,High,96,24,True
+63,SNAC_NAMK_03,Snacks,Namkeen,118.1,157.5,72,166,A,High,8,8,True
+64,SNAC_CHOC_04,Snacks,Chocolates,38.25,46.19,48,135,A,High,24,8,True
+65,SNAC_NUTS_05,Snacks,Nuts,98.2,134.26,36,104,A,High,72,24,True
+66,SNAC_CHIP_06,Snacks,Chips,37.03,45.9,12,154,A,High,32,8,True
+67,SNAC_BISC_07,Snacks,Biscuits,95.62,113.98,12,146,A,High,4,4,True
+68,SNAC_NAMK_08,Snacks,Namkeen,133.78,178.74,36,105,A,High,6,6,True
+69,SNAC_CHOC_09,Snacks,Chocolates,35.69,49.81,36,131,A,High,32,8,True
+70,SNAC_NUTS_10,Snacks,Nuts,99.1,129.42,36,103,A,High,24,6,True
+71,SNAC_CHIP_11,Snacks,Chips,52.19,68.22,36,153,B,High,18,6,True
+72,SNAC_BISC_12,Snacks,Biscuits,141.68,171.81,36,136,B,High,24,12,True
+73,SNAC_NAMK_13,Snacks,Namkeen,76.38,92.13,72,102,B,High,48,24,True
+74,SNAC_CHOC_14,Snacks,Chocolates,52.66,67.1,48,145,B,High,24,8,True
+75,SNAC_NUTS_15,Snacks,Nuts,67.65,85.91,72,109,B,High,72,24,True
+76,SNAC_CHIP_16,Snacks,Chips,54.39,64.61,24,128,B,High,16,8,True
+77,SNAC_BISC_17,Snacks,Biscuits,41.58,54.3,24,141,B,High,24,8,True
+78,SNAC_NAMK_18,Snacks,Namkeen,100.71,133.29,48,118,B,High,24,6,True
+79,SNAC_CHOC_19,Snacks,Chocolates,86.88,110.76,36,146,B,High,16,8,True
+80,SNAC_NUTS_20,Snacks,Nuts,81.78,109.75,36,170,B,High,16,4,True
+81,SNAC_CHIP_21,Snacks,Chips,80.51,104.22,24,162,B,High,12,6,True
+82,SNAC_BISC_22,Snacks,Biscuits,127.23,163.96,12,100,B,High,4,4,True
+83,SNAC_NAMK_23,Snacks,Namkeen,127.88,152.46,12,115,B,High,16,8,True
+84,SNAC_CHOC_24,Snacks,Chocolates,34.22,42.74,12,157,B,High,24,24,True
+85,SNAC_NUTS_25,Snacks,Nuts,125.8,172.15,36,123,B,High,12,12,True
+86,SNAC_CHIP_26,Snacks,Chips,94.12,113.54,36,123,B,High,32,8,True
+87,SNAC_BISC_27,Snacks,Biscuits,149.37,201.63,36,118,B,High,36,12,True
+88,SNAC_NAMK_28,Snacks,Namkeen,108.76,137.62,72,148,B,High,6,6,True
+89,SNAC_CHOC_29,Snacks,Chocolates,39.27,50.88,36,104,B,High,12,12,True
+90,SNAC_NUTS_30,Snacks,Nuts,127.08,177.61,72,140,B,High,24,6,True
+91,PACK_NOOD_01,Packaged Foods,Noodles,198.31,240.18,36,228,B,Medium,48,24,True
+92,PACK_PAST_02,Packaged Foods,Pasta,39.01,52.51,12,224,B,Medium,16,8,True
+93,PACK_SAUC_03,Packaged Foods,Sauces,51.37,62.66,24,338,B,Medium,24,24,True
+94,PACK_BREA_04,Packaged Foods,Breakfast Cereals,65.75,81.81,12,238,B,Medium,72,24,True
+95,PACK_READ_05,Packaged Foods,Ready to Eat,111.33,133.43,24,178,B,Medium,96,24,True
+96,PACK_NOOD_06,Packaged Foods,Noodles,136.58,180.67,36,281,B,Medium,48,12,True
+97,PACK_PAST_07,Packaged Foods,Pasta,35.17,44.34,48,250,B,Medium,48,24,True
+98,PACK_SAUC_08,Packaged Foods,Sauces,172.78,222.22,36,305,B,Medium,48,12,True
+99,PACK_BREA_09,Packaged Foods,Breakfast Cereals,113.34,156.42,24,261,B,Medium,16,4,True
+100,PACK_READ_10,Packaged Foods,Ready to Eat,84.6,109.11,72,248,B,Medium,8,8,True
+101,PACK_NOOD_11,Packaged Foods,Noodles,94.75,130.93,48,272,B,Medium,6,6,True
+102,PACK_PAST_12,Packaged Foods,Pasta,84.3,103.03,24,125,B,Medium,48,12,True
+103,PACK_SAUC_13,Packaged Foods,Sauces,103.44,129.06,12,264,B,Medium,8,8,True
+104,PACK_BREA_14,Packaged Foods,Breakfast Cereals,73.65,98.3,36,272,B,Medium,48,12,True
+105,PACK_READ_15,Packaged Foods,Ready to Eat,133.56,171.63,72,303,B,Medium,48,12,True
+106,PACK_NOOD_16,Packaged Foods,Noodles,151.12,210.34,48,308,B,Medium,32,8,True
+107,PACK_PAST_17,Packaged Foods,Pasta,44.97,60.31,72,226,B,Medium,36,12,True
+108,PACK_SAUC_18,Packaged Foods,Sauces,139.47,194.33,12,357,B,Medium,8,4,True
+109,PACK_BREA_19,Packaged Foods,Breakfast Cereals,153.41,206.34,48,203,B,Medium,4,4,True
+110,PACK_READ_20,Packaged Foods,Ready to Eat,32.17,43.46,72,238,B,Medium,96,24,True
+111,PACK_NOOD_21,Packaged Foods,Noodles,106.37,148.4,24,219,B,Medium,16,4,True
+112,PACK_PAST_22,Packaged Foods,Pasta,39.84,51.88,36,313,B,Medium,24,6,True
+113,PACK_SAUC_23,Packaged Foods,Sauces,168.95,200.74,12,209,B,Medium,24,24,True
+114,PACK_BREA_24,Packaged Foods,Breakfast Cereals,44.12,58.62,48,291,B,Medium,48,12,True
+115,PACK_READ_25,Packaged Foods,Ready to Eat,176.45,236.91,24,313,B,Medium,6,6,True
+116,PACK_NOOD_26,Packaged Foods,Noodles,66.04,86.96,24,326,B,Medium,8,8,True
+117,PACK_PAST_27,Packaged Foods,Pasta,115.06,152.92,36,127,B,Medium,24,12,True
+118,PACK_SAUC_28,Packaged Foods,Sauces,181.74,241.31,24,177,B,Medium,32,8,True
+119,PACK_BREA_29,Packaged Foods,Breakfast Cereals,85.91,117.5,72,192,B,Medium,36,12,True
+120,PACK_READ_30,Packaged Foods,Ready to Eat,94.46,117.17,36,333,B,Medium,24,24,True
+121,FRUI_FRES_01,Fruits & Vegetables,Fresh Veggies,21.36,26.81,36,4,A,High,32,8,True
+122,FRUI_EXOT_02,Fruits & Vegetables,Exotic Veggies,89.91,111.96,48,3,A,High,8,8,True
+123,FRUI_DAIL_03,Fruits & Vegetables,Daily Fruits,58.12,81.34,72,4,A,High,36,12,True
+124,FRUI_SEAS_04,Fruits & Vegetables,Seasonal Fruits,44.43,61.37,24,3,A,High,6,6,True
+125,FRUI_CUT _05,Fruits & Vegetables,Cut Fruits,42.4,50.66,24,2,A,High,8,8,True
+126,FRUI_FRES_06,Fruits & Vegetables,Fresh Veggies,49.0,64.66,72,3,A,High,16,8,True
+127,FRUI_EXOT_07,Fruits & Vegetables,Exotic Veggies,86.94,116.97,36,4,A,High,48,24,True
+128,FRUI_DAIL_08,Fruits & Vegetables,Daily Fruits,82.27,101.33,36,3,A,High,96,24,True
+129,FRUI_SEAS_09,Fruits & Vegetables,Seasonal Fruits,54.72,73.51,24,4,A,High,36,12,True
+130,FRUI_CUT _10,Fruits & Vegetables,Cut Fruits,37.45,46.18,24,3,A,High,4,4,True
+131,FRUI_FRES_11,Fruits & Vegetables,Fresh Veggies,80.57,100.09,12,4,B,High,24,6,True
+132,FRUI_EXOT_12,Fruits & Vegetables,Exotic Veggies,73.79,94.19,72,3,B,High,96,24,True
+133,FRUI_DAIL_13,Fruits & Vegetables,Daily Fruits,65.59,89.15,48,5,B,High,24,6,True
+134,FRUI_SEAS_14,Fruits & Vegetables,Seasonal Fruits,28.89,37.66,24,2,B,High,24,8,True
+135,FRUI_CUT _15,Fruits & Vegetables,Cut Fruits,86.65,112.02,72,3,B,High,4,4,True
+136,FRUI_FRES_16,Fruits & Vegetables,Fresh Veggies,86.98,104.61,24,2,B,High,4,4,True
+137,FRUI_EXOT_17,Fruits & Vegetables,Exotic Veggies,19.91,25.49,24,4,B,High,24,12,True
+138,FRUI_DAIL_18,Fruits & Vegetables,Daily Fruits,18.82,22.67,48,3,B,High,12,12,True
+139,FRUI_SEAS_19,Fruits & Vegetables,Seasonal Fruits,67.36,82.55,72,3,B,High,16,8,True
+140,FRUI_CUT _20,Fruits & Vegetables,Cut Fruits,46.25,54.59,24,2,B,High,32,8,True
+141,FRUI_FRES_21,Fruits & Vegetables,Fresh Veggies,15.09,19.49,24,3,B,High,8,4,True
+142,FRUI_EXOT_22,Fruits & Vegetables,Exotic Veggies,47.35,64.0,36,5,B,High,16,8,True
+143,FRUI_DAIL_23,Fruits & Vegetables,Daily Fruits,39.19,48.33,72,3,B,High,72,24,True
+144,FRUI_SEAS_24,Fruits & Vegetables,Seasonal Fruits,32.12,40.24,24,5,B,High,8,8,True
+145,FRUI_CUT _25,Fruits & Vegetables,Cut Fruits,49.56,66.24,12,2,B,High,12,12,True
+146,FRUI_FRES_26,Fruits & Vegetables,Fresh Veggies,25.37,35.06,12,2,B,High,24,24,True
+147,FRUI_EXOT_27,Fruits & Vegetables,Exotic Veggies,17.35,20.9,48,4,B,High,8,8,True
+148,FRUI_DAIL_28,Fruits & Vegetables,Daily Fruits,57.69,75.56,48,5,B,High,8,8,True
+149,FRUI_SEAS_29,Fruits & Vegetables,Seasonal Fruits,79.0,103.98,36,2,B,High,96,24,True
+150,FRUI_CUT _30,Fruits & Vegetables,Cut Fruits,79.16,97.84,24,5,B,High,16,8,True
+151,STAP_ATTA_01,Staples,Atta & Flours,287.4,401.39,24,245,B,Medium,48,12,True
+152,STAP_RICE_02,Staples,Rice,170.54,231.22,24,288,B,Medium,6,6,True
+153,STAP_DALS_03,Staples,Dals & Pulses,209.75,262.16,96,194,B,Medium,24,24,True
+154,STAP_EDIB_04,Staples,Edible Oils,182.06,215.59,72,209,B,Medium,36,12,True
+155,STAP_SPIC_05,Staples,Spices,330.32,443.45,96,237,B,Medium,16,4,True
+156,STAP_ATTA_06,Staples,Atta & Flours,283.47,342.35,96,206,B,Medium,36,12,True
+157,STAP_RICE_07,Staples,Rice,110.91,143.25,24,359,B,Medium,6,6,True
+158,STAP_DALS_08,Staples,Dals & Pulses,46.8,65.45,72,285,B,Medium,6,6,True
+159,STAP_EDIB_09,Staples,Edible Oils,407.89,560.31,48,277,B,Medium,12,4,True
+160,STAP_SPIC_10,Staples,Spices,152.01,181.06,48,287,B,Medium,8,4,True
+161,STAP_ATTA_11,Staples,Atta & Flours,312.08,425.67,24,183,B,Medium,12,4,True
+162,STAP_RICE_12,Staples,Rice,134.83,185.02,96,225,B,Medium,36,12,True
+163,STAP_DALS_13,Staples,Dals & Pulses,266.95,338.27,96,302,B,Medium,24,8,True
+164,STAP_EDIB_14,Staples,Edible Oils,272.44,366.94,72,357,B,Medium,8,4,True
+165,STAP_SPIC_15,Staples,Spices,250.98,296.84,24,324,B,Medium,18,6,True
+166,STAP_ATTA_16,Staples,Atta & Flours,207.26,248.86,96,341,B,Medium,24,12,True
+167,STAP_RICE_17,Staples,Rice,319.86,387.95,48,354,B,Medium,6,6,True
+168,STAP_DALS_18,Staples,Dals & Pulses,121.81,166.75,96,345,B,Medium,6,6,True
+169,STAP_EDIB_19,Staples,Edible Oils,232.62,312.03,72,338,B,Medium,24,12,True
+170,STAP_SPIC_20,Staples,Spices,251.98,338.45,72,312,B,Medium,32,8,True
+171,STAP_ATTA_21,Staples,Atta & Flours,273.67,329.23,96,343,B,Medium,48,12,True
+172,STAP_RICE_22,Staples,Rice,367.22,441.39,24,216,B,Medium,24,8,True
+173,STAP_DALS_23,Staples,Dals & Pulses,49.49,69.06,96,248,B,Medium,72,24,True
+174,STAP_EDIB_24,Staples,Edible Oils,403.9,511.67,72,237,B,Medium,18,6,True
+175,STAP_SPIC_25,Staples,Spices,278.21,353.33,24,288,B,Medium,32,8,True
+176,STAP_ATTA_26,Staples,Atta & Flours,231.73,283.47,48,248,B,Medium,12,6,True
+177,STAP_RICE_27,Staples,Rice,93.75,113.98,48,303,B,Medium,8,4,True
+178,STAP_DALS_28,Staples,Dals & Pulses,431.51,532.31,24,197,B,Medium,32,8,True
+179,STAP_EDIB_29,Staples,Edible Oils,401.22,497.99,48,216,B,Medium,24,24,True
+180,STAP_SPIC_30,Staples,Spices,254.03,325.93,48,226,B,Medium,4,4,True
+181,PERS_SOAP_01,Personal Care,Soaps & Body Wash,162.6,226.19,24,595,C,Low,24,12,True
+182,PERS_HAIR_02,Personal Care,Hair Care,64.33,79.48,24,466,C,Low,24,6,True
+183,PERS_ORAL_03,Personal Care,Oral Care,267.33,368.48,24,715,C,Low,48,12,True
+184,PERS_SKIN_04,Personal Care,Skin Care,287.54,343.84,48,409,C,Low,48,24,True
+185,PERS_SANI_05,Personal Care,Sanitary,181.52,218.07,96,665,C,Low,36,12,True
+186,PERS_SOAP_06,Personal Care,Soaps & Body Wash,178.73,217.4,24,451,C,Low,8,8,True
+187,PERS_HAIR_07,Personal Care,Hair Care,260.76,341.21,72,625,C,Low,24,12,True
+188,PERS_ORAL_08,Personal Care,Oral Care,133.38,169.27,24,634,C,Low,16,4,True
+189,PERS_SKIN_09,Personal Care,Skin Care,89.81,124.58,48,403,C,Low,24,6,True
+190,PERS_SANI_10,Personal Care,Sanitary,61.6,76.27,24,665,C,Low,12,12,True
+191,PERS_SOAP_11,Personal Care,Soaps & Body Wash,144.6,184.94,24,448,C,Low,72,24,True
+192,PERS_HAIR_12,Personal Care,Hair Care,260.6,357.65,72,482,C,Low,24,8,True
+193,PERS_ORAL_13,Personal Care,Oral Care,100.83,124.41,48,418,C,Low,16,4,True
+194,PERS_SKIN_14,Personal Care,Skin Care,270.32,365.21,48,546,C,Low,12,6,True
+195,PERS_SANI_15,Personal Care,Sanitary,175.38,227.65,96,516,C,Low,6,6,True
+196,PERS_SOAP_16,Personal Care,Soaps & Body Wash,68.3,94.9,24,534,C,Low,96,24,True
+197,PERS_HAIR_17,Personal Care,Hair Care,78.35,102.01,96,434,C,Low,8,4,True
+198,PERS_ORAL_18,Personal Care,Oral Care,42.96,51.82,24,690,C,Low,8,4,True
+199,PERS_SKIN_19,Personal Care,Skin Care,196.15,251.52,96,504,C,Low,24,8,True
+200,PERS_SANI_20,Personal Care,Sanitary,84.62,118.26,24,655,C,Low,72,24,True
+201,PERS_SOAP_21,Personal Care,Soaps & Body Wash,159.22,193.23,96,692,C,Low,24,12,True
+202,PERS_HAIR_22,Personal Care,Hair Care,48.28,60.61,24,646,C,Low,36,12,True
+203,PERS_ORAL_23,Personal Care,Oral Care,233.97,316.94,96,436,C,Low,24,6,True
+204,PERS_SKIN_24,Personal Care,Skin Care,151.07,199.5,96,360,C,Low,32,8,True
+205,PERS_SANI_25,Personal Care,Sanitary,109.44,130.63,48,525,C,Low,12,12,True
+206,PERS_SOAP_26,Personal Care,Soaps & Body Wash,75.37,99.42,48,501,C,Low,16,4,True
+207,PERS_HAIR_27,Personal Care,Hair Care,119.58,160.21,72,526,C,Low,18,6,True
+208,PERS_ORAL_28,Personal Care,Oral Care,193.92,249.0,72,702,C,Low,16,8,True
+209,PERS_SKIN_29,Personal Care,Skin Care,81.97,108.95,96,665,C,Low,8,8,True
+210,PERS_SANI_30,Personal Care,Sanitary,154.15,212.16,72,630,C,Low,24,6,True
+211,HOUS_DETE_01,Household,Detergents,146.91,194.68,24,469,C,Low,24,6,True
+212,HOUS_DISH_02,Household,Dishwashers,110.59,148.46,48,505,C,Low,72,24,True
+213,HOUS_CLEA_03,Household,Cleaners,188.35,243.34,72,687,C,Low,12,6,True
+214,HOUS_DISP_04,Household,Disposables,172.36,216.37,72,507,C,Low,16,8,True
+215,HOUS_REPE_05,Household,Repellents,57.68,69.23,48,600,C,Low,12,4,True
+216,HOUS_DETE_06,Household,Detergents,175.84,208.26,96,477,C,Low,24,24,True
+217,HOUS_DISH_07,Household,Dishwashers,201.19,275.5,96,449,C,Low,72,24,True
+218,HOUS_CLEA_08,Household,Cleaners,58.46,72.52,96,410,C,Low,12,6,True
+219,HOUS_DISP_09,Household,Disposables,178.44,246.3,72,433,C,Low,72,24,True
+220,HOUS_REPE_10,Household,Repellents,184.31,256.13,72,580,C,Low,24,12,True
+221,HOUS_DETE_11,Household,Detergents,167.61,209.6,72,712,C,Low,16,8,True
+222,HOUS_DISH_12,Household,Dishwashers,180.79,214.26,72,504,C,Low,48,12,True
+223,HOUS_CLEA_13,Household,Cleaners,164.25,209.86,24,697,C,Low,96,24,True
+224,HOUS_DISP_14,Household,Disposables,100.89,131.14,72,536,C,Low,24,8,True
+225,HOUS_REPE_15,Household,Repellents,103.5,127.69,48,689,C,Low,96,24,True
+226,HOUS_DETE_16,Household,Detergents,215.53,300.71,24,628,C,Low,96,24,True
+227,HOUS_DISH_17,Household,Dishwashers,197.77,254.28,72,524,C,Low,12,12,True
+228,HOUS_CLEA_18,Household,Cleaners,171.86,213.73,48,453,C,Low,24,8,True
+229,HOUS_DISP_19,Household,Disposables,120.2,147.62,72,654,C,Low,24,6,True
+230,HOUS_REPE_20,Household,Repellents,66.89,79.04,24,481,C,Low,32,8,True
+231,HOUS_DETE_21,Household,Detergents,214.62,259.78,72,639,C,Low,12,12,True
+232,HOUS_DISH_22,Household,Dishwashers,115.81,162.1,48,429,C,Low,24,24,True
+233,HOUS_CLEA_23,Household,Cleaners,123.02,161.93,96,696,C,Low,24,6,True
+234,HOUS_DISP_24,Household,Disposables,45.32,54.85,72,645,C,Low,12,6,True
+235,HOUS_REPE_25,Household,Repellents,224.67,297.9,48,400,C,Low,48,12,True
+236,HOUS_DETE_26,Household,Detergents,68.8,87.59,72,559,C,Low,18,6,True
+237,HOUS_DISH_27,Household,Dishwashers,180.96,239.52,24,718,C,Low,16,4,True
+238,HOUS_CLEA_28,Household,Cleaners,143.62,172.48,72,622,C,Low,16,4,True
+239,HOUS_DISP_29,Household,Disposables,100.03,128.19,24,513,C,Low,6,6,True
+240,HOUS_REPE_30,Household,Repellents,177.9,223.75,48,644,C,Low,48,12,True
+241,BABY_DIAP_01,Baby Care,Diapers,421.34,535.8,48,415,B,Medium,18,6,True
+242,BABY_BABY_02,Baby Care,Baby Wipes,412.61,531.47,24,672,B,Medium,6,6,True
+243,BABY_BABY_03,Baby Care,Baby Food,446.79,536.66,48,339,B,Medium,18,6,True
+244,BABY_BABY_04,Baby Care,Baby Skincare,89.71,106.9,24,270,B,Medium,8,4,True
+245,BABY_DIAP_05,Baby Care,Diapers,400.83,476.05,48,564,B,Medium,48,12,True
+246,BABY_BABY_06,Baby Care,Baby Wipes,133.92,162.35,24,658,B,Medium,24,6,True
+247,BABY_BABY_07,Baby Care,Baby Food,297.13,404.16,24,311,B,Medium,16,8,True
+248,BABY_BABY_08,Baby Care,Baby Skincare,384.63,475.65,48,609,B,Medium,18,6,True
+249,BABY_DIAP_09,Baby Care,Diapers,390.12,500.22,48,435,B,Medium,8,8,True
+250,BABY_BABY_10,Baby Care,Baby Wipes,151.69,204.07,96,323,B,Medium,12,12,True
+251,BABY_BABY_11,Baby Care,Baby Food,137.57,167.64,24,641,B,Medium,8,4,True
+252,BABY_BABY_12,Baby Care,Baby Skincare,495.77,599.97,96,564,B,Medium,8,4,True
+253,BABY_DIAP_13,Baby Care,Diapers,232.88,319.63,96,709,B,Medium,96,24,True
+254,BABY_BABY_14,Baby Care,Baby Wipes,144.61,177.66,48,565,B,Medium,48,24,True
+255,BABY_BABY_15,Baby Care,Baby Food,383.28,500.03,72,518,B,Medium,24,6,True
+256,BABY_BABY_16,Baby Care,Baby Skincare,372.63,441.88,72,292,B,Medium,72,24,True
+257,BABY_DIAP_17,Baby Care,Diapers,273.92,338.9,48,458,B,Medium,24,6,True
+258,BABY_BABY_18,Baby Care,Baby Wipes,423.71,552.29,24,443,B,Medium,24,12,True
+259,BABY_BABY_19,Baby Care,Baby Food,289.64,361.83,48,524,B,Medium,36,12,True
+260,BABY_BABY_20,Baby Care,Baby Skincare,89.07,105.12,24,365,B,Medium,32,8,True
+261,BABY_DIAP_21,Baby Care,Diapers,344.37,419.38,96,671,B,Medium,8,4,True
+262,BABY_BABY_22,Baby Care,Baby Wipes,269.48,373.45,48,296,B,Medium,6,6,True
+263,BABY_BABY_23,Baby Care,Baby Food,317.74,388.6,48,576,B,Medium,4,4,True
+264,BABY_BABY_24,Baby Care,Baby Skincare,103.63,127.0,24,460,B,Medium,8,8,True
+265,BABY_DIAP_25,Baby Care,Diapers,119.26,163.3,24,414,B,Medium,12,6,True
+266,BABY_BABY_26,Baby Care,Baby Wipes,84.32,106.13,48,389,B,Medium,72,24,True
+267,BABY_BABY_27,Baby Care,Baby Food,150.37,206.82,24,689,B,Medium,12,12,True
+268,BABY_BABY_28,Baby Care,Baby Skincare,107.26,129.29,48,549,B,Medium,8,8,True
+269,BABY_DIAP_29,Baby Care,Diapers,435.05,585.55,24,639,B,Medium,36,12,True
+270,BABY_BABY_30,Baby Care,Baby Wipes,498.54,593.12,24,450,B,Medium,8,4,True
+271,PET _DOG _01,Pet Care,Dog Food,429.46,561.27,96,325,C,Low,24,24,True
+272,PET _CAT _02,Pet Care,Cat Food,441.45,569.34,72,269,C,Low,24,6,True
+273,PET _PET _03,Pet Care,Pet Treats,202.29,256.39,96,285,C,Low,8,8,True
+274,PET _PET _04,Pet Care,Pet Hygiene,178.43,218.13,96,198,C,Low,48,12,True
+275,PET _DOG _05,Pet Care,Dog Food,285.73,359.71,72,253,C,Low,16,8,True
+276,PET _CAT _06,Pet Care,Cat Food,303.26,419.68,96,348,C,Low,24,12,True
+277,PET _PET _07,Pet Care,Pet Treats,181.7,232.44,96,282,C,Low,12,6,True
+278,PET _PET _08,Pet Care,Pet Hygiene,313.5,408.17,48,238,C,Low,48,24,True
+279,PET _DOG _09,Pet Care,Dog Food,201.44,241.89,48,210,C,Low,24,8,True
+280,PET _CAT _10,Pet Care,Cat Food,205.64,252.36,96,281,C,Low,48,12,True
+281,PET _PET _11,Pet Care,Pet Treats,152.97,208.33,96,347,C,Low,12,4,True
+282,PET _PET _12,Pet Care,Pet Hygiene,317.58,378.42,72,351,C,Low,48,24,True
+283,PET _DOG _13,Pet Care,Dog Food,419.56,548.52,96,180,C,Low,12,12,True
+284,PET _CAT _14,Pet Care,Cat Food,322.17,420.04,24,184,C,Low,18,6,True
+285,PET _PET _15,Pet Care,Pet Treats,390.86,503.9,24,264,C,Low,8,8,True
+286,PET _PET _16,Pet Care,Pet Hygiene,364.66,456.83,96,339,C,Low,48,24,True
+287,PET _DOG _17,Pet Care,Dog Food,276.03,342.13,72,209,C,Low,32,8,True
+288,PET _CAT _18,Pet Care,Cat Food,248.64,322.74,24,354,C,Low,16,4,True
+289,PET _PET _19,Pet Care,Pet Treats,392.26,479.06,96,287,C,Low,96,24,True
+290,PET _PET _20,Pet Care,Pet Hygiene,199.79,240.2,48,326,C,Low,16,8,True
+291,PET _DOG _21,Pet Care,Dog Food,275.76,384.98,72,289,C,Low,48,24,True
+292,PET _CAT _22,Pet Care,Cat Food,197.99,251.82,24,201,C,Low,96,24,True
+293,PET _PET _23,Pet Care,Pet Treats,385.09,478.5,72,234,C,Low,48,12,True
+294,PET _PET _24,Pet Care,Pet Hygiene,59.59,77.14,72,263,C,Low,24,8,True
+295,PET _DOG _25,Pet Care,Dog Food,115.36,153.09,24,248,C,Low,36,12,True
+296,PET _CAT _26,Pet Care,Cat Food,66.04,84.64,96,274,C,Low,24,24,True
+297,PET _PET _27,Pet Care,Pet Treats,105.85,129.29,48,242,C,Low,4,4,True
+298,PET _PET _28,Pet Care,Pet Hygiene,428.93,544.35,24,326,C,Low,32,8,True
+299,PET _DOG _29,Pet Care,Dog Food,82.29,108.9,96,337,C,Low,72,24,True
+300,PET _CAT _30,Pet Care,Cat Food,221.61,282.52,48,186,C,Low,18,6,True

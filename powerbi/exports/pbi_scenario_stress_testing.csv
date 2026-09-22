@@ -1,0 +1,6 @@
+scenario_name,demand_uplift_pct,mean_days_of_cover,critical_stockout_skus,high_risk_skus,total_lost_sales_exposure
++10% Demand Surge,10.0,6.38,138,1920,1806681.58
++20% Demand Surge,20.0,5.85,170,2272,2455655.98
++25% Demand Surge,25.0,5.62,191,2436,2923919.98
++30% Demand Surge,30.0,5.4,208,2621,3440330.2
++50% Demand Surge,50.0,4.68,322,3379,6298569.88

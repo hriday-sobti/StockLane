@@ -1,0 +1,59 @@
+// StockLane Authoritative Power BI DAX Measures Specification
+// Reconciled with Python and SQL Canonical Definitions
+
+// 1. Availability %
+Availability_Pct = 
+VAR TotalDemandedOpportunities = COUNTROWS('pbi_fact_inventory_health')
+VAR StockoutOpportunities = CALCULATE(COUNTROWS('pbi_fact_inventory_health'), 'pbi_fact_inventory_health'[closing_stock] = 0)
+RETURN
+    DIVIDE(TotalDemandedOpportunities - StockoutOpportunities, TotalDemandedOpportunities, 1.0) * 100
+
+// 2. Fill Rate %
+Fill_Rate_Pct = 
+DIVIDE(
+    SUM('pbi_fact_sales'[fulfilled_units]),
+    SUM('pbi_fact_sales'[requested_units]),
+    1.0
+) * 100
+
+// 3. Stockout Rate %
+Stockout_Rate_Pct = 
+100.0 - [Availability_Pct]
+
+// 4. Lost Sales Value ($)
+Total_Lost_Sales_Value = 
+SUM('pbi_fact_inventory_health'[lost_sales_exposure])
+
+// 5. Critical SKU-Store Count
+Critical_Stockout_Count = 
+CALCULATE(
+    COUNTROWS('pbi_fact_inventory_health'),
+    'pbi_fact_inventory_health'[stockout_risk_score] >= 80
+)
+
+// 6. High Risk SKU-Store Count
+High_Risk_Count = 
+CALCULATE(
+    COUNTROWS('pbi_fact_inventory_health'),
+    'pbi_fact_inventory_health'[stockout_risk_score] >= 60 && 'pbi_fact_inventory_health'[stockout_risk_score] < 80
+)
+
+// 7. Average Days of Cover (DoC)
+Average_Days_of_Cover = 
+AVERAGE('pbi_fact_inventory_health'[days_of_cover])
+
+// 8. Total Recommended Replenishment Units
+Total_Recommended_Replenishment_Units = 
+SUM('pbi_fact_replenishment_queue'[recommended_quantity])
+
+// 9. Total Avoided Lost Sales through Redistribution ($)
+Total_Avoided_Lost_Sales_Redistribution = 
+SUM('pbi_fact_redistribution_recommendations'[estimated_lost_sales_avoided])
+
+// 10. Replenishment Quantity Adherence %
+Replenishment_Adherence_Pct = 
+DIVIDE(
+    CALCULATE(COUNTROWS('pbi_fact_replenishment_queue'), 'pbi_fact_replenishment_queue'[status] = "Completed"),
+    COUNTROWS('pbi_fact_replenishment_queue'),
+    0.0
+) * 100

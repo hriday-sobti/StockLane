@@ -1,0 +1,890 @@
+priority_rank,date_key,store_id,store_name,city_id,sku_id,sku_name,category,risk_score,risk_level,hours_to_stockout,days_of_cover,current_closing_stock,projected_inventory,reorder_point,target_stock,recommended_quantity,case_pack_size,lost_sales_exposure,reason,action
+1,20260629,2,BEN_DS_02,1,125,FRUI_CUT _05,Fruits & Vegetables,99,Critical,0.4,0.02,1,1,72,334,336,8,2210.8,Projected inventory (1) breached ROP (72). Target: 334.,Immediate Replenishment
+2,20260629,21,MUM_DS_01,3,69,SNAC_CHOC_09,Snacks,98,Critical,0.5,0.03,1,1,78,287,288,8,1899.75,Projected inventory (1) breached ROP (78). Target: 287.,Immediate Replenishment
+3,20260629,21,MUM_DS_01,3,34,BEVE_ENER_04,Beverages,95,Critical,0.9,0.05,3,3,46,429,426,6,3672.86,Projected inventory (3) breached ROP (46). Target: 429.,Immediate Replenishment
+4,20260629,25,MUM_DS_05,3,30,DAIR_PANE_30,Dairy,92,Critical,0.0,0.0,0,0,322,770,792,24,14840.91,Projected inventory (0) breached ROP (322). Target: 770.,Immediate Replenishment
+5,20260629,16,DEL_DS_06,2,258,BABY_BABY_18,Baby Care,92,Critical,0.0,0.0,0,0,26,142,144,12,10653.67,Projected inventory (0) breached ROP (26). Target: 142.,Immediate Replenishment
+6,20260629,23,MUM_DS_03,3,17,DAIR_CURD_17,Dairy,92,Critical,0.0,0.0,0,0,398,760,760,4,9825.58,Projected inventory (0) breached ROP (398). Target: 760.,Immediate Replenishment
+7,20260629,26,MUM_DS_06,3,261,BABY_DIAP_21,Baby Care,92,Critical,0.0,0.0,0,0,130,196,196,4,9197.0,Projected inventory (0) breached ROP (130). Target: 196.,Immediate Replenishment
+8,20260629,9,BEN_DS_09,1,88,SNAC_NAMK_28,Snacks,92,Critical,0.0,0.0,0,0,219,457,462,6,8198.02,Projected inventory (0) breached ROP (219). Target: 457.,Immediate Replenishment
+9,20260629,1,BEN_DS_01,1,154,STAP_EDIB_04,Staples,92,Critical,0.0,0.0,0,0,206,357,360,12,8114.81,Projected inventory (0) breached ROP (206). Target: 357.,Immediate Replenishment
+10,20260629,10,BEN_DS_10,1,106,PACK_NOOD_16,Packaged Foods,92,Critical,0.0,0.0,0,0,90,260,264,8,7166.28,Projected inventory (0) breached ROP (90). Target: 260.,Immediate Replenishment
+11,20260629,17,DEL_DS_07,2,85,SNAC_NUTS_25,Snacks,92,Critical,0.0,0.0,0,0,73,277,288,12,6393.65,Projected inventory (0) breached ROP (73). Target: 277.,Immediate Replenishment
+12,20260629,21,MUM_DS_01,3,142,FRUI_EXOT_22,Fruits & Vegetables,92,Critical,0.0,0.0,0,0,131,489,496,8,4164.48,Projected inventory (0) breached ROP (131). Target: 489.,Immediate Replenishment
+13,20260629,39,HYD_DS_09,4,71,SNAC_CHIP_11,Snacks,88,Critical,1.1,0.06,3,3,98,365,366,6,3308.67,Projected inventory (3) breached ROP (98). Target: 365.,Immediate Replenishment
+14,20260629,40,HYD_DS_10,4,7,DAIR_CURD_07,Dairy,86,Critical,5.9,0.33,30,30,160,698,672,24,13893.3,Projected inventory (30) breached ROP (160). Target: 698.,Immediate Replenishment
+15,20260629,10,BEN_DS_10,1,235,HOUS_REPE_25,Household,86,Critical,0.0,0.0,0,0,34,97,108,12,3765.46,Projected inventory (0) breached ROP (34). Target: 97.,Immediate Replenishment
+16,20260629,22,MUM_DS_02,3,158,STAP_DALS_08,Staples,86,Critical,2.3,0.13,5,5,138,287,282,6,2445.21,Projected inventory (5) breached ROP (138). Target: 287.,Immediate Replenishment
+17,20260629,22,MUM_DS_02,3,282,PET _PET _12,Pet Care,86,Critical,0.0,0.0,0,0,23,48,48,24,2349.99,Projected inventory (0) breached ROP (23). Target: 48.,Immediate Replenishment
+18,20260629,21,MUM_DS_01,3,212,HOUS_DISH_02,Household,86,Critical,0.0,0.0,0,0,42,95,96,24,1590.01,Projected inventory (0) breached ROP (42). Target: 95.,Immediate Replenishment
+19,20260629,22,MUM_DS_02,3,281,PET _PET _11,Pet Care,86,Critical,0.0,0.0,0,0,25,39,40,4,997.9,Projected inventory (0) breached ROP (25). Target: 39.,Immediate Replenishment
+20,20260629,10,BEN_DS_10,1,33,BEVE_TEA _03,Beverages,84,Critical,4.0,0.22,12,12,77,407,400,8,3969.67,Projected inventory (12) breached ROP (77). Target: 407.,Immediate Replenishment
+21,20260629,23,MUM_DS_03,3,163,STAP_DALS_13,Staples,83,Critical,4.1,0.23,5,5,106,170,168,8,7296.48,Projected inventory (5) breached ROP (106). Target: 170.,Immediate Replenishment
+22,20260629,37,HYD_DS_07,4,161,STAP_ATTA_11,Staples,82,Critical,2.9,0.16,2,2,19,92,92,4,5197.43,Projected inventory (2) breached ROP (19). Target: 92.,Immediate Replenishment
+23,20260629,14,DEL_DS_04,2,157,STAP_RICE_07,Staples,82,Critical,2.3,0.13,3,3,32,167,168,6,3223.12,Projected inventory (3) breached ROP (32). Target: 167.,Immediate Replenishment
+24,20260629,25,MUM_DS_05,3,32,BEVE_COLD_02,Beverages,81,Critical,5.9,0.33,34,34,107,783,752,8,10582.0,Projected inventory (34) breached ROP (107). Target: 783.,Immediate Replenishment
+25,20260629,16,DEL_DS_06,2,170,STAP_SPIC_20,Staples,80,Critical,4.7,0.26,11,11,158,324,320,8,14116.75,Projected inventory (11) breached ROP (158). Target: 324.,Immediate Replenishment
+26,20260629,22,MUM_DS_02,3,219,HOUS_DISP_09,Household,80,Critical,2.5,0.14,2,2,56,114,120,24,3571.35,Projected inventory (2) breached ROP (56). Target: 114.,Immediate Replenishment
+27,20260629,29,MUM_DS_09,3,281,PET _PET _11,Pet Care,79,High,3.4,0.19,1,1,27,43,44,4,1116.65,Projected inventory (1) breached ROP (27). Target: 43.,Scheduled Replenishment
+28,20260629,22,MUM_DS_02,3,81,SNAC_CHIP_21,Snacks,78,High,3.4,0.19,16,16,121,640,624,6,9007.73,Projected inventory (16) breached ROP (121). Target: 640.,Scheduled Replenishment
+29,20260629,32,HYD_DS_02,4,155,STAP_SPIC_05,Staples,78,High,11.2,0.62,10,10,102,150,140,4,7126.24,Projected inventory (10) breached ROP (102). Target: 150.,Scheduled Replenishment
+30,20260629,29,MUM_DS_09,3,116,PACK_NOOD_26,Packaged Foods,78,High,3.4,0.19,8,8,60,313,312,8,3670.58,Projected inventory (8) breached ROP (60). Target: 313.,Scheduled Replenishment
+31,20260629,22,MUM_DS_02,3,252,BABY_BABY_12,Baby Care,77,High,6.8,0.38,16,16,208,335,320,4,25540.72,Projected inventory (16) breached ROP (208). Target: 335.,Scheduled Replenishment
+32,20260629,29,MUM_DS_09,3,247,BABY_BABY_07,Baby Care,77,High,3.4,0.19,7,7,50,266,264,8,14549.76,Projected inventory (7) breached ROP (50). Target: 266.,Scheduled Replenishment
+33,20260629,14,DEL_DS_04,2,11,DAIR_MILK_11,Dairy,76,High,10.8,0.6,40,40,311,577,544,8,14247.05,Projected inventory (40) breached ROP (311). Target: 577.,Scheduled Replenishment
+34,20260629,29,MUM_DS_09,3,110,PACK_READ_20,Packaged Foods,76,High,5.8,0.32,14,14,161,335,336,24,1899.64,Projected inventory (14) breached ROP (161). Target: 335.,Scheduled Replenishment
+35,20260629,5,BEN_DS_05,1,88,SNAC_NAMK_28,Snacks,75,High,12.2,0.68,41,41,296,538,498,6,8335.64,Projected inventory (41) breached ROP (296). Target: 538.,Scheduled Replenishment
+36,20260629,4,BEN_DS_04,1,289,PET _PET _19,Pet Care,75,High,8.3,0.46,4,4,54,80,96,24,4210.94,Projected inventory (4) breached ROP (54). Target: 80.,Scheduled Replenishment
+37,20260629,29,MUM_DS_09,3,239,HOUS_DISP_29,Household,75,High,4.0,0.22,1,1,8,36,36,6,594.8,Projected inventory (1) breached ROP (8). Target: 36.,Scheduled Replenishment
+38,20260629,22,MUM_DS_02,3,91,PACK_NOOD_01,Packaged Foods,74,High,6.7,0.37,8,8,47,165,168,24,5163.87,Projected inventory (8) breached ROP (47). Target: 165.,Scheduled Replenishment
+39,20260629,22,MUM_DS_02,3,274,PET _PET _04,Pet Care,72,High,11.3,0.63,8,8,79,117,120,12,2757.16,Projected inventory (8) breached ROP (79). Target: 117.,Scheduled Replenishment
+40,20260629,22,MUM_DS_02,3,11,DAIR_MILK_11,Dairy,71,High,7.6,0.42,28,28,245,511,488,8,14337.31,Projected inventory (28) breached ROP (245). Target: 511.,Scheduled Replenishment
+41,20260629,7,BEN_DS_07,1,185,PERS_SANI_05,Personal Care,71,High,8.1,0.45,5,5,57,90,96,12,2414.03,Projected inventory (5) breached ROP (57). Target: 90.,Scheduled Replenishment
+42,20260629,37,HYD_DS_07,4,239,HOUS_DISP_29,Household,70,High,5.6,0.31,1,1,6,25,24,6,411.49,Projected inventory (1) breached ROP (6). Target: 25.,Scheduled Replenishment
+43,20260629,23,MUM_DS_03,3,251,BABY_BABY_11,Baby Care,69,High,5.8,0.32,11,11,49,256,248,4,5771.85,Projected inventory (11) breached ROP (49). Target: 256.,Scheduled Replenishment
+44,20260629,23,MUM_DS_03,3,274,PET _PET _04,Pet Care,69,High,9.4,0.52,5,5,50,79,84,12,2102.77,Projected inventory (5) breached ROP (50). Target: 79.,Scheduled Replenishment
+45,20260629,12,DEL_DS_02,2,298,PET _PET _28,Pet Care,68,High,4.7,0.26,3,3,17,86,8,8,6260.02,Projected inventory (3) breached ROP (17). Target: 86. Scaled down to respect dark store physical capacity buffer.,Scheduled Replenishment
+46,20260629,4,BEN_DS_04,1,224,HOUS_DISP_14,Household,67,High,11.9,0.66,9,9,62,116,112,8,1797.93,Projected inventory (9) breached ROP (62). Target: 116.,Scheduled Replenishment
+47,20260629,19,DEL_DS_09,2,250,BABY_BABY_10,Baby Care,66,High,11.9,0.66,17,17,126,203,192,12,5232.35,Projected inventory (17) breached ROP (126). Target: 203.,Scheduled Replenishment
+48,20260629,22,MUM_DS_02,3,61,SNAC_CHIP_01,Snacks,66,High,11.9,0.66,58,58,318,668,624,24,1980.12,Projected inventory (58) breached ROP (318). Target: 668.,Scheduled Replenishment
+49,20260629,32,HYD_DS_02,4,237,HOUS_DISH_27,Household,66,High,7.6,0.42,3,3,13,56,56,4,1726.94,Projected inventory (3) breached ROP (13). Target: 56.,Scheduled Replenishment
+50,20260629,24,MUM_DS_04,3,35,BEVE_WATE_05,Beverages,66,High,26.8,1.49,88,88,302,539,456,12,0.0,Projected inventory (88) breached ROP (302). Target: 539.,Scheduled Replenishment
+51,20260629,7,BEN_DS_07,1,20,DAIR_PANE_20,Dairy,65,High,4.9,0.27,19,19,56,521,504,6,9986.16,Projected inventory (19) breached ROP (56). Target: 521.,Scheduled Replenishment
+52,20260629,22,MUM_DS_02,3,189,PERS_SKIN_09,Personal Care,65,High,11.2,0.62,9,9,45,118,114,6,1806.41,Projected inventory (9) breached ROP (45). Target: 118.,Scheduled Replenishment
+53,20260629,3,BEN_DS_03,1,173,STAP_DALS_23,Staples,65,High,12.2,0.68,14,14,101,162,24,24,1420.56,Projected inventory (14) breached ROP (101). Target: 162. Scaled down to respect dark store physical capacity buffer.,Scheduled Replenishment
+54,20260629,7,BEN_DS_07,1,132,FRUI_EXOT_12,Fruits & Vegetables,64,High,21.2,1.18,124,124,525,947,840,24,9917.27,Projected inventory (124) breached ROP (525). Target: 947.,Scheduled Replenishment
+55,20260629,1,BEN_DS_01,1,15,DAIR_PANE_15,Dairy,64,High,7.2,0.4,24,24,86,449,432,8,3087.92,Projected inventory (24) breached ROP (86). Target: 449.,Scheduled Replenishment
+56,20260629,25,MUM_DS_05,3,85,SNAC_NUTS_25,Snacks,63,High,12.2,0.68,28,28,95,321,300,12,7070.2,Projected inventory (28) breached ROP (95). Target: 321.,Scheduled Replenishment
+57,20260629,30,MUM_DS_10,3,52,BEVE_COLD_22,Beverages,63,High,13.0,0.72,22,22,57,239,24,24,4206.38,Projected inventory (22) breached ROP (57). Target: 239. Scaled down to respect dark store physical capacity buffer.,Scheduled Replenishment
+58,20260629,9,BEN_DS_09,1,15,DAIR_PANE_15,Dairy,63,High,6.8,0.38,22,22,80,426,408,8,2945.52,Projected inventory (22) breached ROP (80). Target: 426.,Scheduled Replenishment
+59,20260629,29,MUM_DS_09,3,61,SNAC_CHIP_01,Snacks,63,High,19.6,1.09,105,105,396,780,696,24,2172.48,Projected inventory (105) breached ROP (396). Target: 780.,Scheduled Replenishment
+60,20260629,22,MUM_DS_02,3,35,BEVE_WATE_05,Beverages,63,High,25.0,1.39,119,119,398,740,624,12,0.0,Projected inventory (119) breached ROP (398). Target: 740.,Scheduled Replenishment
+61,20260629,23,MUM_DS_03,3,8,DAIR_BUTT_08,Dairy,62,High,13.7,0.76,67,67,322,676,612,4,12208.74,Projected inventory (67) breached ROP (322). Target: 676.,Scheduled Replenishment
+62,20260629,10,BEN_DS_10,1,26,DAIR_MILK_26,Dairy,62,High,19.8,1.1,61,61,254,476,420,6,4335.18,Projected inventory (61) breached ROP (254). Target: 476.,Scheduled Replenishment
+63,20260629,40,HYD_DS_10,4,288,PET _CAT _18,Pet Care,62,High,7.6,0.42,3,3,12,55,52,4,2326.96,Projected inventory (3) breached ROP (12). Target: 55.,Scheduled Replenishment
+64,20260629,14,DEL_DS_04,2,192,PERS_HAIR_12,Personal Care,62,High,12.4,0.69,4,4,24,47,48,8,2070.79,Projected inventory (4) breached ROP (24). Target: 47.,Scheduled Replenishment
+65,20260629,1,BEN_DS_01,1,286,PET _PET _16,Pet Care,61,High,21.1,1.17,10,10,57,82,72,24,3915.03,Projected inventory (10) breached ROP (57). Target: 82.,Scheduled Replenishment
+66,20260629,17,DEL_DS_07,2,139,FRUI_SEAS_19,Fruits & Vegetables,60,High,21.8,1.21,113,113,432,806,696,8,7712.65,Projected inventory (113) breached ROP (432). Target: 806.,Scheduled Replenishment
+67,20260629,9,BEN_DS_09,1,51,BEVE_JUIC_21,Beverages,60,High,10.6,0.59,26,26,114,334,308,4,3630.0,Projected inventory (26) breached ROP (114). Target: 334.,Scheduled Replenishment
+68,20260629,39,HYD_DS_09,4,283,PET _DOG _13,Pet Care,59,Medium,14.6,0.81,5,5,32,50,48,12,3367.91,Projected inventory (5) breached ROP (32). Target: 50.,Scheduled Replenishment
+69,20260629,25,MUM_DS_05,3,61,SNAC_CHIP_01,Snacks,58,Medium,15.5,0.86,64,64,271,567,504,24,1674.62,Projected inventory (64) breached ROP (271). Target: 567.,Scheduled Replenishment
+70,20260629,25,MUM_DS_05,3,197,PERS_HAIR_17,Personal Care,58,Medium,14.0,0.78,7,7,45,72,68,4,910.95,Projected inventory (7) breached ROP (45). Target: 72.,Scheduled Replenishment
+71,20260629,22,MUM_DS_02,3,279,PET _DOG _09,Pet Care,57,Medium,10.4,0.58,8,8,37,107,104,8,3352.6,Projected inventory (8) breached ROP (37). Target: 107.,Scheduled Replenishment
+72,20260629,2,BEN_DS_02,1,227,HOUS_DISH_17,Household,57,Medium,16.0,0.89,3,3,15,28,36,12,854.38,Projected inventory (3) breached ROP (15). Target: 28.,Scheduled Replenishment
+73,20260629,35,HYD_DS_05,4,227,HOUS_DISH_17,Household,57,Medium,16.0,0.89,3,3,15,28,36,12,854.38,Projected inventory (3) breached ROP (15). Target: 28.,Scheduled Replenishment
+74,20260629,23,MUM_DS_03,3,244,BABY_BABY_04,Baby Care,56,Medium,21.1,1.17,44,44,86,312,268,4,4031.2,Projected inventory (44) breached ROP (86). Target: 312.,Scheduled Replenishment
+75,20260629,29,MUM_DS_09,3,129,FRUI_SEAS_09,Fruits & Vegetables,56,Medium,10.8,0.6,28,28,66,344,324,12,3407.92,Projected inventory (28) breached ROP (66). Target: 344.,Scheduled Replenishment
+76,20260629,25,MUM_DS_05,3,210,PERS_SANI_30,Personal Care,56,Medium,13.0,0.72,6,6,32,66,60,6,1758.81,Projected inventory (6) breached ROP (32). Target: 66.,Scheduled Replenishment
+77,20260629,14,DEL_DS_04,2,39,BEVE_ENER_09,Beverages,56,Medium,31.0,1.72,105,105,230,535,312,8,0.0,Projected inventory (105) breached ROP (230). Target: 535. Scaled down to respect dark store physical capacity buffer.,Scheduled Replenishment
+78,20260629,23,MUM_DS_03,3,174,STAP_EDIB_24,Staples,55,Medium,13.9,0.77,33,33,158,330,300,6,21930.18,Projected inventory (33) breached ROP (158). Target: 330.,Scheduled Replenishment
+79,20260629,23,MUM_DS_03,3,258,BABY_BABY_18,Baby Care,55,Medium,8.5,0.47,9,9,27,141,132,12,10532.17,Projected inventory (9) breached ROP (27). Target: 141.,Scheduled Replenishment
+80,20260629,39,HYD_DS_09,4,251,BABY_BABY_11,Baby Care,55,Medium,8.6,0.48,15,15,44,233,220,4,5280.66,Projected inventory (15) breached ROP (44). Target: 233.,Scheduled Replenishment
+81,20260629,7,BEN_DS_07,1,49,BEVE_ENER_19,Beverages,55,Medium,16.6,0.92,77,77,199,659,588,12,3540.93,Projected inventory (77) breached ROP (199). Target: 659.,Scheduled Replenishment
+82,20260629,2,BEN_DS_02,1,233,HOUS_CLEA_23,Household,55,Medium,13.9,0.77,10,10,64,103,96,6,2116.43,Projected inventory (10) breached ROP (64). Target: 103.,Scheduled Replenishment
+83,20260629,35,HYD_DS_05,4,172,STAP_RICE_22,Staples,54,Medium,9.9,0.55,14,14,37,191,184,8,11317.24,Projected inventory (14) breached ROP (37). Target: 191.,Scheduled Replenishment
+84,20260629,16,DEL_DS_06,2,122,FRUI_EXOT_02,Fruits & Vegetables,54,Medium,22.0,1.22,109,109,263,708,600,8,9964.44,Projected inventory (109) breached ROP (263). Target: 708.,Scheduled Replenishment
+85,20260629,9,BEN_DS_09,1,195,PERS_SANI_15,Personal Care,54,Medium,18.2,1.01,5,5,26,41,36,6,1122.31,Projected inventory (5) breached ROP (26). Target: 41.,Scheduled Replenishment
+86,20260629,9,BEN_DS_09,1,63,SNAC_NAMK_03,Snacks,53,Medium,18.9,1.05,68,68,243,502,440,8,10180.8,Projected inventory (68) breached ROP (243). Target: 502.,Scheduled Replenishment
+87,20260629,29,MUM_DS_09,3,54,BEVE_ENER_24,Beverages,53,Medium,16.4,0.91,86,86,218,740,672,24,8098.2,Projected inventory (86) breached ROP (218). Target: 740.,Scheduled Replenishment
+88,20260629,26,MUM_DS_06,3,212,HOUS_DISH_02,Household,53,Medium,13.0,0.72,7,7,27,76,72,24,1453.42,Projected inventory (7) breached ROP (27). Target: 76.,Scheduled Replenishment
+89,20260629,35,HYD_DS_05,4,185,PERS_SANI_05,Personal Care,52,Medium,14.8,0.82,8,8,47,76,72,12,2117.46,Projected inventory (8) breached ROP (47). Target: 76.,Scheduled Replenishment
+90,20260629,1,BEN_DS_01,1,233,HOUS_CLEA_23,Household,52,Medium,14.9,0.83,10,10,58,94,84,6,1943.16,Projected inventory (10) breached ROP (58). Target: 94.,Scheduled Replenishment
+91,20260629,10,BEN_DS_10,1,292,PET _CAT _22,Pet Care,52,Medium,14.2,0.79,3,3,7,30,96,24,954.4,Projected inventory (3) breached ROP (7). Target: 30.,Scheduled Replenishment
+92,20260629,8,BEN_DS_08,1,227,HOUS_DISH_17,Household,52,Medium,28.4,1.58,6,6,21,36,36,12,0.0,Projected inventory (6) breached ROP (21). Target: 36.,Scheduled Replenishment
+93,20260629,29,MUM_DS_09,3,11,DAIR_MILK_11,Dairy,51,Medium,15.5,0.86,57,57,245,511,456,8,14292.18,Projected inventory (57) breached ROP (245). Target: 511.,Scheduled Replenishment
+94,20260629,26,MUM_DS_06,3,243,BABY_BABY_03,Baby Care,51,Medium,14.0,0.78,17,17,57,167,150,6,11768.95,Projected inventory (17) breached ROP (57). Target: 167.,Scheduled Replenishment
+95,20260629,23,MUM_DS_03,3,60,BEVE_WATE_30,Beverages,51,Medium,23.2,1.29,68,68,222,432,364,4,7701.5,Projected inventory (68) breached ROP (222). Target: 432.,Scheduled Replenishment
+96,20260629,26,MUM_DS_06,3,203,PERS_ORAL_23,Personal Care,51,Medium,16.2,0.9,8,8,44,71,66,6,2808.09,Projected inventory (8) breached ROP (44). Target: 71.,Scheduled Replenishment
+97,20260629,17,DEL_DS_07,2,206,PERS_SOAP_26,Personal Care,51,Medium,16.0,0.89,5,5,17,45,40,4,560.73,Projected inventory (5) breached ROP (17). Target: 45.,Scheduled Replenishment
+98,20260629,29,MUM_DS_09,3,16,DAIR_MILK_16,Dairy,50,Medium,15.3,0.85,48,48,207,434,396,12,7804.43,Projected inventory (48) breached ROP (207). Target: 434.,Scheduled Replenishment
+99,20260629,40,HYD_DS_10,4,108,PACK_SAUC_18,Packaged Foods,50,Medium,7.9,0.44,9,9,17,149,140,4,3956.56,Projected inventory (9) breached ROP (17). Target: 149.,Scheduled Replenishment
+100,20260629,29,MUM_DS_09,3,274,PET _PET _04,Pet Care,50,Medium,18.2,1.01,11,11,55,88,84,12,2384.16,Projected inventory (11) breached ROP (55). Target: 88.,Scheduled Replenishment
+101,20260629,17,DEL_DS_07,2,227,HOUS_DISH_17,Household,50,Medium,17.6,0.98,4,4,17,33,36,12,1034.92,Projected inventory (4) breached ROP (17). Target: 33.,Scheduled Replenishment
+102,20260629,4,BEN_DS_04,1,198,PERS_ORAL_18,Personal Care,50,Medium,12.6,0.7,8,8,19,88,80,4,592.3,Projected inventory (8) breached ROP (19). Target: 88.,Scheduled Replenishment
+103,20260629,29,MUM_DS_09,3,132,FRUI_EXOT_12,Fruits & Vegetables,49,Medium,15.7,0.87,90,90,377,791,720,24,9728.89,Projected inventory (90) breached ROP (377). Target: 791.,Scheduled Replenishment
+104,20260629,26,MUM_DS_06,3,50,BEVE_WATE_20,Beverages,48,Medium,16.0,0.89,42,42,172,360,318,6,5596.87,Projected inventory (42) breached ROP (172). Target: 360.,Scheduled Replenishment
+105,20260629,1,BEN_DS_01,1,89,SNAC_CHOC_29,Snacks,48,Medium,21.4,1.19,60,60,125,403,348,12,2565.88,Projected inventory (60) breached ROP (125). Target: 403.,Scheduled Replenishment
+106,20260629,7,BEN_DS_07,1,213,HOUS_CLEA_03,Household,48,Medium,21.1,1.17,6,6,22,42,36,6,1250.77,Projected inventory (6) breached ROP (22). Target: 42.,Scheduled Replenishment
+107,20260629,9,BEN_DS_09,1,209,PERS_SKIN_29,Personal Care,48,Medium,20.3,1.13,5,5,23,37,32,8,482.65,Projected inventory (5) breached ROP (23). Target: 37.,Scheduled Replenishment
+108,20260629,1,BEN_DS_01,1,294,PET _PET _24,Pet Care,48,Medium,21.1,1.17,6,6,22,42,40,8,396.5,Projected inventory (6) breached ROP (22). Target: 42.,Scheduled Replenishment
+109,20260629,19,DEL_DS_09,2,35,BEVE_WATE_05,Beverages,48,Medium,30.2,1.68,124,124,315,611,240,12,0.0,Projected inventory (124) breached ROP (315). Target: 611. Scaled down to respect dark store physical capacity buffer.,Scheduled Replenishment
+110,20260629,32,HYD_DS_02,4,180,STAP_SPIC_30,Staples,47,Medium,15.7,0.87,24,24,73,210,188,4,8985.89,Projected inventory (24) breached ROP (73). Target: 210.,Scheduled Replenishment
+111,20260629,35,HYD_DS_05,4,154,STAP_EDIB_04,Staples,47,Medium,19.3,1.07,29,29,103,211,192,12,5820.93,Projected inventory (29) breached ROP (103). Target: 211.,Scheduled Replenishment
+112,20260629,22,MUM_DS_02,3,291,PET _DOG _21,Pet Care,47,Medium,14.2,0.79,11,11,51,107,96,24,5362.77,Projected inventory (11) breached ROP (51). Target: 107.,Scheduled Replenishment
+113,20260629,4,BEN_DS_04,1,250,BABY_BABY_10,Baby Care,47,Medium,35.5,1.97,52,52,164,243,192,12,0.0,Projected inventory (52) breached ROP (164). Target: 243.,Scheduled Replenishment
+114,20260629,29,MUM_DS_09,3,91,PACK_NOOD_01,Packaged Foods,46,Medium,17.8,0.99,24,24,54,186,168,24,5797.95,Projected inventory (24) breached ROP (54). Target: 186.,Scheduled Replenishment
+115,20260629,9,BEN_DS_09,1,101,PACK_NOOD_11,Packaged Foods,46,Medium,24.3,1.35,56,56,129,337,282,6,0.0,Projected inventory (56) breached ROP (129). Target: 337.,Scheduled Replenishment
+116,20260629,25,MUM_DS_05,3,252,BABY_BABY_12,Baby Care,45,Medium,17.8,0.99,36,36,171,281,248,4,21898.91,Projected inventory (36) breached ROP (171). Target: 281.,Scheduled Replenishment
+117,20260629,21,MUM_DS_01,3,171,STAP_ATTA_21,Staples,45,Medium,19.3,1.07,24,24,107,174,156,12,7361.58,Projected inventory (24) breached ROP (107). Target: 174.,Scheduled Replenishment
+118,20260629,9,BEN_DS_09,1,246,BABY_BABY_06,Baby Care,45,Medium,10.6,0.59,21,21,49,262,246,6,5763.42,Projected inventory (21) breached ROP (49). Target: 262.,Scheduled Replenishment
+119,20260629,23,MUM_DS_03,3,282,PET _PET _12,Pet Care,45,Medium,17.1,0.95,6,6,24,50,48,24,2380.26,Projected inventory (6) breached ROP (24). Target: 50.,Scheduled Replenishment
+120,20260629,22,MUM_DS_02,3,221,HOUS_DETE_11,Household,45,Medium,19.6,1.09,8,8,30,59,56,8,1542.66,Projected inventory (8) breached ROP (30). Target: 59.,Scheduled Replenishment
+121,20260629,14,DEL_DS_04,2,26,DAIR_MILK_26,Dairy,44,Medium,17.1,0.95,48,48,184,386,6,6,3944.13,Projected inventory (48) breached ROP (184). Target: 386. Scaled down to respect dark store physical capacity buffer.,Scheduled Replenishment
+122,20260629,22,MUM_DS_02,3,207,PERS_HAIR_27,Personal Care,44,Medium,21.2,1.18,7,7,24,48,42,6,950.05,Projected inventory (7) breached ROP (24). Target: 48.,Scheduled Replenishment
+123,20260629,28,MUM_DS_08,3,169,STAP_EDIB_19,Staples,43,Medium,20.3,1.13,23,23,77,159,144,12,6331.09,Projected inventory (23) breached ROP (77). Target: 159.,Scheduled Replenishment
+124,20260629,9,BEN_DS_09,1,111,PACK_NOOD_21,Packaged Foods,43,Medium,13.0,0.72,18,18,36,186,168,4,3699.61,Projected inventory (18) breached ROP (36). Target: 186.,Scheduled Replenishment
+125,20260629,7,BEN_DS_07,1,283,PET _DOG _13,Pet Care,43,Medium,21.4,1.19,7,7,30,48,48,12,3214.33,Projected inventory (7) breached ROP (30). Target: 48.,Scheduled Replenishment
+126,20260629,40,HYD_DS_10,4,225,HOUS_REPE_15,Household,43,Medium,23.9,1.33,9,9,22,56,96,24,867.02,Projected inventory (9) breached ROP (22). Target: 56.,Scheduled Replenishment
+127,20260629,28,MUM_DS_08,3,132,FRUI_EXOT_12,Fruits & Vegetables,43,Medium,32.9,1.83,163,163,409,766,624,24,0.0,Projected inventory (163) breached ROP (409). Target: 766.,Scheduled Replenishment
+128,20260629,1,BEN_DS_01,1,279,PET _DOG _09,Pet Care,42,Medium,21.1,1.17,15,15,38,102,88,8,3093.77,Projected inventory (15) breached ROP (38). Target: 102.,Scheduled Replenishment
+129,20260629,9,BEN_DS_09,1,144,FRUI_SEAS_24,Fruits & Vegetables,42,Medium,18.4,1.02,73,73,120,552,480,8,2891.65,Projected inventory (73) breached ROP (120). Target: 552.,Scheduled Replenishment
+130,20260629,26,MUM_DS_06,3,238,HOUS_CLEA_28,Household,42,Medium,21.6,1.2,16,16,53,107,92,4,2292.26,Projected inventory (16) breached ROP (53). Target: 107.,Scheduled Replenishment
+131,20260629,9,BEN_DS_09,1,274,PET _PET _04,Pet Care,42,Medium,32.2,1.79,17,17,56,85,72,12,0.0,Projected inventory (17) breached ROP (56). Target: 85.,Scheduled Replenishment
+132,20260629,26,MUM_DS_06,3,209,PERS_SKIN_29,Personal Care,42,Medium,34.2,1.9,11,11,36,53,48,8,0.0,Projected inventory (11) breached ROP (36). Target: 53.,Scheduled Replenishment
+133,20260629,15,DEL_DS_05,2,26,DAIR_MILK_26,Dairy,42,Medium,40.1,2.23,93,93,218,385,294,6,0.0,Projected inventory (93) breached ROP (218). Target: 385.,Scheduled Replenishment
+134,20260629,9,BEN_DS_09,1,3,DAIR_BUTT_03,Dairy,41,Medium,13.9,0.77,62,62,64,587,528,24,5694.69,Projected inventory (62) breached ROP (64). Target: 587.,Scheduled Replenishment
+135,20260629,10,BEN_DS_10,1,100,PACK_READ_10,Packaged Foods,41,Medium,18.2,1.01,41,41,149,311,272,8,4441.87,Projected inventory (41) breached ROP (149). Target: 311.,Scheduled Replenishment
+136,20260629,24,MUM_DS_04,3,7,DAIR_CURD_07,Dairy,40,Medium,15.7,0.87,55,55,89,468,432,24,9796.92,Projected inventory (55) breached ROP (89). Target: 468.,Scheduled Replenishment
+137,20260629,2,BEN_DS_02,1,219,HOUS_DISP_09,Household,40,Medium,22.0,1.22,14,14,46,92,96,24,2832.45,Projected inventory (14) breached ROP (46). Target: 92.,Scheduled Replenishment
+138,20260629,1,BEN_DS_01,1,187,PERS_HAIR_07,Personal Care,40,Medium,22.5,1.25,9,9,29,58,60,12,2460.12,Projected inventory (9) breached ROP (29). Target: 58.,Scheduled Replenishment
+139,20260629,1,BEN_DS_01,1,287,PET _DOG _17,Pet Care,40,Medium,23.4,1.3,5,5,16,32,32,8,1320.62,Projected inventory (5) breached ROP (16). Target: 32.,Scheduled Replenishment
+140,20260629,19,DEL_DS_09,2,227,HOUS_DISH_17,Household,40,Medium,23.4,1.3,5,5,16,32,12,12,981.52,Projected inventory (5) breached ROP (16). Target: 32. Scaled down to respect dark store physical capacity buffer.,Scheduled Replenishment
+141,20260629,35,HYD_DS_05,4,195,PERS_SANI_15,Personal Care,40,Medium,26.1,1.45,6,6,22,34,30,6,0.0,Projected inventory (6) breached ROP (22). Target: 34.,Scheduled Replenishment
+142,20260629,7,BEN_DS_07,1,217,HOUS_DISH_07,Household,40,Medium,27.2,1.51,7,7,25,39,72,24,0.0,Projected inventory (7) breached ROP (25). Target: 39.,Scheduled Replenishment
+143,20260629,32,HYD_DS_02,4,199,PERS_SKIN_19,Personal Care,40,Medium,27.5,1.53,7,7,25,38,32,8,0.0,Projected inventory (7) breached ROP (25). Target: 38.,Scheduled Replenishment
+144,20260629,29,MUM_DS_09,3,26,DAIR_MILK_26,Dairy,39,Medium,19.3,1.07,59,59,201,421,366,6,4296.08,Projected inventory (59) breached ROP (201). Target: 421.,Scheduled Replenishment
+145,20260629,25,MUM_DS_05,3,124,FRUI_SEAS_04,Fruits & Vegetables,39,Medium,17.1,0.95,57,57,86,446,390,6,3686.5,Projected inventory (57) breached ROP (86). Target: 446.,Scheduled Replenishment
+146,20260629,16,DEL_DS_06,2,102,PACK_PAST_12,Packaged Foods,39,Medium,24.5,1.36,59,59,83,343,288,12,0.0,Projected inventory (59) breached ROP (83). Target: 343.,Scheduled Replenishment
+147,20260629,10,BEN_DS_10,1,277,PET _PET _07,Pet Care,39,Medium,26.8,1.49,11,11,39,61,54,6,0.0,Projected inventory (11) breached ROP (39). Target: 61.,Scheduled Replenishment
+148,20260629,28,MUM_DS_08,3,124,FRUI_SEAS_04,Fruits & Vegetables,38,Medium,18.4,1.02,54,54,74,391,342,6,3239.72,Projected inventory (54) breached ROP (74). Target: 391.,Scheduled Replenishment
+149,20260629,16,DEL_DS_06,2,61,SNAC_CHIP_01,Snacks,38,Medium,23.9,1.33,105,105,294,610,528,24,1790.94,Projected inventory (105) breached ROP (294). Target: 610.,Scheduled Replenishment
+150,20260629,29,MUM_DS_09,3,206,PERS_SOAP_26,Personal Care,38,Medium,16.4,0.91,6,6,18,50,44,4,653.19,Projected inventory (6) breached ROP (18). Target: 50.,Scheduled Replenishment
+151,20260629,6,BEN_DS_06,1,188,PERS_ORAL_08,Personal Care,38,Medium,16.7,0.93,3,3,6,25,24,4,543.36,Projected inventory (3) breached ROP (6). Target: 25.,Scheduled Replenishment
+152,20260629,5,BEN_DS_05,1,171,STAP_ATTA_21,Staples,38,Medium,25.9,1.44,27,27,93,149,132,12,0.0,Projected inventory (27) breached ROP (93). Target: 149.,Scheduled Replenishment
+153,20260629,26,MUM_DS_06,3,65,SNAC_NUTS_05,Snacks,37,Medium,20.9,1.16,90,90,156,582,504,24,10395.75,Projected inventory (90) breached ROP (156). Target: 582.,Scheduled Replenishment
+154,20260629,29,MUM_DS_09,3,122,FRUI_EXOT_02,Fruits & Vegetables,37,Medium,20.7,1.15,96,96,214,633,544,8,9381.13,Projected inventory (96) breached ROP (214). Target: 633.,Scheduled Replenishment
+155,20260629,23,MUM_DS_03,3,127,FRUI_EXOT_07,Fruits & Vegetables,37,Medium,20.2,1.12,68,68,119,453,408,24,7093.06,Projected inventory (68) breached ROP (119). Target: 453.,Scheduled Replenishment
+156,20260629,31,HYD_DS_01,4,198,PERS_ORAL_18,Personal Care,37,Medium,15.1,0.84,8,8,15,72,64,4,495.92,Projected inventory (8) breached ROP (15). Target: 72.,Scheduled Replenishment
+157,20260629,22,MUM_DS_02,3,65,SNAC_NUTS_05,Snacks,36,Medium,22.1,1.23,105,105,167,635,552,24,11421.5,Projected inventory (105) breached ROP (167). Target: 635.,Scheduled Replenishment
+158,20260629,9,BEN_DS_09,1,162,STAP_RICE_12,Staples,36,Medium,22.9,1.27,47,47,176,287,240,12,6832.79,Projected inventory (47) breached ROP (176). Target: 287.,Scheduled Replenishment
+159,20260629,23,MUM_DS_03,3,137,FRUI_EXOT_17,Fruits & Vegetables,36,Medium,13.5,0.75,73,73,136,724,660,12,2496.24,Projected inventory (73) breached ROP (136). Target: 724.,Scheduled Replenishment
+160,20260629,29,MUM_DS_09,3,204,PERS_SKIN_24,Personal Care,36,Medium,29.2,1.62,9,9,30,46,40,8,0.0,Projected inventory (9) breached ROP (30). Target: 46.,Scheduled Replenishment
+161,20260629,11,DEL_DS_01,2,247,BABY_BABY_07,Baby Care,35,Medium,14.9,0.83,19,19,33,171,152,8,9295.68,Projected inventory (19) breached ROP (33). Target: 171.,Scheduled Replenishment
+162,20260629,26,MUM_DS_06,3,9,DAIR_CHEE_09,Dairy,35,Medium,23.4,1.3,60,60,89,342,288,8,7710.46,Projected inventory (60) breached ROP (89). Target: 342.,Scheduled Replenishment
+163,20260629,4,BEN_DS_04,1,93,PACK_SAUC_03,Packaged Foods,35,Medium,22.1,1.23,33,33,46,208,192,24,1687.43,Projected inventory (33) breached ROP (46). Target: 208.,Scheduled Replenishment
+164,20260629,9,BEN_DS_09,1,68,SNAC_NAMK_08,Snacks,35,Medium,24.7,1.37,71,71,103,387,318,6,0.0,Projected inventory (71) breached ROP (103). Target: 387.,Scheduled Replenishment
+165,20260629,7,BEN_DS_07,1,162,STAP_RICE_12,Staples,35,Medium,40.3,2.24,93,93,239,363,276,12,0.0,Projected inventory (93) breached ROP (239). Target: 363.,Scheduled Replenishment
+166,20260629,22,MUM_DS_02,3,36,BEVE_JUIC_06,Beverages,35,Medium,41.9,2.33,154,154,198,561,408,6,0.0,Projected inventory (154) breached ROP (198). Target: 561.,Scheduled Replenishment
+167,20260629,29,MUM_DS_09,3,27,DAIR_CURD_27,Dairy,34,Medium,21.8,1.21,89,89,271,566,480,4,7609.22,Projected inventory (89) breached ROP (271). Target: 566.,Scheduled Replenishment
+168,20260629,22,MUM_DS_02,3,142,FRUI_EXOT_22,Fruits & Vegetables,34,Medium,15.3,0.85,64,64,146,559,496,8,4808.96,Projected inventory (64) breached ROP (146). Target: 559.,Scheduled Replenishment
+169,20260629,40,HYD_DS_10,4,103,PACK_SAUC_13,Packaged Foods,34,Medium,13.5,0.75,15,15,17,147,136,8,2572.17,Projected inventory (15) breached ROP (17). Target: 147.,Scheduled Replenishment
+170,20260629,29,MUM_DS_09,3,2,DAIR_CURD_02,Dairy,34,Medium,24.8,1.38,107,107,130,594,488,4,0.0,Projected inventory (107) breached ROP (130). Target: 594.,Scheduled Replenishment
+171,20260629,29,MUM_DS_09,3,126,FRUI_FRES_06,Fruits & Vegetables,34,Medium,24.8,1.38,103,103,275,574,472,8,0.0,Projected inventory (103) breached ROP (275). Target: 574.,Scheduled Replenishment
+172,20260629,16,DEL_DS_06,2,65,SNAC_NUTS_05,Snacks,34,Medium,25.7,1.43,111,111,156,583,480,24,0.0,Projected inventory (111) breached ROP (156). Target: 583.,Scheduled Replenishment
+173,20260629,25,MUM_DS_05,3,127,FRUI_EXOT_07,Fruits & Vegetables,34,Medium,26.1,1.45,80,80,110,415,336,24,0.0,Projected inventory (80) breached ROP (110). Target: 415.,Scheduled Replenishment
+174,20260629,22,MUM_DS_02,3,70,SNAC_NUTS_10,Snacks,34,Medium,26.3,1.46,103,103,139,527,426,6,0.0,Projected inventory (103) breached ROP (139). Target: 527.,Scheduled Replenishment
+175,20260629,21,MUM_DS_01,3,170,STAP_SPIC_20,Staples,33,Medium,20.2,1.12,46,46,149,314,272,8,13947.52,Projected inventory (46) breached ROP (149). Target: 314.,Scheduled Replenishment
+176,20260629,16,DEL_DS_06,2,158,STAP_DALS_08,Staples,33,Medium,21.8,1.21,42,42,128,266,228,6,2271.77,Projected inventory (42) breached ROP (128). Target: 266.,Scheduled Replenishment
+177,20260629,29,MUM_DS_09,3,292,PET _CAT _22,Pet Care,33,Medium,17.8,0.99,5,5,9,39,96,24,1276.73,Projected inventory (5) breached ROP (9). Target: 39.,Scheduled Replenishment
+178,20260629,2,BEN_DS_02,1,62,SNAC_BISC_02,Snacks,33,Medium,26.5,1.47,93,93,163,480,408,24,0.0,Projected inventory (93) breached ROP (163). Target: 480.,Scheduled Replenishment
+179,20260629,16,DEL_DS_06,2,126,FRUI_FRES_06,Fruits & Vegetables,33,Medium,26.8,1.49,103,103,258,535,432,8,0.0,Projected inventory (103) breached ROP (258). Target: 535.,Scheduled Replenishment
+180,20260629,7,BEN_DS_07,1,62,SNAC_BISC_02,Snacks,33,Medium,27.0,1.5,96,96,161,480,384,24,0.0,Projected inventory (96) breached ROP (161). Target: 480.,Scheduled Replenishment
+181,20260629,23,MUM_DS_03,3,291,PET _DOG _21,Pet Care,33,Medium,27.0,1.5,19,19,51,102,96,24,0.0,Projected inventory (19) breached ROP (51). Target: 102.,Scheduled Replenishment
+182,20260629,21,MUM_DS_01,3,40,BEVE_WATE_10,Beverages,33,Medium,27.5,1.53,117,117,284,589,472,4,0.0,Projected inventory (117) breached ROP (284). Target: 589.,Scheduled Replenishment
+183,20260629,2,BEN_DS_02,1,165,STAP_SPIC_15,Staples,32,Medium,16.7,0.93,27,27,41,215,192,6,8649.92,Projected inventory (27) breached ROP (41). Target: 215.,Scheduled Replenishment
+184,20260629,29,MUM_DS_09,3,169,STAP_EDIB_19,Staples,32,Medium,23.0,1.28,33,33,96,199,168,12,8047.25,Projected inventory (33) breached ROP (96). Target: 199.,Scheduled Replenishment
+185,20260629,7,BEN_DS_07,1,163,STAP_DALS_13,Staples,32,Medium,25.4,1.41,28,28,96,155,128,8,0.0,Projected inventory (28) breached ROP (96). Target: 155.,Scheduled Replenishment
+186,20260629,1,BEN_DS_01,1,221,HOUS_DETE_11,Household,32,Medium,25.6,1.42,9,9,26,51,48,8,0.0,Projected inventory (9) breached ROP (26). Target: 51.,Scheduled Replenishment
+187,20260629,4,BEN_DS_04,1,294,PET _PET _24,Pet Care,32,Medium,26.1,1.45,6,6,17,33,32,8,0.0,Projected inventory (6) breached ROP (17). Target: 33.,Scheduled Replenishment
+188,20260629,10,BEN_DS_10,1,8,DAIR_BUTT_08,Dairy,32,Medium,28.6,1.59,130,130,299,625,496,4,0.0,Projected inventory (130) breached ROP (299). Target: 625.,Scheduled Replenishment
+189,20260629,23,MUM_DS_03,3,63,SNAC_NAMK_03,Snacks,32,Medium,28.6,1.59,118,118,274,572,456,8,0.0,Projected inventory (118) breached ROP (274). Target: 572.,Scheduled Replenishment
+190,20260629,10,BEN_DS_10,1,122,FRUI_EXOT_02,Fruits & Vegetables,32,Medium,28.8,1.6,118,118,183,552,440,8,0.0,Projected inventory (118) breached ROP (183). Target: 552.,Scheduled Replenishment
+191,20260629,28,MUM_DS_08,3,39,BEVE_ENER_09,Beverages,32,Medium,28.8,1.6,70,70,112,330,264,8,0.0,Projected inventory (70) breached ROP (112). Target: 330.,Scheduled Replenishment
+192,20260629,8,BEN_DS_08,1,121,FRUI_FRES_01,Fruits & Vegetables,32,Medium,29.0,1.61,97,97,119,449,352,8,0.0,Projected inventory (97) breached ROP (119). Target: 449.,Scheduled Replenishment
+193,20260629,18,DEL_DS_08,2,65,SNAC_NUTS_05,Snacks,32,Medium,29.2,1.62,102,102,124,471,384,24,0.0,Projected inventory (102) breached ROP (124). Target: 471.,Scheduled Replenishment
+194,20260629,28,MUM_DS_08,3,209,PERS_SKIN_29,Personal Care,32,Medium,30.4,1.69,7,7,22,34,32,8,0.0,Projected inventory (7) breached ROP (22). Target: 34.,Scheduled Replenishment
+195,20260629,31,HYD_DS_01,4,151,STAP_ATTA_01,Staples,31,Medium,18.0,1.0,28,28,40,208,48,12,11238.92,Projected inventory (28) breached ROP (40). Target: 208. Scaled down to respect dark store physical capacity buffer.,Scheduled Replenishment
+196,20260629,29,MUM_DS_09,3,47,BEVE_COLD_17,Beverages,31,Medium,19.1,1.06,71,71,170,505,456,24,7178.38,Projected inventory (71) breached ROP (170). Target: 505.,Scheduled Replenishment
+197,20260629,2,BEN_DS_02,1,111,PACK_NOOD_21,Packaged Foods,31,Medium,17.8,0.99,26,26,38,196,172,4,3911.82,Projected inventory (26) breached ROP (38). Target: 196.,Scheduled Replenishment
+198,20260629,17,DEL_DS_07,2,192,PERS_HAIR_12,Personal Care,31,Medium,23.4,1.3,8,8,24,48,40,8,2195.97,Projected inventory (8) breached ROP (24). Target: 48.,Scheduled Replenishment
+199,20260629,29,MUM_DS_09,3,225,HOUS_REPE_15,Household,31,Medium,17.6,0.98,7,7,19,54,96,24,911.71,Projected inventory (7) breached ROP (19). Target: 54.,Scheduled Replenishment
+200,20260629,22,MUM_DS_02,3,191,PERS_SOAP_11,Personal Care,31,Medium,29.2,1.62,28,28,37,141,120,24,0.0,Projected inventory (28) breached ROP (37). Target: 141.,Scheduled Replenishment
+201,20260629,7,BEN_DS_07,1,126,FRUI_FRES_06,Fruits & Vegetables,31,Medium,29.7,1.65,107,107,239,499,392,8,0.0,Projected inventory (107) breached ROP (239). Target: 499.,Scheduled Replenishment
+202,20260629,29,MUM_DS_09,3,40,BEVE_WATE_10,Beverages,31,Medium,29.9,1.66,143,143,313,659,516,4,0.0,Projected inventory (143) breached ROP (313). Target: 659.,Scheduled Replenishment
+203,20260629,9,BEN_DS_09,1,65,SNAC_NUTS_05,Snacks,31,Medium,30.6,1.7,116,116,135,512,408,24,0.0,Projected inventory (116) breached ROP (135). Target: 512.,Scheduled Replenishment
+204,20260629,25,MUM_DS_05,3,64,SNAC_CHOC_04,Snacks,31,Medium,30.6,1.7,136,136,203,603,472,8,0.0,Projected inventory (136) breached ROP (203). Target: 603.,Scheduled Replenishment
+205,20260629,22,MUM_DS_02,3,161,STAP_ATTA_11,Staples,31,Medium,37.8,2.1,52,52,60,209,160,4,0.0,Projected inventory (52) breached ROP (60). Target: 209.,Scheduled Replenishment
+206,20260629,4,BEN_DS_04,1,270,BABY_BABY_30,Baby Care,30,Medium,18.5,1.03,14,14,20,102,88,4,8090.16,Projected inventory (14) breached ROP (20). Target: 102.,Scheduled Replenishment
+207,20260629,40,HYD_DS_10,4,73,SNAC_NAMK_13,Snacks,30,Medium,21.1,1.17,95,95,293,618,528,24,7481.88,Projected inventory (95) breached ROP (293). Target: 618.,Scheduled Replenishment
+208,20260629,21,MUM_DS_01,3,148,FRUI_DAIL_28,Fruits & Vegetables,30,Medium,19.4,1.08,74,74,175,519,448,8,5197.77,Projected inventory (74) breached ROP (175). Target: 519.,Scheduled Replenishment
+209,20260629,23,MUM_DS_03,3,176,STAP_ATTA_26,Staples,30,Medium,19.8,1.1,18,18,42,125,108,6,4657.41,Projected inventory (18) breached ROP (42). Target: 125.,Scheduled Replenishment
+210,20260629,23,MUM_DS_03,3,205,PERS_SANI_25,Personal Care,30,Medium,22.5,1.25,5,5,11,31,36,12,522.52,Projected inventory (5) breached ROP (11). Target: 31.,Scheduled Replenishment
+211,20260629,26,MUM_DS_06,3,205,PERS_SANI_25,Personal Care,30,Medium,22.5,1.25,5,5,11,31,36,12,522.52,Projected inventory (5) breached ROP (11). Target: 31.,Scheduled Replenishment
+212,20260629,2,BEN_DS_02,1,192,PERS_HAIR_12,Personal Care,30,Medium,29.2,1.62,9,9,23,45,40,8,0.0,Projected inventory (9) breached ROP (23). Target: 45.,Scheduled Replenishment
+213,20260629,2,BEN_DS_02,1,166,STAP_ATTA_16,Staples,30,Medium,29.9,1.66,40,40,120,192,156,12,0.0,Projected inventory (40) breached ROP (120). Target: 192.,Scheduled Replenishment
+214,20260629,1,BEN_DS_01,1,273,PET _PET _03,Pet Care,30,Medium,30.2,1.68,6,6,19,29,24,8,0.0,Projected inventory (6) breached ROP (19). Target: 29.,Scheduled Replenishment
+215,20260629,34,HYD_DS_04,4,9,DAIR_CHEE_09,Dairy,30,Medium,31.3,1.74,63,63,74,272,216,8,0.0,Projected inventory (63) breached ROP (74). Target: 272.,Scheduled Replenishment
+216,20260629,10,BEN_DS_10,1,128,FRUI_DAIL_08,Fruits & Vegetables,30,Medium,32.8,1.82,82,82,92,340,264,24,0.0,Projected inventory (82) breached ROP (92). Target: 340.,Scheduled Replenishment
+217,20260629,40,HYD_DS_10,4,36,BEVE_JUIC_06,Beverages,30,Medium,32.8,1.82,81,81,90,335,258,6,0.0,Projected inventory (81) breached ROP (90). Target: 335.,Scheduled Replenishment
+218,20260629,23,MUM_DS_03,3,159,STAP_EDIB_09,Staples,29,Low,21.1,1.17,43,43,95,278,236,4,20568.98,Projected inventory (43) breached ROP (95). Target: 278.,Scheduled Replenishment
+219,20260629,23,MUM_DS_03,3,96,PACK_NOOD_06,Packaged Foods,29,Low,20.9,1.16,40,40,70,260,228,12,6233.12,Projected inventory (40) breached ROP (70). Target: 260.,Scheduled Replenishment
+220,20260629,22,MUM_DS_02,3,148,FRUI_DAIL_28,Fruits & Vegetables,29,Low,21.4,1.19,95,95,203,601,512,8,6017.6,Projected inventory (95) breached ROP (203). Target: 601.,Scheduled Replenishment
+221,20260629,21,MUM_DS_01,3,101,PACK_NOOD_11,Packaged Foods,29,Low,21.4,1.19,47,47,102,299,252,6,5180.9,Projected inventory (47) breached ROP (102). Target: 299.,Scheduled Replenishment
+222,20260629,16,DEL_DS_06,2,98,PACK_SAUC_08,Packaged Foods,29,Low,21.1,1.17,21,21,37,136,120,12,3999.96,Projected inventory (21) breached ROP (37). Target: 136.,Scheduled Replenishment
+223,20260629,10,BEN_DS_10,1,111,PACK_NOOD_21,Packaged Foods,29,Low,20.5,1.14,30,30,38,196,168,4,3901.44,Projected inventory (30) breached ROP (38). Target: 196.,Scheduled Replenishment
+224,20260629,22,MUM_DS_02,3,140,FRUI_CUT _20,Fruits & Vegetables,29,Low,21.2,1.18,60,60,74,378,320,8,2768.26,Projected inventory (60) breached ROP (74). Target: 378.,Scheduled Replenishment
+225,20260629,39,HYD_DS_09,4,233,HOUS_CLEA_23,Household,29,Low,20.7,1.15,14,14,57,94,84,6,1977.17,Projected inventory (14) breached ROP (57). Target: 94.,Scheduled Replenishment
+226,20260629,10,BEN_DS_10,1,147,FRUI_EXOT_27,Fruits & Vegetables,29,Low,21.4,1.19,66,66,145,422,360,8,1161.41,Projected inventory (66) breached ROP (145). Target: 422.,Scheduled Replenishment
+227,20260629,5,BEN_DS_05,1,290,PET _PET _20,Pet Care,29,Low,24.3,1.35,5,5,11,29,24,8,0.0,Projected inventory (5) breached ROP (11). Target: 29.,Scheduled Replenishment
+228,20260629,26,MUM_DS_06,3,160,STAP_SPIC_10,Staples,29,Low,32.6,1.81,73,73,124,327,256,4,0.0,Projected inventory (73) breached ROP (124). Target: 327.,Scheduled Replenishment
+229,20260629,16,DEL_DS_06,2,31,BEVE_JUIC_01,Beverages,29,Low,33.7,1.87,161,161,318,662,504,12,0.0,Projected inventory (161) breached ROP (318). Target: 662.,Scheduled Replenishment
+230,20260629,9,BEN_DS_09,1,36,BEVE_JUIC_06,Beverages,29,Low,33.8,1.88,83,83,86,329,246,6,0.0,Projected inventory (83) breached ROP (86). Target: 329.,Scheduled Replenishment
+231,20260629,22,MUM_DS_02,3,62,SNAC_BISC_02,Snacks,29,Low,33.8,1.88,139,139,188,558,432,24,0.0,Projected inventory (139) breached ROP (188). Target: 558.,Scheduled Replenishment
+232,20260629,2,BEN_DS_02,1,38,BEVE_TEA _08,Beverages,29,Low,34.2,1.9,119,119,124,468,360,24,0.0,Projected inventory (119) breached ROP (124). Target: 468.,Scheduled Replenishment
+233,20260629,5,BEN_DS_05,1,65,SNAC_NUTS_05,Snacks,29,Low,34.2,1.9,116,116,123,460,360,24,0.0,Projected inventory (116) breached ROP (123). Target: 460.,Scheduled Replenishment
+234,20260629,11,DEL_DS_01,2,35,BEVE_WATE_05,Beverages,29,Low,34.2,1.9,94,94,178,376,288,12,0.0,Projected inventory (94) breached ROP (178). Target: 376.,Scheduled Replenishment
+235,20260629,11,DEL_DS_01,2,61,SNAC_CHIP_01,Snacks,29,Low,34.2,1.9,114,114,220,460,360,24,0.0,Projected inventory (114) breached ROP (220). Target: 460.,Scheduled Replenishment
+236,20260629,29,MUM_DS_09,3,62,SNAC_BISC_02,Snacks,29,Low,34.2,1.9,137,137,183,543,408,24,0.0,Projected inventory (137) breached ROP (183). Target: 543.,Scheduled Replenishment
+237,20260629,21,MUM_DS_01,3,89,SNAC_CHOC_29,Snacks,29,Low,40.3,2.24,126,126,169,479,360,12,0.0,Projected inventory (126) breached ROP (169). Target: 479.,Scheduled Replenishment
+238,20260629,22,MUM_DS_02,3,172,STAP_RICE_22,Staples,28,Low,23.2,1.29,43,43,47,247,208,8,14693.87,Projected inventory (43) breached ROP (47). Target: 247.,Scheduled Replenishment
+239,20260629,40,HYD_DS_10,4,247,BABY_BABY_07,Baby Care,28,Low,21.8,1.21,36,36,41,219,184,8,11979.3,Projected inventory (36) breached ROP (41). Target: 219.,Scheduled Replenishment
+240,20260629,22,MUM_DS_02,3,54,BEVE_ENER_24,Beverages,28,Low,22.5,1.25,107,107,169,639,552,24,7293.16,Projected inventory (107) breached ROP (169). Target: 639.,Scheduled Replenishment
+241,20260629,21,MUM_DS_01,3,106,PACK_NOOD_16,Packaged Foods,28,Low,21.8,1.21,42,42,91,263,224,8,7271.45,Projected inventory (42) breached ROP (91). Target: 263.,Scheduled Replenishment
+242,20260629,2,BEN_DS_02,1,142,FRUI_EXOT_22,Fruits & Vegetables,28,Low,22.3,1.24,80,80,129,485,408,8,4136.96,Projected inventory (80) breached ROP (129). Target: 485.,Scheduled Replenishment
+243,20260629,22,MUM_DS_02,3,157,STAP_RICE_07,Staples,28,Low,21.8,1.21,31,31,37,191,162,6,3672.93,Projected inventory (31) breached ROP (37). Target: 191.,Scheduled Replenishment
+244,20260629,28,MUM_DS_08,3,111,PACK_NOOD_21,Packaged Foods,28,Low,22.7,1.26,30,30,34,178,148,4,3540.82,Projected inventory (30) breached ROP (34). Target: 178.,Scheduled Replenishment
+245,20260629,40,HYD_DS_10,4,71,SNAC_CHIP_11,Snacks,28,Low,22.3,1.24,58,58,92,349,294,6,3192.01,Projected inventory (58) breached ROP (92). Target: 349.,Scheduled Replenishment
+246,20260629,22,MUM_DS_02,3,46,BEVE_JUIC_16,Beverages,28,Low,22.3,1.24,119,119,243,725,624,24,3088.02,Projected inventory (119) breached ROP (243). Target: 725.,Scheduled Replenishment
+247,20260629,23,MUM_DS_03,3,97,PACK_PAST_07,Packaged Foods,28,Low,23.2,1.29,34,34,70,202,168,24,1165.7,Projected inventory (34) breached ROP (70). Target: 202.,Scheduled Replenishment
+248,20260629,39,HYD_DS_09,4,206,PERS_SOAP_26,Personal Care,28,Low,22.9,1.27,7,7,15,43,36,4,546.81,Projected inventory (7) breached ROP (15). Target: 43.,Scheduled Replenishment
+249,20260629,40,HYD_DS_10,4,300,PET _CAT _30,Pet Care,28,Low,24.3,1.35,12,12,25,70,60,6,0.0,Projected inventory (12) breached ROP (25). Target: 70.,Scheduled Replenishment
+250,20260629,39,HYD_DS_09,4,278,PET _PET _08,Pet Care,28,Low,24.7,1.37,12,12,25,69,72,24,0.0,Projected inventory (12) breached ROP (25). Target: 69.,Scheduled Replenishment
+251,20260629,13,DEL_DS_03,2,95,PACK_READ_05,Packaged Foods,28,Low,25.7,1.43,27,27,33,147,120,24,0.0,Projected inventory (27) breached ROP (33). Target: 147.,Scheduled Replenishment
+252,20260629,35,HYD_DS_05,4,279,PET _DOG _09,Pet Care,28,Low,26.6,1.48,18,18,36,96,80,8,0.0,Projected inventory (18) breached ROP (36). Target: 96.,Scheduled Replenishment
+253,20260629,29,MUM_DS_09,3,15,DAIR_PANE_15,Dairy,28,Low,31.9,1.77,151,151,172,685,536,8,0.0,Projected inventory (151) breached ROP (172). Target: 685.,Scheduled Replenishment
+254,20260629,1,BEN_DS_01,1,207,PERS_HAIR_27,Personal Care,28,Low,33.3,1.85,9,9,21,41,36,6,0.0,Projected inventory (9) breached ROP (21). Target: 41.,Scheduled Replenishment
+255,20260629,35,HYD_DS_05,4,68,SNAC_NAMK_08,Snacks,28,Low,35.1,1.95,95,95,99,366,276,6,0.0,Projected inventory (95) breached ROP (99). Target: 366.,Scheduled Replenishment
+256,20260629,17,DEL_DS_07,2,122,FRUI_EXOT_02,Fruits & Vegetables,28,Low,40.5,2.25,185,185,265,677,496,8,0.0,Projected inventory (185) breached ROP (265). Target: 677.,Scheduled Replenishment
+257,20260629,9,BEN_DS_09,1,293,PET _PET _23,Pet Care,28,Low,43.6,2.42,33,33,68,123,96,12,0.0,Projected inventory (33) breached ROP (68). Target: 123.,Scheduled Replenishment
+258,20260629,23,MUM_DS_03,3,39,BEVE_ENER_09,Beverages,28,Low,50.9,2.83,181,181,237,557,376,8,0.0,Projected inventory (181) breached ROP (237). Target: 557.,Scheduled Replenishment
+259,20260629,22,MUM_DS_02,3,151,STAP_ATTA_01,Staples,27,Low,23.4,1.3,55,55,59,313,264,12,17002.88,Projected inventory (55) breached ROP (59). Target: 313.,Scheduled Replenishment
+260,20260629,22,MUM_DS_02,3,167,STAP_RICE_17,Staples,27,Low,23.6,1.31,54,54,109,315,264,6,15987.42,Projected inventory (54) breached ROP (109). Target: 315.,Scheduled Replenishment
+261,20260629,29,MUM_DS_09,3,269,BABY_DIAP_29,Baby Care,27,Low,23.4,1.3,26,26,27,147,132,12,11711.0,Projected inventory (26) breached ROP (27). Target: 147.,Scheduled Replenishment
+262,20260629,29,MUM_DS_09,3,270,BABY_BABY_30,Baby Care,27,Low,23.8,1.32,25,25,29,143,120,4,11269.28,Projected inventory (25) breached ROP (29). Target: 143.,Scheduled Replenishment
+263,20260629,34,HYD_DS_04,4,259,BABY_BABY_19,Baby Care,27,Low,23.6,1.31,18,18,37,105,96,12,4960.69,Projected inventory (18) breached ROP (37). Target: 105.,Scheduled Replenishment
+264,20260629,29,MUM_DS_09,3,260,BABY_BABY_20,Baby Care,27,Low,23.6,1.31,46,46,48,258,216,8,3679.2,Projected inventory (46) breached ROP (48). Target: 258.,Scheduled Replenishment
+265,20260629,16,DEL_DS_06,2,212,HOUS_DISH_02,Household,27,Low,20.3,1.13,11,11,26,74,72,24,1441.55,Projected inventory (11) breached ROP (26). Target: 74.,Scheduled Replenishment
+266,20260629,22,MUM_DS_02,3,152,STAP_RICE_02,Staples,27,Low,24.1,1.34,58,58,61,319,264,6,0.0,Projected inventory (58) breached ROP (61). Target: 319.,Scheduled Replenishment
+267,20260629,25,MUM_DS_05,3,57,BEVE_COLD_27,Beverages,27,Low,24.1,1.34,85,85,162,479,396,4,0.0,Projected inventory (85) breached ROP (162). Target: 479.,Scheduled Replenishment
+268,20260629,22,MUM_DS_02,3,95,PACK_READ_05,Packaged Foods,27,Low,24.3,1.35,35,35,38,194,168,24,0.0,Projected inventory (35) breached ROP (38). Target: 194.,Scheduled Replenishment
+269,20260629,29,MUM_DS_09,3,265,BABY_DIAP_25,Baby Care,27,Low,24.3,1.35,60,60,63,330,270,6,0.0,Projected inventory (60) breached ROP (63). Target: 330.,Scheduled Replenishment
+270,20260629,7,BEN_DS_07,1,109,PACK_BREA_19,Packaged Foods,27,Low,24.5,1.36,23,23,45,130,108,4,0.0,Projected inventory (23) breached ROP (45). Target: 130.,Scheduled Replenishment
+271,20260629,10,BEN_DS_10,1,109,PACK_BREA_19,Packaged Foods,27,Low,24.5,1.36,23,23,44,129,108,4,0.0,Projected inventory (23) breached ROP (44). Target: 129.,Scheduled Replenishment
+272,20260629,16,DEL_DS_06,2,27,DAIR_CURD_27,Dairy,27,Low,24.5,1.36,94,94,253,529,436,4,0.0,Projected inventory (94) breached ROP (253). Target: 529.,Scheduled Replenishment
+273,20260629,22,MUM_DS_02,3,165,STAP_SPIC_15,Staples,27,Low,24.5,1.36,46,46,47,251,210,6,0.0,Projected inventory (46) breached ROP (47). Target: 251.,Scheduled Replenishment
+274,20260629,29,MUM_DS_09,3,152,STAP_RICE_02,Staples,27,Low,24.5,1.36,60,60,62,326,270,6,0.0,Projected inventory (60) breached ROP (62). Target: 326.,Scheduled Replenishment
+275,20260629,2,BEN_DS_02,1,263,BABY_BABY_23,Baby Care,27,Low,24.7,1.37,31,31,60,173,144,4,0.0,Projected inventory (31) breached ROP (60). Target: 173.,Scheduled Replenishment
+276,20260629,23,MUM_DS_03,3,118,PACK_SAUC_28,Packaged Foods,27,Low,24.7,1.37,49,49,51,267,224,8,0.0,Projected inventory (49) breached ROP (51). Target: 267.,Scheduled Replenishment
+277,20260629,23,MUM_DS_03,3,142,FRUI_EXOT_22,Fruits & Vegetables,27,Low,24.7,1.37,96,96,138,523,432,8,0.0,Projected inventory (96) breached ROP (138). Target: 523.,Scheduled Replenishment
+278,20260629,17,DEL_DS_07,2,105,PACK_READ_15,Packaged Foods,27,Low,25.4,1.41,49,49,129,268,228,12,0.0,Projected inventory (49) breached ROP (129). Target: 268.,Scheduled Replenishment
+279,20260629,5,BEN_DS_05,1,31,BEVE_JUIC_01,Beverages,27,Low,36.4,2.02,131,131,241,500,372,12,0.0,Projected inventory (131) breached ROP (241). Target: 500.,Scheduled Replenishment
+280,20260629,5,BEN_DS_05,1,61,SNAC_CHIP_01,Snacks,27,Low,36.4,2.02,121,121,223,463,360,24,0.0,Projected inventory (121) breached ROP (223). Target: 463.,Scheduled Replenishment
+281,20260629,23,MUM_DS_03,3,61,SNAC_CHIP_01,Snacks,27,Low,37.1,2.06,166,166,298,620,456,24,0.0,Projected inventory (166) breached ROP (298). Target: 620.,Scheduled Replenishment
+282,20260629,39,HYD_DS_09,4,35,BEVE_WATE_05,Beverages,27,Low,37.4,2.08,129,129,231,479,360,12,0.0,Projected inventory (129) breached ROP (231). Target: 479.,Scheduled Replenishment
+283,20260629,40,HYD_DS_10,4,51,BEVE_JUIC_21,Beverages,27,Low,38.5,2.14,111,111,171,431,320,4,0.0,Projected inventory (111) breached ROP (171). Target: 431.,Scheduled Replenishment
+284,20260629,7,BEN_DS_07,1,291,PET _DOG _21,Pet Care,26,Low,24.5,1.36,16,16,45,92,96,24,0.0,Projected inventory (16) breached ROP (45). Target: 92.,Scheduled Replenishment
+285,20260629,2,BEN_DS_02,1,30,DAIR_PANE_30,Dairy,26,Low,24.8,1.38,104,104,195,573,480,24,0.0,Projected inventory (104) breached ROP (195). Target: 573.,Scheduled Replenishment
+286,20260629,22,MUM_DS_02,3,24,DAIR_CHEE_24,Dairy,26,Low,24.8,1.38,144,144,381,797,660,12,0.0,Projected inventory (144) breached ROP (381). Target: 797.,Scheduled Replenishment
+287,20260629,4,BEN_DS_04,1,88,SNAC_NAMK_28,Snacks,26,Low,25.0,1.39,79,79,208,435,360,6,0.0,Projected inventory (79) breached ROP (208). Target: 435.,Scheduled Replenishment
+288,20260629,22,MUM_DS_02,3,93,PACK_SAUC_03,Packaged Foods,26,Low,25.0,1.39,42,42,43,223,192,24,0.0,Projected inventory (42) breached ROP (43). Target: 223.,Scheduled Replenishment
+289,20260629,23,MUM_DS_03,3,134,FRUI_SEAS_14,Fruits & Vegetables,26,Low,25.0,1.39,85,85,85,452,368,8,0.0,Projected inventory (85) breached ROP (85). Target: 452.,Scheduled Replenishment
+290,20260629,25,MUM_DS_05,3,80,SNAC_NUTS_20,Snacks,26,Low,25.0,1.39,113,113,163,611,500,4,0.0,Projected inventory (113) breached ROP (163). Target: 611.,Scheduled Replenishment
+291,20260629,16,DEL_DS_06,2,266,BABY_BABY_26,Baby Care,26,Low,25.2,1.4,30,30,58,166,144,24,0.0,Projected inventory (30) breached ROP (58). Target: 166.,Scheduled Replenishment
+292,20260629,16,DEL_DS_06,2,143,FRUI_DAIL_23,Fruits & Vegetables,26,Low,25.4,1.41,134,134,350,730,600,24,0.0,Projected inventory (134) breached ROP (350). Target: 730.,Scheduled Replenishment
+293,20260629,21,MUM_DS_01,3,138,FRUI_DAIL_18,Fruits & Vegetables,26,Low,25.4,1.41,92,92,168,496,408,12,0.0,Projected inventory (92) breached ROP (168). Target: 496.,Scheduled Replenishment
+294,20260629,22,MUM_DS_02,3,49,BEVE_ENER_19,Beverages,26,Low,25.4,1.41,124,124,172,656,540,12,0.0,Projected inventory (124) breached ROP (172). Target: 656.,Scheduled Replenishment
+295,20260629,22,MUM_DS_02,3,136,FRUI_FRES_16,Fruits & Vegetables,26,Low,25.4,1.41,61,61,62,322,264,4,0.0,Projected inventory (61) breached ROP (62). Target: 322.,Scheduled Replenishment
+296,20260629,22,MUM_DS_02,3,229,HOUS_DISP_19,Household,26,Low,25.4,1.41,16,16,44,89,78,6,0.0,Projected inventory (16) breached ROP (44). Target: 89.,Scheduled Replenishment
+297,20260629,25,MUM_DS_05,3,90,SNAC_NUTS_30,Snacks,26,Low,25.4,1.41,91,91,236,493,402,6,0.0,Projected inventory (91) breached ROP (236). Target: 493.,Scheduled Replenishment
+298,20260629,22,MUM_DS_02,3,139,FRUI_SEAS_19,Fruits & Vegetables,26,Low,25.6,1.42,136,136,355,738,608,8,0.0,Projected inventory (136) breached ROP (355). Target: 738.,Scheduled Replenishment
+299,20260629,1,BEN_DS_01,1,138,FRUI_DAIL_18,Fruits & Vegetables,26,Low,25.7,1.43,89,89,163,473,384,12,0.0,Projected inventory (89) breached ROP (163). Target: 473.,Scheduled Replenishment
+300,20260629,2,BEN_DS_02,1,27,DAIR_CURD_27,Dairy,26,Low,25.7,1.43,92,92,233,491,400,4,0.0,Projected inventory (92) breached ROP (233). Target: 491.,Scheduled Replenishment
+301,20260629,10,BEN_DS_10,1,78,SNAC_NAMK_18,Snacks,26,Low,25.7,1.43,108,108,192,570,462,6,0.0,Projected inventory (108) breached ROP (192). Target: 570.,Scheduled Replenishment
+302,20260629,17,DEL_DS_07,2,73,SNAC_NAMK_13,Snacks,26,Low,25.7,1.43,120,120,300,636,528,24,0.0,Projected inventory (120) breached ROP (300). Target: 636.,Scheduled Replenishment
+303,20260629,26,MUM_DS_06,3,135,FRUI_CUT _15,Fruits & Vegetables,26,Low,25.7,1.43,107,107,276,575,468,4,0.0,Projected inventory (107) breached ROP (276). Target: 575.,Scheduled Replenishment
+304,20260629,35,HYD_DS_05,4,263,BABY_BABY_23,Baby Care,26,Low,25.7,1.43,30,30,56,161,132,4,0.0,Projected inventory (30) breached ROP (56). Target: 161.,Scheduled Replenishment
+305,20260629,4,BEN_DS_04,1,114,PACK_BREA_24,Packaged Foods,26,Low,25.9,1.44,39,39,68,203,168,12,0.0,Projected inventory (39) breached ROP (68). Target: 203.,Scheduled Replenishment
+306,20260629,7,BEN_DS_07,1,75,SNAC_NUTS_15,Snacks,26,Low,25.9,1.44,56,56,141,297,264,24,0.0,Projected inventory (56) breached ROP (141). Target: 297.,Scheduled Replenishment
+307,20260629,22,MUM_DS_02,3,25,DAIR_PANE_25,Dairy,26,Low,25.9,1.44,140,140,194,728,600,24,0.0,Projected inventory (140) breached ROP (194). Target: 728.,Scheduled Replenishment
+308,20260629,23,MUM_DS_03,3,44,BEVE_ENER_14,Beverages,26,Low,25.9,1.44,84,84,211,443,360,8,0.0,Projected inventory (84) breached ROP (211). Target: 443.,Scheduled Replenishment
+309,20260629,2,BEN_DS_02,1,180,STAP_SPIC_30,Staples,26,Low,26.3,1.46,50,50,87,259,212,4,0.0,Projected inventory (50) breached ROP (87). Target: 259.,Scheduled Replenishment
+310,20260629,22,MUM_DS_02,3,133,FRUI_DAIL_13,Fruits & Vegetables,26,Low,26.3,1.46,121,121,213,628,510,6,0.0,Projected inventory (121) breached ROP (213). Target: 628.,Scheduled Replenishment
+311,20260629,29,MUM_DS_09,3,78,SNAC_NAMK_18,Snacks,26,Low,26.3,1.46,126,126,216,647,522,6,0.0,Projected inventory (126) breached ROP (216). Target: 647.,Scheduled Replenishment
+312,20260629,34,HYD_DS_04,4,252,BABY_BABY_12,Baby Care,26,Low,29.7,1.65,51,51,151,244,196,4,0.0,Projected inventory (51) breached ROP (151). Target: 244.,Scheduled Replenishment
+313,20260629,29,MUM_DS_09,3,64,SNAC_CHOC_04,Snacks,26,Low,38.5,2.14,217,217,295,803,592,8,0.0,Projected inventory (217) breached ROP (295). Target: 803.,Scheduled Replenishment
+314,20260629,16,DEL_DS_06,2,112,PACK_PAST_22,Packaged Foods,26,Low,43.9,2.44,64,64,81,225,162,6,0.0,Projected inventory (64) breached ROP (81). Target: 225.,Scheduled Replenishment
+315,20260629,16,DEL_DS_06,2,262,BABY_BABY_22,Baby Care,25,Low,26.5,1.47,57,57,96,289,234,6,0.0,Projected inventory (57) breached ROP (96). Target: 289.,Scheduled Replenishment
+316,20260629,18,DEL_DS_08,2,296,PET _CAT _26,Pet Care,25,Low,26.5,1.47,16,16,53,86,72,24,0.0,Projected inventory (16) breached ROP (53). Target: 86.,Scheduled Replenishment
+317,20260629,23,MUM_DS_03,3,255,BABY_BABY_15,Baby Care,25,Low,26.5,1.47,33,33,84,174,144,6,0.0,Projected inventory (33) breached ROP (84). Target: 174.,Scheduled Replenishment
+318,20260629,28,MUM_DS_08,3,57,BEVE_COLD_27,Beverages,25,Low,27.0,1.5,82,82,140,412,332,4,0.0,Projected inventory (82) breached ROP (140). Target: 412.,Scheduled Replenishment
+319,20260629,4,BEN_DS_04,1,85,SNAC_NUTS_25,Snacks,25,Low,27.2,1.51,51,51,69,255,204,12,0.0,Projected inventory (51) breached ROP (69). Target: 255.,Scheduled Replenishment
+320,20260629,9,BEN_DS_09,1,138,FRUI_DAIL_18,Fruits & Vegetables,25,Low,27.4,1.52,91,91,153,453,372,12,0.0,Projected inventory (91) breached ROP (153). Target: 453.,Scheduled Replenishment
+321,20260629,29,MUM_DS_09,3,86,SNAC_CHIP_26,Snacks,25,Low,27.4,1.52,72,72,94,355,288,8,0.0,Projected inventory (72) breached ROP (94). Target: 355.,Scheduled Replenishment
+322,20260629,22,MUM_DS_02,3,18,DAIR_BUTT_18,Dairy,25,Low,27.5,1.53,71,71,94,349,282,6,0.0,Projected inventory (71) breached ROP (94). Target: 349.,Scheduled Replenishment
+323,20260629,28,MUM_DS_08,3,54,BEVE_ENER_24,Beverages,25,Low,27.5,1.53,100,100,133,493,408,24,0.0,Projected inventory (100) breached ROP (133). Target: 493.,Scheduled Replenishment
+324,20260629,39,HYD_DS_09,4,135,FRUI_CUT _15,Fruits & Vegetables,25,Low,27.5,1.53,107,107,256,534,428,4,0.0,Projected inventory (107) breached ROP (256). Target: 534.,Scheduled Replenishment
+325,20260629,2,BEN_DS_02,1,72,SNAC_BISC_12,Snacks,25,Low,27.7,1.54,94,94,122,457,372,12,0.0,Projected inventory (94) breached ROP (122). Target: 457.,Scheduled Replenishment
+326,20260629,4,BEN_DS_04,1,96,PACK_NOOD_06,Packaged Foods,25,Low,27.7,1.54,43,43,55,209,168,12,0.0,Projected inventory (43) breached ROP (55). Target: 209.,Scheduled Replenishment
+327,20260629,16,DEL_DS_06,2,21,DAIR_MILK_21,Dairy,25,Low,27.7,1.54,133,133,172,647,516,4,0.0,Projected inventory (133) breached ROP (172). Target: 647.,Scheduled Replenishment
+328,20260629,23,MUM_DS_03,3,175,STAP_SPIC_25,Staples,25,Low,27.7,1.54,31,31,31,151,120,8,0.0,Projected inventory (31) breached ROP (31). Target: 151.,Scheduled Replenishment
+329,20260629,10,BEN_DS_10,1,142,FRUI_EXOT_22,Fruits & Vegetables,25,Low,27.9,1.55,98,98,126,474,376,8,0.0,Projected inventory (98) breached ROP (126). Target: 474.,Scheduled Replenishment
+330,20260629,8,BEN_DS_08,1,215,HOUS_REPE_05,Household,25,Low,34.9,1.94,19,19,32,81,64,4,0.0,Projected inventory (19) breached ROP (32). Target: 81.,Scheduled Replenishment
+331,20260629,17,DEL_DS_07,2,39,BEVE_ENER_09,Beverages,25,Low,39.6,2.2,107,107,125,367,264,8,0.0,Projected inventory (107) breached ROP (125). Target: 367.,Scheduled Replenishment
+332,20260629,26,MUM_DS_06,3,61,SNAC_CHIP_01,Snacks,25,Low,39.6,2.2,173,173,293,607,456,24,0.0,Projected inventory (173) breached ROP (293). Target: 607.,Scheduled Replenishment
+333,20260629,6,BEN_DS_06,1,62,SNAC_BISC_02,Snacks,25,Low,40.3,2.24,106,106,123,360,264,24,0.0,Projected inventory (106) breached ROP (123). Target: 360.,Scheduled Replenishment
+334,20260629,9,BEN_DS_09,1,62,SNAC_BISC_02,Snacks,25,Low,40.7,2.26,137,137,156,459,336,24,0.0,Projected inventory (137) breached ROP (156). Target: 459.,Scheduled Replenishment
+335,20260629,33,HYD_DS_03,4,233,HOUS_CLEA_23,Household,25,Low,40.7,2.26,20,20,50,77,60,6,0.0,Projected inventory (20) breached ROP (50). Target: 77.,Scheduled Replenishment
+336,20260629,9,BEN_DS_09,1,238,HOUS_CLEA_28,Household,25,Low,49.3,2.74,35,35,67,118,84,4,0.0,Projected inventory (35) breached ROP (67). Target: 118.,Scheduled Replenishment
+337,20260629,29,MUM_DS_09,3,49,BEVE_ENER_19,Beverages,24,Low,28.1,1.56,134,134,170,643,516,12,0.0,Projected inventory (134) breached ROP (170). Target: 643.,Scheduled Replenishment
+338,20260629,10,BEN_DS_10,1,138,FRUI_DAIL_18,Fruits & Vegetables,24,Low,28.3,1.57,102,102,164,489,396,12,0.0,Projected inventory (102) breached ROP (164). Target: 489.,Scheduled Replenishment
+339,20260629,23,MUM_DS_03,3,136,FRUI_FRES_16,Fruits & Vegetables,24,Low,28.3,1.57,71,71,78,350,280,4,0.0,Projected inventory (71) breached ROP (78). Target: 350.,Scheduled Replenishment
+340,20260629,10,BEN_DS_10,1,197,PERS_HAIR_17,Personal Care,24,Low,28.4,1.58,14,14,44,71,60,4,0.0,Projected inventory (14) breached ROP (44). Target: 71.,Scheduled Replenishment
+341,20260629,22,MUM_DS_02,3,22,DAIR_CURD_22,Dairy,24,Low,28.4,1.58,103,103,127,484,384,12,0.0,Projected inventory (103) breached ROP (127). Target: 484.,Scheduled Replenishment
+342,20260629,28,MUM_DS_08,3,104,PACK_BREA_14,Packaged Foods,24,Low,28.4,1.58,54,54,71,258,204,12,0.0,Projected inventory (54) breached ROP (71). Target: 258.,Scheduled Replenishment
+343,20260629,34,HYD_DS_04,4,75,SNAC_NUTS_15,Snacks,24,Low,28.4,1.58,53,53,121,255,216,24,0.0,Projected inventory (53) breached ROP (121). Target: 255.,Scheduled Replenishment
+344,20260629,2,BEN_DS_02,1,22,DAIR_CURD_22,Dairy,24,Low,28.6,1.59,90,90,112,423,336,12,0.0,Projected inventory (90) breached ROP (112). Target: 423.,Scheduled Replenishment
+345,20260629,2,BEN_DS_02,1,47,BEVE_COLD_17,Beverages,24,Low,28.6,1.59,91,91,146,431,360,24,0.0,Projected inventory (91) breached ROP (146). Target: 431.,Scheduled Replenishment
+346,20260629,29,MUM_DS_09,3,44,BEVE_ENER_14,Beverages,24,Low,28.8,1.6,101,101,230,482,384,8,0.0,Projected inventory (101) breached ROP (230). Target: 482.,Scheduled Replenishment
+347,20260629,29,MUM_DS_09,3,75,SNAC_NUTS_15,Snacks,24,Low,28.8,1.6,72,72,169,349,288,24,0.0,Projected inventory (72) breached ROP (169). Target: 349.,Scheduled Replenishment
+348,20260629,22,MUM_DS_02,3,50,BEVE_WATE_20,Beverages,24,Low,29.0,1.61,82,82,191,395,318,6,0.0,Projected inventory (82) breached ROP (191). Target: 395.,Scheduled Replenishment
+349,20260629,1,BEN_DS_01,1,46,BEVE_JUIC_16,Beverages,24,Low,29.2,1.62,129,129,204,602,480,24,0.0,Projected inventory (129) breached ROP (204). Target: 602.,Scheduled Replenishment
+350,20260629,1,BEN_DS_01,1,71,SNAC_CHIP_11,Snacks,24,Low,29.2,1.62,76,76,94,352,276,6,0.0,Projected inventory (76) breached ROP (94). Target: 352.,Scheduled Replenishment
+351,20260629,39,HYD_DS_09,4,49,BEVE_ENER_19,Beverages,24,Low,29.2,1.62,121,121,149,561,444,12,0.0,Projected inventory (121) breached ROP (149). Target: 561.,Scheduled Replenishment
+352,20260629,17,DEL_DS_07,2,50,BEVE_WATE_20,Beverages,24,Low,29.3,1.63,73,73,170,349,276,6,0.0,Projected inventory (73) breached ROP (170). Target: 349.,Scheduled Replenishment
+353,20260629,28,MUM_DS_08,3,249,BABY_DIAP_09,Baby Care,24,Low,29.3,1.63,34,34,56,161,128,8,0.0,Projected inventory (34) breached ROP (56). Target: 161.,Scheduled Replenishment
+354,20260629,22,MUM_DS_02,3,21,DAIR_MILK_21,Dairy,24,Low,29.5,1.64,156,156,187,709,556,4,0.0,Projected inventory (156) breached ROP (187). Target: 709.,Scheduled Replenishment
+355,20260629,40,HYD_DS_10,4,23,DAIR_BUTT_23,Dairy,24,Low,29.5,1.64,144,144,175,659,520,8,0.0,Projected inventory (144) breached ROP (175). Target: 659.,Scheduled Replenishment
+356,20260629,11,DEL_DS_01,2,187,PERS_HAIR_07,Personal Care,24,Low,33.1,1.84,10,10,23,45,36,12,0.0,Projected inventory (10) breached ROP (23). Target: 45.,Scheduled Replenishment
+357,20260629,31,HYD_DS_01,4,148,FRUI_DAIL_28,Fruits & Vegetables,24,Low,33.3,1.85,111,111,179,479,8,8,0.0,Projected inventory (111) breached ROP (179). Target: 479. Scaled down to respect dark store physical capacity buffer.,Scheduled Replenishment
+358,20260629,13,DEL_DS_03,2,282,PET _PET _12,Pet Care,24,Low,35.5,1.97,8,8,18,34,48,24,0.0,Projected inventory (8) breached ROP (18). Target: 34.,Scheduled Replenishment
+359,20260629,9,BEN_DS_09,1,283,PET _DOG _13,Pet Care,24,Low,36.5,2.03,11,11,29,46,36,12,0.0,Projected inventory (11) breached ROP (29). Target: 46.,Scheduled Replenishment
+360,20260629,39,HYD_DS_09,4,281,PET _PET _11,Pet Care,24,Low,39.8,2.21,9,9,23,35,28,4,0.0,Projected inventory (9) breached ROP (23). Target: 35.,Scheduled Replenishment
+361,20260629,7,BEN_DS_07,1,123,FRUI_DAIL_03,Fruits & Vegetables,24,Low,42.3,2.35,94,94,153,313,228,12,0.0,Projected inventory (94) breached ROP (153). Target: 313.,Scheduled Replenishment
+362,20260629,29,MUM_DS_09,3,198,PERS_ORAL_18,Personal Care,23,Low,20.7,1.15,16,16,20,104,88,4,721.85,Projected inventory (16) breached ROP (20). Target: 104.,Scheduled Replenishment
+363,20260629,7,BEN_DS_07,1,98,PACK_SAUC_08,Packaged Foods,23,Low,29.7,1.65,27,27,33,123,96,12,0.0,Projected inventory (27) breached ROP (33). Target: 123.,Scheduled Replenishment
+364,20260629,29,MUM_DS_09,3,24,DAIR_CHEE_24,Dairy,23,Low,29.9,1.66,166,166,368,768,612,12,0.0,Projected inventory (166) breached ROP (368). Target: 768.,Scheduled Replenishment
+365,20260629,18,DEL_DS_08,2,71,SNAC_CHIP_11,Snacks,23,Low,30.1,1.67,76,76,102,353,282,6,0.0,Projected inventory (76) breached ROP (102). Target: 353.,Scheduled Replenishment
+366,20260629,39,HYD_DS_09,4,85,SNAC_NUTS_25,Snacks,23,Low,30.1,1.67,62,62,72,277,216,12,0.0,Projected inventory (62) breached ROP (72). Target: 277.,Scheduled Replenishment
+367,20260629,22,MUM_DS_02,3,80,SNAC_NUTS_20,Snacks,23,Low,30.2,1.68,159,159,188,708,552,4,0.0,Projected inventory (159) breached ROP (188). Target: 708.,Scheduled Replenishment
+368,20260629,9,BEN_DS_09,1,263,BABY_BABY_23,Baby Care,23,Low,30.4,1.69,36,36,55,162,128,4,0.0,Projected inventory (36) breached ROP (55). Target: 162.,Scheduled Replenishment
+369,20260629,16,DEL_DS_06,2,24,DAIR_CHEE_24,Dairy,23,Low,30.4,1.69,159,159,346,722,564,12,0.0,Projected inventory (159) breached ROP (346). Target: 722.,Scheduled Replenishment
+370,20260629,25,MUM_DS_05,3,259,BABY_BABY_19,Baby Care,23,Low,30.4,1.69,28,28,44,126,108,12,0.0,Projected inventory (28) breached ROP (44). Target: 126.,Scheduled Replenishment
+371,20260629,34,HYD_DS_04,4,245,BABY_DIAP_05,Baby Care,23,Low,30.4,1.69,41,41,64,186,156,12,0.0,Projected inventory (41) breached ROP (64). Target: 186.,Scheduled Replenishment
+372,20260629,35,HYD_DS_05,4,71,SNAC_CHIP_11,Snacks,23,Low,30.4,1.69,73,73,85,324,252,6,0.0,Projected inventory (73) breached ROP (85). Target: 324.,Scheduled Replenishment
+373,20260629,16,DEL_DS_06,2,164,STAP_EDIB_14,Staples,23,Low,30.6,1.7,28,28,63,129,104,4,0.0,Projected inventory (28) breached ROP (63). Target: 129.,Scheduled Replenishment
+374,20260629,16,DEL_DS_06,2,29,DAIR_CHEE_29,Dairy,23,Low,30.8,1.71,93,93,98,424,336,8,0.0,Projected inventory (93) breached ROP (98). Target: 424.,Scheduled Replenishment
+375,20260629,8,BEN_DS_08,1,51,BEVE_JUIC_21,Beverages,23,Low,31.0,1.72,72,72,109,318,248,4,0.0,Projected inventory (72) breached ROP (109). Target: 318.,Scheduled Replenishment
+376,20260629,21,MUM_DS_01,3,250,BABY_BABY_10,Baby Care,23,Low,31.0,1.72,43,43,122,197,156,12,0.0,Projected inventory (43) breached ROP (122). Target: 197.,Scheduled Replenishment
+377,20260629,9,BEN_DS_09,1,142,FRUI_EXOT_22,Fruits & Vegetables,23,Low,31.1,1.73,106,106,124,462,360,8,0.0,Projected inventory (106) breached ROP (124). Target: 462.,Scheduled Replenishment
+378,20260629,29,MUM_DS_09,3,48,BEVE_TEA _18,Beverages,23,Low,31.1,1.73,105,105,122,455,354,6,0.0,Projected inventory (105) breached ROP (122). Target: 455.,Scheduled Replenishment
+379,20260629,28,MUM_DS_08,3,207,PERS_HAIR_27,Personal Care,23,Low,31.5,1.75,7,7,16,32,30,6,0.0,Projected inventory (7) breached ROP (16). Target: 32.,Scheduled Replenishment
+380,20260629,25,MUM_DS_05,3,50,BEVE_WATE_20,Beverages,23,Low,34.9,1.94,92,92,192,382,294,6,0.0,Projected inventory (92) breached ROP (192). Target: 382.,Scheduled Replenishment
+381,20260629,26,MUM_DS_06,3,35,BEVE_WATE_05,Beverages,23,Low,42.5,2.36,159,159,249,518,360,12,0.0,Projected inventory (159) breached ROP (249). Target: 518.,Scheduled Replenishment
+382,20260629,5,BEN_DS_05,1,126,FRUI_FRES_06,Fruits & Vegetables,23,Low,43.4,2.41,129,129,195,409,280,8,0.0,Projected inventory (129) breached ROP (195). Target: 409.,Scheduled Replenishment
+383,20260629,18,DEL_DS_08,2,40,BEVE_WATE_10,Beverages,23,Low,43.9,2.44,157,157,237,495,340,4,0.0,Projected inventory (157) breached ROP (237). Target: 495.,Scheduled Replenishment
+384,20260629,25,MUM_DS_05,3,278,PET _PET _08,Pet Care,22,Low,23.0,1.28,11,11,23,65,72,24,3498.02,Projected inventory (11) breached ROP (23). Target: 65.,Scheduled Replenishment
+385,20260629,26,MUM_DS_06,3,237,HOUS_DISH_27,Household,22,Low,22.3,1.24,12,12,16,74,64,4,2308.97,Projected inventory (12) breached ROP (16). Target: 74.,Scheduled Replenishment
+386,20260629,26,MUM_DS_06,3,295,PET _DOG _25,Pet Care,22,Low,22.7,1.26,16,16,18,94,84,12,1945.77,Projected inventory (16) breached ROP (18). Target: 94.,Scheduled Replenishment
+387,20260629,25,MUM_DS_05,3,295,PET _DOG _25,Pet Care,22,Low,22.1,1.23,14,14,18,86,72,12,1739.1,Projected inventory (14) breached ROP (18). Target: 86.,Scheduled Replenishment
+388,20260629,17,DEL_DS_07,2,193,PERS_ORAL_13,Personal Care,22,Low,23.2,1.29,6,6,13,36,32,4,577.26,Projected inventory (6) breached ROP (13). Target: 36.,Scheduled Replenishment
+389,20260629,2,BEN_DS_02,1,278,PET _PET _08,Pet Care,22,Low,28.8,1.6,13,13,24,64,72,24,0.0,Projected inventory (13) breached ROP (24). Target: 64.,Scheduled Replenishment
+390,20260629,23,MUM_DS_03,3,132,FRUI_EXOT_12,Fruits & Vegetables,22,Low,31.3,1.74,167,167,353,737,576,24,0.0,Projected inventory (167) breached ROP (353). Target: 737.,Scheduled Replenishment
+391,20260629,8,BEN_DS_08,1,185,PERS_SANI_05,Personal Care,22,Low,31.7,1.76,16,16,46,73,60,12,0.0,Projected inventory (16) breached ROP (46). Target: 73.,Scheduled Replenishment
+392,20260629,9,BEN_DS_09,1,87,SNAC_BISC_27,Snacks,22,Low,31.9,1.77,130,130,145,550,420,12,0.0,Projected inventory (130) breached ROP (145). Target: 550.,Scheduled Replenishment
+393,20260629,7,BEN_DS_07,1,112,PACK_PAST_22,Packaged Foods,22,Low,32.0,1.78,35,35,40,148,114,6,0.0,Projected inventory (35) breached ROP (40). Target: 148.,Scheduled Replenishment
+394,20260629,9,BEN_DS_09,1,79,SNAC_CHOC_19,Snacks,22,Low,32.0,1.78,114,114,126,478,368,8,0.0,Projected inventory (114) breached ROP (126). Target: 478.,Scheduled Replenishment
+395,20260629,35,HYD_DS_05,4,24,DAIR_CHEE_24,Dairy,22,Low,32.0,1.78,141,141,292,608,468,12,0.0,Projected inventory (141) breached ROP (292). Target: 608.,Scheduled Replenishment
+396,20260629,4,BEN_DS_04,1,143,FRUI_DAIL_23,Fruits & Vegetables,22,Low,32.2,1.79,145,145,293,617,480,24,0.0,Projected inventory (145) breached ROP (293). Target: 617.,Scheduled Replenishment
+397,20260629,18,DEL_DS_08,2,114,PACK_BREA_24,Packaged Foods,22,Low,32.4,1.8,47,47,68,198,156,12,0.0,Projected inventory (47) breached ROP (68). Target: 198.,Scheduled Replenishment
+398,20260629,9,BEN_DS_09,1,169,STAP_EDIB_19,Staples,22,Low,32.6,1.81,39,39,80,166,132,12,0.0,Projected inventory (39) breached ROP (80). Target: 166.,Scheduled Replenishment
+399,20260629,17,DEL_DS_07,2,87,SNAC_BISC_27,Snacks,22,Low,32.6,1.81,150,150,183,637,492,12,0.0,Projected inventory (150) breached ROP (183). Target: 637.,Scheduled Replenishment
+400,20260629,26,MUM_DS_06,3,73,SNAC_NAMK_13,Snacks,22,Low,32.8,1.82,167,167,337,705,552,24,0.0,Projected inventory (167) breached ROP (337). Target: 705.,Scheduled Replenishment
+401,20260629,26,MUM_DS_06,3,104,PACK_BREA_14,Packaged Foods,22,Low,32.8,1.82,77,77,83,315,240,12,0.0,Projected inventory (77) breached ROP (83). Target: 315.,Scheduled Replenishment
+402,20260629,26,MUM_DS_06,3,133,FRUI_DAIL_13,Fruits & Vegetables,22,Low,32.8,1.82,133,133,186,551,420,6,0.0,Projected inventory (133) breached ROP (186). Target: 551.,Scheduled Replenishment
+403,20260629,39,HYD_DS_09,4,55,BEVE_WATE_25,Beverages,22,Low,32.8,1.82,135,135,147,556,432,12,0.0,Projected inventory (135) breached ROP (147). Target: 556.,Scheduled Replenishment
+404,20260629,13,DEL_DS_03,2,63,SNAC_NAMK_03,Snacks,22,Low,44.6,2.48,128,128,193,399,272,8,0.0,Projected inventory (128) breached ROP (193). Target: 399.,Scheduled Replenishment
+405,20260629,16,DEL_DS_06,2,123,FRUI_DAIL_03,Fruits & Vegetables,22,Low,44.6,2.48,106,106,157,328,228,12,0.0,Projected inventory (106) breached ROP (157). Target: 328.,Scheduled Replenishment
+406,20260629,28,MUM_DS_08,3,61,SNAC_CHIP_01,Snacks,22,Low,44.8,2.49,163,163,239,501,360,24,0.0,Projected inventory (163) breached ROP (239). Target: 501.,Scheduled Replenishment
+407,20260629,9,BEN_DS_09,1,35,BEVE_WATE_05,Beverages,22,Low,45.2,2.51,153,153,225,469,324,12,0.0,Projected inventory (153) breached ROP (225). Target: 469.,Scheduled Replenishment
+408,20260629,4,BEN_DS_04,1,189,PERS_SKIN_09,Personal Care,21,Low,23.8,1.32,14,14,28,80,66,6,1316.81,Projected inventory (14) breached ROP (28). Target: 80.,Scheduled Replenishment
+409,20260629,22,MUM_DS_02,3,230,HOUS_REPE_20,Household,21,Low,23.8,1.32,7,7,9,41,40,8,418.12,Projected inventory (7) breached ROP (9). Target: 41.,Scheduled Replenishment
+410,20260629,7,BEN_DS_07,1,191,PERS_SOAP_11,Personal Care,21,Low,24.7,1.37,17,17,19,94,96,24,0.0,Projected inventory (17) breached ROP (19). Target: 94.,Scheduled Replenishment
+411,20260629,4,BEN_DS_04,1,206,PERS_SOAP_26,Personal Care,21,Low,32.4,1.8,9,9,15,40,32,4,0.0,Projected inventory (9) breached ROP (15). Target: 40.,Scheduled Replenishment
+412,20260629,23,MUM_DS_03,3,47,BEVE_COLD_17,Beverages,21,Low,32.9,1.83,116,116,162,480,384,24,0.0,Projected inventory (116) breached ROP (162). Target: 480.,Scheduled Replenishment
+413,20260629,28,MUM_DS_08,3,51,BEVE_JUIC_21,Beverages,21,Low,32.9,1.83,76,76,107,315,240,4,0.0,Projected inventory (76) breached ROP (107). Target: 315.,Scheduled Replenishment
+414,20260629,5,BEN_DS_05,1,23,DAIR_BUTT_23,Dairy,21,Low,33.1,1.84,142,142,155,579,440,8,0.0,Projected inventory (142) breached ROP (155). Target: 579.,Scheduled Replenishment
+415,20260629,18,DEL_DS_08,2,58,BEVE_TEA _28,Beverages,21,Low,33.1,1.84,109,109,153,450,360,24,0.0,Projected inventory (109) breached ROP (153). Target: 450.,Scheduled Replenishment
+416,20260629,23,MUM_DS_03,3,27,DAIR_CURD_27,Dairy,21,Low,33.1,1.84,124,124,248,518,396,4,0.0,Projected inventory (124) breached ROP (248). Target: 518.,Scheduled Replenishment
+417,20260629,28,MUM_DS_08,3,18,DAIR_BUTT_18,Dairy,21,Low,33.1,1.84,65,65,70,264,204,6,0.0,Projected inventory (65) breached ROP (70). Target: 264.,Scheduled Replenishment
+418,20260629,39,HYD_DS_09,4,100,PACK_READ_10,Packaged Foods,21,Low,33.1,1.84,72,72,144,300,232,8,0.0,Projected inventory (72) breached ROP (144). Target: 300.,Scheduled Replenishment
+419,20260629,10,BEN_DS_10,1,254,BABY_BABY_14,Baby Care,21,Low,33.3,1.85,38,38,53,155,120,24,0.0,Projected inventory (38) breached ROP (53). Target: 155.,Scheduled Replenishment
+420,20260629,16,DEL_DS_06,2,114,PACK_BREA_24,Packaged Foods,21,Low,33.3,1.85,60,60,84,246,192,12,0.0,Projected inventory (60) breached ROP (84). Target: 246.,Scheduled Replenishment
+421,20260629,22,MUM_DS_02,3,119,PACK_BREA_29,Packaged Foods,21,Low,33.3,1.85,55,55,112,231,180,12,0.0,Projected inventory (55) breached ROP (112). Target: 231.,Scheduled Replenishment
+422,20260629,23,MUM_DS_03,3,73,SNAC_NAMK_13,Snacks,21,Low,33.3,1.85,170,170,335,703,552,24,0.0,Projected inventory (170) breached ROP (335). Target: 703.,Scheduled Replenishment
+423,20260629,29,MUM_DS_09,3,117,PACK_PAST_27,Packaged Foods,21,Low,33.3,1.85,74,74,80,300,228,12,0.0,Projected inventory (74) breached ROP (80). Target: 300.,Scheduled Replenishment
+424,20260629,2,BEN_DS_02,1,117,PACK_PAST_27,Packaged Foods,21,Low,34.0,1.89,66,66,70,262,204,12,0.0,Projected inventory (66) breached ROP (70). Target: 262.,Scheduled Replenishment
+425,20260629,26,MUM_DS_06,3,248,BABY_BABY_08,Baby Care,21,Low,34.0,1.89,51,51,72,207,156,6,0.0,Projected inventory (51) breached ROP (72). Target: 207.,Scheduled Replenishment
+426,20260629,40,HYD_DS_10,4,257,BABY_DIAP_17,Baby Care,21,Low,34.0,1.89,63,63,85,252,192,6,0.0,Projected inventory (63) breached ROP (85). Target: 252.,Scheduled Replenishment
+427,20260629,29,MUM_DS_09,3,74,SNAC_CHOC_14,Snacks,21,Low,34.2,1.9,109,109,148,435,328,8,0.0,Projected inventory (109) breached ROP (148). Target: 435.,Scheduled Replenishment
+428,20260629,35,HYD_DS_05,4,17,DAIR_CURD_17,Dairy,21,Low,34.2,1.9,118,118,227,475,360,4,0.0,Projected inventory (118) breached ROP (227). Target: 475.,Scheduled Replenishment
+429,20260629,1,BEN_DS_01,1,277,PET _PET _07,Pet Care,21,Low,34.7,1.93,12,12,32,51,42,6,0.0,Projected inventory (12) breached ROP (32). Target: 51.,Scheduled Replenishment
+430,20260629,23,MUM_DS_03,3,40,BEVE_WATE_10,Beverages,21,Low,45.9,2.55,208,208,303,630,424,4,0.0,Projected inventory (208) breached ROP (303). Target: 630.,Scheduled Replenishment
+431,20260629,25,MUM_DS_05,3,11,DAIR_MILK_11,Dairy,21,Low,47.2,2.62,171,171,299,560,392,8,0.0,Projected inventory (171) breached ROP (299). Target: 560.,Scheduled Replenishment
+432,20260629,2,BEN_DS_02,1,196,PERS_SOAP_16,Personal Care,20,Low,24.8,1.38,8,8,9,44,96,24,0.0,Projected inventory (8) breached ROP (9). Target: 44.,Scheduled Replenishment
+433,20260629,22,MUM_DS_02,3,278,PET _PET _08,Pet Care,20,Low,25.0,1.39,14,14,28,78,72,24,0.0,Projected inventory (14) breached ROP (28). Target: 78.,Scheduled Replenishment
+434,20260629,9,BEN_DS_09,1,295,PET _DOG _25,Pet Care,20,Low,25.6,1.42,16,16,16,84,72,12,0.0,Projected inventory (16) breached ROP (16). Target: 84.,Scheduled Replenishment
+435,20260629,22,MUM_DS_02,3,239,HOUS_DISP_29,Household,20,Low,25.6,1.42,7,7,8,38,36,6,0.0,Projected inventory (7) breached ROP (8). Target: 38.,Scheduled Replenishment
+436,20260629,6,BEN_DS_06,1,285,PET _PET _15,Pet Care,20,Low,25.7,1.43,9,9,10,48,40,8,0.0,Projected inventory (9) breached ROP (10). Target: 48.,Scheduled Replenishment
+437,20260629,22,MUM_DS_02,3,181,PERS_SOAP_01,Personal Care,20,Low,25.9,1.44,20,20,20,104,84,12,0.0,Projected inventory (20) breached ROP (20). Target: 104.,Scheduled Replenishment
+438,20260629,26,MUM_DS_06,3,189,PERS_SKIN_09,Personal Care,20,Low,26.1,1.45,16,16,30,85,72,6,0.0,Projected inventory (16) breached ROP (30). Target: 85.,Scheduled Replenishment
+439,20260629,28,MUM_DS_08,3,268,BABY_BABY_28,Baby Care,20,Low,34.4,1.91,30,30,42,120,96,8,0.0,Projected inventory (30) breached ROP (42). Target: 120.,Scheduled Replenishment
+440,20260629,1,BEN_DS_01,1,248,BABY_BABY_08,Baby Care,20,Low,34.6,1.92,47,47,63,186,144,6,0.0,Projected inventory (47) breached ROP (63). Target: 186.,Scheduled Replenishment
+441,20260629,8,BEN_DS_08,1,74,SNAC_CHOC_14,Snacks,20,Low,34.6,1.92,81,81,111,323,248,8,0.0,Projected inventory (81) breached ROP (111). Target: 323.,Scheduled Replenishment
+442,20260629,13,DEL_DS_03,2,89,SNAC_CHOC_29,Snacks,20,Low,34.6,1.92,71,71,78,281,216,12,0.0,Projected inventory (71) breached ROP (78). Target: 281.,Scheduled Replenishment
+443,20260629,16,DEL_DS_06,2,159,STAP_EDIB_09,Staples,20,Low,34.6,1.92,70,70,95,278,208,4,0.0,Projected inventory (70) breached ROP (95). Target: 278.,Scheduled Replenishment
+444,20260629,10,BEN_DS_10,1,114,PACK_BREA_24,Packaged Foods,20,Low,34.7,1.93,55,55,73,216,168,12,0.0,Projected inventory (55) breached ROP (73). Target: 216.,Scheduled Replenishment
+445,20260629,23,MUM_DS_03,3,59,BEVE_ENER_29,Beverages,20,Low,34.7,1.93,92,92,176,366,288,24,0.0,Projected inventory (92) breached ROP (176). Target: 366.,Scheduled Replenishment
+446,20260629,34,HYD_DS_04,4,97,PACK_PAST_07,Packaged Foods,20,Low,34.7,1.93,39,39,51,152,120,24,0.0,Projected inventory (39) breached ROP (51). Target: 152.,Scheduled Replenishment
+447,20260629,10,BEN_DS_10,1,30,DAIR_PANE_30,Dairy,20,Low,34.9,1.94,159,159,227,637,480,24,0.0,Projected inventory (159) breached ROP (227). Target: 637.,Scheduled Replenishment
+448,20260629,35,HYD_DS_05,4,19,DAIR_CHEE_19,Dairy,20,Low,34.9,1.94,149,149,281,588,456,24,0.0,Projected inventory (149) breached ROP (281). Target: 588.,Scheduled Replenishment
+449,20260629,2,BEN_DS_02,1,143,FRUI_DAIL_23,Fruits & Vegetables,20,Low,35.1,1.95,176,176,333,695,528,24,0.0,Projected inventory (176) breached ROP (333). Target: 695.,Scheduled Replenishment
+450,20260629,26,MUM_DS_06,3,107,PACK_PAST_17,Packaged Foods,20,Low,35.1,1.95,54,54,105,215,168,12,0.0,Projected inventory (54) breached ROP (105). Target: 215.,Scheduled Replenishment
+451,20260629,32,HYD_DS_02,4,22,DAIR_CURD_22,Dairy,20,Low,35.1,1.95,88,88,88,336,12,12,0.0,Projected inventory (88) breached ROP (88). Target: 336. Scaled down to respect dark store physical capacity buffer.,Scheduled Replenishment
+452,20260629,9,BEN_DS_09,1,153,STAP_DALS_03,Staples,20,Low,35.3,1.96,34,34,84,136,120,24,0.0,Projected inventory (34) breached ROP (84). Target: 136.,Scheduled Replenishment
+453,20260629,16,DEL_DS_06,2,75,SNAC_NUTS_15,Snacks,20,Low,35.3,1.96,85,85,158,331,264,24,0.0,Projected inventory (85) breached ROP (158). Target: 331.,Scheduled Replenishment
+454,20260629,17,DEL_DS_07,2,176,STAP_ATTA_26,Staples,20,Low,35.3,1.96,30,30,40,117,90,6,0.0,Projected inventory (30) breached ROP (40). Target: 117.,Scheduled Replenishment
+455,20260629,23,MUM_DS_03,3,11,DAIR_MILK_11,Dairy,20,Low,35.3,1.96,121,121,227,473,352,8,0.0,Projected inventory (121) breached ROP (227). Target: 473.,Scheduled Replenishment
+456,20260629,4,BEN_DS_04,1,74,SNAC_CHOC_14,Snacks,20,Low,35.6,1.98,90,90,116,344,256,8,0.0,Projected inventory (90) breached ROP (116). Target: 344.,Scheduled Replenishment
+457,20260629,4,BEN_DS_04,1,266,BABY_BABY_26,Baby Care,20,Low,35.6,1.98,35,35,46,134,120,24,0.0,Projected inventory (35) breached ROP (46). Target: 134.,Scheduled Replenishment
+458,20260629,18,DEL_DS_08,2,156,STAP_ATTA_06,Staples,20,Low,35.6,1.98,55,55,134,217,168,12,0.0,Projected inventory (55) breached ROP (134). Target: 217.,Scheduled Replenishment
+459,20260629,29,MUM_DS_09,3,142,FRUI_EXOT_22,Fruits & Vegetables,20,Low,35.6,1.98,146,146,146,553,408,8,0.0,Projected inventory (146) breached ROP (146). Target: 553.,Scheduled Replenishment
+460,20260629,34,HYD_DS_04,4,241,BABY_DIAP_01,Baby Care,20,Low,35.8,1.99,60,60,79,230,174,6,0.0,Projected inventory (60) breached ROP (79). Target: 230.,Scheduled Replenishment
+461,20260629,35,HYD_DS_05,4,252,BABY_BABY_12,Baby Care,20,Low,35.8,1.99,66,66,163,262,196,4,0.0,Projected inventory (66) breached ROP (163). Target: 262.,Scheduled Replenishment
+462,20260629,26,MUM_DS_06,3,40,BEVE_WATE_10,Beverages,20,Low,48.6,2.7,215,215,290,608,396,4,0.0,Projected inventory (215) breached ROP (290). Target: 608.,Scheduled Replenishment
+463,20260629,39,HYD_DS_09,4,4,DAIR_CHEE_04,Dairy,20,Low,48.6,2.7,221,221,255,665,444,4,0.0,Projected inventory (221) breached ROP (255). Target: 665.,Scheduled Replenishment
+464,20260629,24,MUM_DS_04,3,40,BEVE_WATE_10,Beverages,20,Low,49.9,2.77,162,162,215,449,288,4,0.0,Projected inventory (162) breached ROP (215). Target: 449.,Scheduled Replenishment
+465,20260629,38,HYD_DS_08,4,63,SNAC_NAMK_03,Snacks,20,Low,50.4,2.8,136,136,181,376,240,8,0.0,Projected inventory (136) breached ROP (181). Target: 376.,Scheduled Replenishment
+466,20260629,33,HYD_DS_03,4,45,BEVE_WATE_15,Beverages,20,Low,50.6,2.81,170,170,284,526,360,12,0.0,Projected inventory (170) breached ROP (284). Target: 526.,Scheduled Replenishment
+467,20260629,17,DEL_DS_07,2,31,BEVE_JUIC_01,Beverages,20,Low,51.5,2.86,228,228,293,612,384,12,0.0,Projected inventory (228) breached ROP (293). Target: 612.,Scheduled Replenishment
+468,20260629,2,BEN_DS_02,1,126,FRUI_FRES_06,Fruits & Vegetables,20,Low,51.8,2.88,179,179,230,478,304,8,0.0,Projected inventory (179) breached ROP (230). Target: 478.,Scheduled Replenishment
+469,20260629,18,DEL_DS_08,2,31,BEVE_JUIC_01,Beverages,20,Low,51.8,2.88,195,195,248,519,324,12,0.0,Projected inventory (195) breached ROP (248). Target: 519.,Scheduled Replenishment
+470,20260629,39,HYD_DS_09,4,40,BEVE_WATE_10,Beverages,20,Low,52.0,2.89,213,213,274,568,356,4,0.0,Projected inventory (213) breached ROP (274). Target: 568.,Scheduled Replenishment
+471,20260629,21,MUM_DS_01,3,8,DAIR_BUTT_08,Dairy,20,Low,52.6,2.92,240,240,301,629,392,4,0.0,Projected inventory (240) breached ROP (301). Target: 629.,Scheduled Replenishment
+472,20260629,5,BEN_DS_05,1,8,DAIR_BUTT_08,Dairy,20,Low,54.4,3.02,200,200,247,512,312,4,0.0,Projected inventory (200) breached ROP (247). Target: 512.,Scheduled Replenishment
+473,20260629,35,HYD_DS_05,4,126,FRUI_FRES_06,Fruits & Vegetables,20,Low,55.3,3.07,200,200,268,528,328,8,0.0,Projected inventory (200) breached ROP (268). Target: 528.,Scheduled Replenishment
+474,20260629,5,BEN_DS_05,1,39,BEVE_ENER_09,Beverages,20,Low,56.3,3.13,152,152,171,414,264,8,0.0,Projected inventory (152) breached ROP (171). Target: 414.,Scheduled Replenishment
+475,20260629,2,BEN_DS_02,1,8,DAIR_BUTT_08,Dairy,20,Low,56.7,3.15,259,259,299,628,372,4,0.0,Projected inventory (259) breached ROP (299). Target: 628.,Scheduled Replenishment
+476,20260629,17,DEL_DS_07,2,123,FRUI_DAIL_03,Fruits & Vegetables,20,Low,58.0,3.22,131,131,148,311,180,12,0.0,Projected inventory (131) breached ROP (148). Target: 311.,Scheduled Replenishment
+477,20260629,1,BEN_DS_01,1,31,BEVE_JUIC_01,Beverages,20,Low,61.0,3.39,263,263,284,594,336,12,0.0,Projected inventory (263) breached ROP (284). Target: 594.,Scheduled Replenishment
+478,20260629,34,HYD_DS_04,4,40,BEVE_WATE_10,Beverages,20,Low,61.0,3.39,210,210,229,477,268,4,0.0,Projected inventory (210) breached ROP (229). Target: 477.,Scheduled Replenishment
+479,20260629,16,DEL_DS_06,2,63,SNAC_NAMK_03,Snacks,20,Low,62.8,3.49,258,258,272,568,312,8,0.0,Projected inventory (258) breached ROP (272). Target: 568.,Scheduled Replenishment
+480,20260629,10,BEN_DS_10,1,31,BEVE_JUIC_01,Beverages,20,Low,64.4,3.58,279,279,286,598,324,12,0.0,Projected inventory (279) breached ROP (286). Target: 598.,Scheduled Replenishment
+481,20260629,4,BEN_DS_04,1,40,BEVE_WATE_10,Beverages,20,Low,65.0,3.61,245,245,249,521,276,4,0.0,Projected inventory (245) breached ROP (249). Target: 521.,Scheduled Replenishment
+482,20260629,2,BEN_DS_02,1,211,HOUS_DETE_01,Household,19,Low,26.8,1.49,15,15,16,76,66,6,0.0,Projected inventory (15) breached ROP (16). Target: 76.,Scheduled Replenishment
+483,20260629,17,DEL_DS_07,2,191,PERS_SOAP_11,Personal Care,19,Low,27.0,1.5,20,20,24,104,96,24,0.0,Projected inventory (20) breached ROP (24). Target: 104.,Scheduled Replenishment
+484,20260629,22,MUM_DS_02,3,211,HOUS_DETE_01,Household,19,Low,27.0,1.5,18,18,18,90,72,6,0.0,Projected inventory (18) breached ROP (18). Target: 90.,Scheduled Replenishment
+485,20260629,21,MUM_DS_01,3,188,PERS_ORAL_08,Personal Care,19,Low,27.5,1.53,7,7,8,35,28,4,0.0,Projected inventory (7) breached ROP (8). Target: 35.,Scheduled Replenishment
+486,20260629,25,MUM_DS_05,3,237,HOUS_DISH_27,Household,19,Low,27.5,1.53,12,12,12,60,48,4,0.0,Projected inventory (12) breached ROP (12). Target: 60.,Scheduled Replenishment
+487,20260629,29,MUM_DS_09,3,230,HOUS_REPE_20,Household,19,Low,27.7,1.54,8,8,9,40,32,8,0.0,Projected inventory (8) breached ROP (9). Target: 40.,Scheduled Replenishment
+488,20260629,16,DEL_DS_06,2,19,DAIR_CHEE_19,Dairy,19,Low,36.2,2.01,181,181,333,693,528,24,0.0,Projected inventory (181) breached ROP (333). Target: 693.,Scheduled Replenishment
+489,20260629,21,MUM_DS_01,3,174,STAP_EDIB_24,Staples,19,Low,36.5,2.03,83,83,151,315,234,6,0.0,Projected inventory (83) breached ROP (151). Target: 315.,Scheduled Replenishment
+490,20260629,22,MUM_DS_02,3,132,FRUI_EXOT_12,Fruits & Vegetables,19,Low,36.5,2.03,216,216,387,812,600,24,0.0,Projected inventory (216) breached ROP (387). Target: 812.,Scheduled Replenishment
+491,20260629,4,BEN_DS_04,1,162,STAP_RICE_12,Staples,19,Low,36.9,2.05,73,73,172,279,216,12,0.0,Projected inventory (73) breached ROP (172). Target: 279.,Scheduled Replenishment
+492,20260629,5,BEN_DS_05,1,16,DAIR_MILK_16,Dairy,19,Low,36.9,2.05,84,84,150,314,108,12,0.0,Projected inventory (84) breached ROP (150). Target: 314. Scaled down to respect dark store physical capacity buffer.,Scheduled Replenishment
+493,20260629,1,BEN_DS_01,1,147,FRUI_EXOT_27,Fruits & Vegetables,19,Low,37.1,2.06,109,109,137,402,296,8,0.0,Projected inventory (109) breached ROP (137). Target: 402.,Scheduled Replenishment
+494,20260629,7,BEN_DS_07,1,252,BABY_BABY_12,Baby Care,19,Low,37.1,2.06,73,73,172,279,208,4,0.0,Projected inventory (73) breached ROP (172). Target: 279.,Scheduled Replenishment
+495,20260629,23,MUM_DS_03,3,75,SNAC_NUTS_15,Snacks,19,Low,37.1,2.06,90,90,163,338,264,24,0.0,Projected inventory (90) breached ROP (163). Target: 338.,Scheduled Replenishment
+496,20260629,8,BEN_DS_08,1,248,BABY_BABY_08,Baby Care,19,Low,37.3,2.07,46,46,59,170,126,6,0.0,Projected inventory (46) breached ROP (59). Target: 170.,Scheduled Replenishment
+497,20260629,22,MUM_DS_02,3,14,DAIR_CHEE_14,Dairy,19,Low,37.3,2.07,205,205,257,753,552,24,0.0,Projected inventory (205) breached ROP (257). Target: 753.,Scheduled Replenishment
+498,20260629,25,MUM_DS_05,3,73,SNAC_NAMK_13,Snacks,19,Low,37.3,2.07,174,174,310,646,480,24,0.0,Projected inventory (174) breached ROP (310). Target: 646.,Scheduled Replenishment
+499,20260629,6,BEN_DS_06,1,119,PACK_BREA_29,Packaged Foods,19,Low,42.7,2.37,50,50,91,175,132,12,0.0,Projected inventory (50) breached ROP (91). Target: 175.,Scheduled Replenishment
+500,20260629,16,DEL_DS_06,2,55,BEVE_WATE_25,Beverages,19,Low,43.0,2.39,231,231,269,800,576,12,0.0,Projected inventory (231) breached ROP (269). Target: 800.,Scheduled Replenishment
+501,20260629,2,BEN_DS_02,1,252,BABY_BABY_12,Baby Care,19,Low,72.4,4.02,176,176,279,410,236,4,0.0,Projected inventory (176) breached ROP (279). Target: 410.,Scheduled Replenishment
+502,20260629,8,BEN_DS_08,1,273,PET _PET _03,Pet Care,19,Low,72.5,4.03,19,19,32,46,32,8,0.0,Projected inventory (19) breached ROP (32). Target: 46.,Scheduled Replenishment
+503,20260629,1,BEN_DS_01,1,197,PERS_HAIR_17,Personal Care,18,Low,28.4,1.58,15,15,45,74,60,4,0.0,Projected inventory (15) breached ROP (45). Target: 74.,Scheduled Replenishment
+504,20260629,5,BEN_DS_05,1,187,PERS_HAIR_07,Personal Care,18,Low,28.6,1.59,10,10,24,50,12,12,0.0,Projected inventory (10) breached ROP (24). Target: 50. Scaled down to respect dark store physical capacity buffer.,Scheduled Replenishment
+505,20260629,21,MUM_DS_01,3,184,PERS_SKIN_04,Personal Care,18,Low,28.8,1.6,12,12,20,58,48,24,0.0,Projected inventory (12) breached ROP (20). Target: 58.,Scheduled Replenishment
+506,20260629,29,MUM_DS_09,3,215,HOUS_REPE_05,Household,18,Low,28.8,1.6,20,20,32,95,76,4,0.0,Projected inventory (20) breached ROP (32). Target: 95.,Scheduled Replenishment
+507,20260629,10,BEN_DS_10,1,181,PERS_SOAP_01,Personal Care,18,Low,29.0,1.61,20,20,20,95,84,12,0.0,Projected inventory (20) breached ROP (20). Target: 95.,Scheduled Replenishment
+508,20260629,7,BEN_DS_07,1,196,PERS_SOAP_16,Personal Care,18,Low,29.2,1.62,9,9,9,42,96,24,0.0,Projected inventory (9) breached ROP (9). Target: 42.,Scheduled Replenishment
+509,20260629,10,BEN_DS_10,1,297,PET _PET _27,Pet Care,18,Low,29.2,1.62,21,21,33,98,80,4,0.0,Projected inventory (21) breached ROP (33). Target: 98.,Scheduled Replenishment
+510,20260629,22,MUM_DS_02,3,188,PERS_ORAL_08,Personal Care,18,Low,29.2,1.62,8,8,8,38,32,4,0.0,Projected inventory (8) breached ROP (8). Target: 38.,Scheduled Replenishment
+511,20260629,40,HYD_DS_10,4,194,PERS_SKIN_14,Personal Care,18,Low,29.3,1.63,19,19,32,90,72,6,0.0,Projected inventory (19) breached ROP (32). Target: 90.,Scheduled Replenishment
+512,20260629,1,BEN_DS_01,1,58,BEVE_TEA _28,Beverages,18,Low,37.6,2.09,140,140,172,507,384,24,0.0,Projected inventory (140) breached ROP (172). Target: 507.,Scheduled Replenishment
+513,20260629,4,BEN_DS_04,1,176,STAP_ATTA_26,Staples,18,Low,37.8,2.1,30,30,40,112,84,6,0.0,Projected inventory (30) breached ROP (40). Target: 112.,Scheduled Replenishment
+514,20260629,29,MUM_DS_09,3,261,BABY_DIAP_21,Baby Care,18,Low,37.8,2.1,45,45,103,168,124,4,0.0,Projected inventory (45) breached ROP (103). Target: 168.,Scheduled Replenishment
+515,20260629,28,MUM_DS_08,3,160,STAP_SPIC_10,Staples,18,Low,38.0,2.11,63,63,78,228,168,4,0.0,Projected inventory (63) breached ROP (78). Target: 228.,Scheduled Replenishment
+516,20260629,7,BEN_DS_07,1,164,STAP_EDIB_14,Staples,18,Low,38.2,2.12,33,33,57,119,88,4,0.0,Projected inventory (33) breached ROP (57). Target: 119.,Scheduled Replenishment
+517,20260629,9,BEN_DS_09,1,97,PACK_PAST_07,Packaged Foods,18,Low,38.3,2.13,48,48,59,171,144,24,0.0,Projected inventory (48) breached ROP (59). Target: 171.,Scheduled Replenishment
+518,20260629,11,DEL_DS_01,2,259,BABY_BABY_19,Baby Care,18,Low,38.3,2.13,26,26,31,92,72,12,0.0,Projected inventory (26) breached ROP (31). Target: 92.,Scheduled Replenishment
+519,20260629,23,MUM_DS_03,3,249,BABY_DIAP_09,Baby Care,18,Low,38.3,2.13,57,57,71,205,152,8,0.0,Projected inventory (57) breached ROP (71). Target: 205.,Scheduled Replenishment
+520,20260629,22,MUM_DS_02,3,243,BABY_BABY_03,Baby Care,18,Low,38.5,2.14,51,51,61,181,132,6,0.0,Projected inventory (51) breached ROP (61). Target: 181.,Scheduled Replenishment
+521,20260629,23,MUM_DS_03,3,170,STAP_SPIC_20,Staples,18,Low,38.5,2.14,90,90,156,324,240,8,0.0,Projected inventory (90) breached ROP (156). Target: 324.,Scheduled Replenishment
+522,20260629,16,DEL_DS_06,2,90,SNAC_NUTS_30,Snacks,18,Low,39.1,2.17,155,155,264,550,396,6,0.0,Projected inventory (155) breached ROP (264). Target: 550.,Scheduled Replenishment
+523,20260629,21,MUM_DS_01,3,243,BABY_BABY_03,Baby Care,18,Low,39.2,2.18,48,48,57,167,120,6,0.0,Projected inventory (48) breached ROP (57). Target: 167.,Scheduled Replenishment
+524,20260629,29,MUM_DS_09,3,213,HOUS_CLEA_03,Household,17,Low,29.9,1.66,11,11,25,52,42,6,0.0,Projected inventory (11) breached ROP (25). Target: 52.,Scheduled Replenishment
+525,20260629,11,DEL_DS_01,2,189,PERS_SKIN_09,Personal Care,17,Low,30.1,1.67,14,14,23,65,54,6,0.0,Projected inventory (14) breached ROP (23). Target: 65.,Scheduled Replenishment
+526,20260629,35,HYD_DS_05,4,188,PERS_ORAL_08,Personal Care,17,Low,30.2,1.68,6,6,7,28,24,4,0.0,Projected inventory (6) breached ROP (7). Target: 28.,Scheduled Replenishment
+527,20260629,10,BEN_DS_10,1,229,HOUS_DISP_19,Household,17,Low,30.4,1.69,17,17,39,79,66,6,0.0,Projected inventory (17) breached ROP (39). Target: 79.,Scheduled Replenishment
+528,20260629,2,BEN_DS_02,1,205,PERS_SANI_25,Personal Care,17,Low,30.8,1.71,6,6,10,28,24,12,0.0,Projected inventory (6) breached ROP (10). Target: 28.,Scheduled Replenishment
+529,20260629,29,MUM_DS_09,3,217,HOUS_DISH_07,Household,17,Low,30.8,1.71,10,10,29,47,72,24,0.0,Projected inventory (10) breached ROP (29). Target: 47.,Scheduled Replenishment
+530,20260629,40,HYD_DS_10,4,221,HOUS_DETE_11,Household,17,Low,30.8,1.71,10,10,23,47,40,8,0.0,Projected inventory (10) breached ROP (23). Target: 47.,Scheduled Replenishment
+531,20260629,4,BEN_DS_04,1,297,PET _PET _27,Pet Care,17,Low,31.1,1.73,19,19,30,85,68,4,0.0,Projected inventory (19) breached ROP (30). Target: 85.,Scheduled Replenishment
+532,20260629,7,BEN_DS_07,1,97,PACK_PAST_07,Packaged Foods,17,Low,39.4,2.19,50,50,59,174,144,24,0.0,Projected inventory (50) breached ROP (59). Target: 174.,Scheduled Replenishment
+533,20260629,9,BEN_DS_09,1,180,STAP_SPIC_30,Staples,17,Low,39.6,2.2,70,70,79,239,172,4,0.0,Projected inventory (70) breached ROP (79). Target: 239.,Scheduled Replenishment
+534,20260629,13,DEL_DS_03,2,166,STAP_ATTA_16,Staples,17,Low,39.6,2.2,39,39,85,138,96,12,0.0,Projected inventory (39) breached ROP (85). Target: 138. Scaled down to respect dark store physical capacity buffer.,Scheduled Replenishment
+535,20260629,18,DEL_DS_08,2,90,SNAC_NUTS_30,Snacks,17,Low,39.8,2.21,128,128,213,445,318,6,0.0,Projected inventory (128) breached ROP (213). Target: 445.,Scheduled Replenishment
+536,20260629,11,DEL_DS_01,2,14,DAIR_CHEE_14,Dairy,17,Low,40.0,2.22,151,151,172,512,384,24,0.0,Projected inventory (151) breached ROP (172). Target: 512.,Scheduled Replenishment
+537,20260629,23,MUM_DS_03,3,241,BABY_DIAP_01,Baby Care,17,Low,40.1,2.23,88,88,102,300,216,6,0.0,Projected inventory (88) breached ROP (102). Target: 300.,Scheduled Replenishment
+538,20260629,24,MUM_DS_04,3,133,FRUI_DAIL_13,Fruits & Vegetables,17,Low,40.1,2.23,121,121,142,414,294,6,0.0,Projected inventory (121) breached ROP (142). Target: 414.,Scheduled Replenishment
+539,20260629,26,MUM_DS_06,3,27,DAIR_CURD_27,Dairy,17,Low,40.1,2.23,152,152,253,525,376,4,0.0,Projected inventory (152) breached ROP (253). Target: 525.,Scheduled Replenishment
+540,20260629,22,MUM_DS_02,3,75,SNAC_NUTS_15,Snacks,17,Low,40.3,2.24,100,100,167,345,264,24,0.0,Projected inventory (100) breached ROP (167). Target: 345.,Scheduled Replenishment
+541,20260629,7,BEN_DS_07,1,101,PACK_NOOD_11,Packaged Foods,17,Low,40.5,2.25,103,103,144,374,276,6,0.0,Projected inventory (103) breached ROP (144). Target: 374.,Scheduled Replenishment
+542,20260629,40,HYD_DS_10,4,59,BEVE_ENER_29,Beverages,17,Low,40.5,2.25,97,97,157,329,240,24,0.0,Projected inventory (97) breached ROP (157). Target: 329.,Scheduled Replenishment
+543,20260629,26,MUM_DS_06,3,194,PERS_SKIN_14,Personal Care,16,Low,31.3,1.74,21,21,33,93,72,6,0.0,Projected inventory (21) breached ROP (33). Target: 93.,Scheduled Replenishment
+544,20260629,10,BEN_DS_10,1,196,PERS_SOAP_16,Personal Care,16,Low,31.5,1.75,9,9,9,39,96,24,0.0,Projected inventory (9) breached ROP (9). Target: 39.,Scheduled Replenishment
+545,20260629,22,MUM_DS_02,3,193,PERS_ORAL_13,Personal Care,16,Low,31.5,1.75,10,10,16,44,36,4,0.0,Projected inventory (10) breached ROP (16). Target: 44.,Scheduled Replenishment
+546,20260629,39,HYD_DS_09,4,279,PET _DOG _09,Pet Care,16,Low,31.5,1.75,21,21,32,92,72,8,0.0,Projected inventory (21) breached ROP (32). Target: 92.,Scheduled Replenishment
+547,20260629,23,MUM_DS_03,3,192,PERS_HAIR_12,Personal Care,16,Low,31.9,1.77,12,12,27,54,48,8,0.0,Projected inventory (12) breached ROP (27). Target: 54.,Scheduled Replenishment
+548,20260629,10,BEN_DS_10,1,279,PET _DOG _09,Pet Care,16,Low,32.0,1.78,21,21,31,90,72,8,0.0,Projected inventory (21) breached ROP (31). Target: 90.,Scheduled Replenishment
+549,20260629,29,MUM_DS_09,3,224,HOUS_DISP_14,Household,16,Low,32.2,1.79,25,25,49,105,80,8,0.0,Projected inventory (25) breached ROP (49). Target: 105.,Scheduled Replenishment
+550,20260629,10,BEN_DS_10,1,236,HOUS_DETE_26,Household,16,Low,32.6,1.81,20,20,41,85,66,6,0.0,Projected inventory (20) breached ROP (41). Target: 85.,Scheduled Replenishment
+551,20260629,25,MUM_DS_05,3,230,HOUS_REPE_20,Household,16,Low,32.6,1.81,8,8,8,35,32,8,0.0,Projected inventory (8) breached ROP (8). Target: 35.,Scheduled Replenishment
+552,20260629,34,HYD_DS_04,4,196,PERS_SOAP_16,Personal Care,16,Low,32.6,1.81,8,8,8,35,96,24,0.0,Projected inventory (8) breached ROP (8). Target: 35.,Scheduled Replenishment
+553,20260629,6,BEN_DS_06,1,204,PERS_SKIN_24,Personal Care,16,Low,40.5,2.25,9,9,21,33,32,8,0.0,Projected inventory (9) breached ROP (21). Target: 33.,Scheduled Replenishment
+554,20260629,11,DEL_DS_01,2,73,SNAC_NAMK_13,Snacks,16,Low,40.9,2.27,154,154,250,520,384,24,0.0,Projected inventory (154) breached ROP (250). Target: 520.,Scheduled Replenishment
+555,20260629,26,MUM_DS_06,3,268,BABY_BABY_28,Baby Care,16,Low,40.9,2.27,44,44,52,149,112,8,0.0,Projected inventory (44) breached ROP (52). Target: 149.,Scheduled Replenishment
+556,20260629,34,HYD_DS_04,4,107,PACK_PAST_17,Packaged Foods,16,Low,40.9,2.27,49,49,79,165,120,12,0.0,Projected inventory (49) breached ROP (79). Target: 165.,Scheduled Replenishment
+557,20260629,39,HYD_DS_09,4,154,STAP_EDIB_04,Staples,16,Low,41.0,2.28,62,62,100,208,156,12,0.0,Projected inventory (62) breached ROP (100). Target: 208.,Scheduled Replenishment
+558,20260629,22,MUM_DS_02,3,245,BABY_DIAP_05,Baby Care,16,Low,41.2,2.29,79,79,89,261,192,12,0.0,Projected inventory (79) breached ROP (89). Target: 261.,Scheduled Replenishment
+559,20260629,28,MUM_DS_08,3,109,PACK_BREA_19,Packaged Foods,16,Low,41.2,2.29,34,34,39,114,80,4,0.0,Projected inventory (34) breached ROP (39). Target: 114.,Scheduled Replenishment
+560,20260629,37,HYD_DS_07,4,11,DAIR_MILK_11,Dairy,16,Low,41.2,2.29,96,96,153,321,232,8,0.0,Projected inventory (96) breached ROP (153). Target: 321.,Scheduled Replenishment
+561,20260629,28,MUM_DS_08,3,250,BABY_BABY_10,Baby Care,16,Low,41.4,2.3,52,52,105,173,132,12,0.0,Projected inventory (52) breached ROP (105). Target: 173.,Scheduled Replenishment
+562,20260629,29,MUM_DS_09,3,14,DAIR_CHEE_14,Dairy,16,Low,41.4,2.3,222,222,245,727,528,24,0.0,Projected inventory (222) breached ROP (245). Target: 727.,Scheduled Replenishment
+563,20260629,29,MUM_DS_09,3,170,STAP_SPIC_20,Staples,16,Low,41.4,2.3,100,100,156,330,232,8,0.0,Projected inventory (100) breached ROP (156). Target: 330.,Scheduled Replenishment
+564,20260629,22,MUM_DS_02,3,78,SNAC_NAMK_18,Snacks,16,Low,41.6,2.31,203,203,228,668,318,6,0.0,Projected inventory (203) breached ROP (228). Target: 668. Scaled down to respect dark store physical capacity buffer.,Scheduled Replenishment
+565,20260629,24,MUM_DS_04,3,167,STAP_RICE_17,Staples,16,Low,41.8,2.32,64,64,71,209,150,6,0.0,Projected inventory (64) breached ROP (71). Target: 209.,Scheduled Replenishment
+566,20260629,2,BEN_DS_02,1,248,BABY_BABY_08,Baby Care,16,Low,41.9,2.33,60,60,69,198,138,6,0.0,Projected inventory (60) breached ROP (69). Target: 198.,Scheduled Replenishment
+567,20260629,13,DEL_DS_03,2,57,BEVE_COLD_27,Beverages,16,Low,41.9,2.33,110,110,122,359,8,4,0.0,Projected inventory (110) breached ROP (122). Target: 359. Scaled down to respect dark store physical capacity buffer.,Scheduled Replenishment
+568,20260629,16,DEL_DS_06,2,78,SNAC_NAMK_18,Snacks,16,Low,42.1,2.34,188,188,207,610,426,6,0.0,Projected inventory (188) breached ROP (207). Target: 610.,Scheduled Replenishment
+569,20260629,22,MUM_DS_02,3,106,PACK_NOOD_16,Packaged Foods,16,Low,42.1,2.34,90,90,100,293,8,8,0.0,Projected inventory (90) breached ROP (100). Target: 293. Scaled down to respect dark store physical capacity buffer.,Scheduled Replenishment
+570,20260629,16,DEL_DS_06,2,58,BEVE_TEA _28,Beverages,16,Low,42.3,2.35,173,173,187,555,384,24,0.0,Projected inventory (173) breached ROP (187). Target: 555.,Scheduled Replenishment
+571,20260629,16,DEL_DS_06,2,154,STAP_EDIB_04,Staples,16,Low,42.3,2.35,73,73,116,240,168,12,0.0,Projected inventory (73) breached ROP (116). Target: 240.,Scheduled Replenishment
+572,20260629,39,HYD_DS_09,4,257,BABY_DIAP_17,Baby Care,16,Low,44.6,2.48,100,100,133,335,240,6,0.0,Projected inventory (100) breached ROP (133). Target: 335.,Scheduled Replenishment
+573,20260629,1,BEN_DS_01,1,188,PERS_ORAL_08,Personal Care,15,Low,32.9,1.83,8,8,8,34,28,4,0.0,Projected inventory (8) breached ROP (8). Target: 34.,Scheduled Replenishment
+574,20260629,25,MUM_DS_05,3,300,PET _CAT _30,Pet Care,15,Low,32.9,1.83,17,17,24,71,54,6,0.0,Projected inventory (17) breached ROP (24). Target: 71.,Scheduled Replenishment
+575,20260629,7,BEN_DS_07,1,232,HOUS_DISH_22,Household,15,Low,33.7,1.87,14,14,20,58,48,24,0.0,Projected inventory (14) breached ROP (20). Target: 58.,Scheduled Replenishment
+576,20260629,4,BEN_DS_04,1,215,HOUS_REPE_05,Household,15,Low,34.0,1.89,20,20,29,81,64,4,0.0,Projected inventory (20) breached ROP (29). Target: 81.,Scheduled Replenishment
+577,20260629,16,DEL_DS_06,2,238,HOUS_CLEA_28,Household,15,Low,34.0,1.89,21,21,44,88,68,4,0.0,Projected inventory (21) breached ROP (44). Target: 88.,Scheduled Replenishment
+578,20260629,6,BEN_DS_06,1,167,STAP_RICE_17,Staples,15,Low,42.5,2.36,63,63,71,204,144,6,0.0,Projected inventory (63) breached ROP (71). Target: 204.,Scheduled Replenishment
+579,20260629,6,BEN_DS_06,1,263,BABY_BABY_23,Baby Care,15,Low,42.5,2.36,45,45,59,154,112,4,0.0,Projected inventory (45) breached ROP (59). Target: 154.,Scheduled Replenishment
+580,20260629,35,HYD_DS_05,4,12,DAIR_CURD_12,Dairy,15,Low,42.5,2.36,191,191,301,625,444,12,0.0,Projected inventory (191) breached ROP (301). Target: 625.,Scheduled Replenishment
+581,20260629,35,HYD_DS_05,4,30,DAIR_PANE_30,Dairy,15,Low,42.5,2.36,165,165,181,531,384,24,0.0,Projected inventory (165) breached ROP (181). Target: 531.,Scheduled Replenishment
+582,20260629,23,MUM_DS_03,3,179,STAP_EDIB_29,Staples,15,Low,42.7,2.37,97,97,106,311,216,24,0.0,Projected inventory (97) breached ROP (106). Target: 311.,Scheduled Replenishment
+583,20260629,29,MUM_DS_09,3,139,FRUI_SEAS_19,Fruits & Vegetables,15,Low,42.8,2.38,223,223,343,717,496,8,0.0,Projected inventory (223) breached ROP (343). Target: 717.,Scheduled Replenishment
+584,20260629,11,DEL_DS_01,2,177,STAP_RICE_27,Staples,15,Low,43.0,2.39,48,48,53,153,108,4,0.0,Projected inventory (48) breached ROP (53). Target: 153.,Scheduled Replenishment
+585,20260629,4,BEN_DS_04,1,50,BEVE_WATE_20,Beverages,15,Low,43.2,2.4,96,96,151,311,216,6,0.0,Projected inventory (96) breached ROP (151). Target: 311.,Scheduled Replenishment
+586,20260629,26,MUM_DS_06,3,250,BABY_BABY_10,Baby Care,15,Low,43.2,2.4,69,69,137,223,156,12,0.0,Projected inventory (69) breached ROP (137). Target: 223.,Scheduled Replenishment
+587,20260629,37,HYD_DS_07,4,164,STAP_EDIB_14,Staples,15,Low,43.4,2.41,27,27,44,89,64,4,0.0,Projected inventory (27) breached ROP (44). Target: 89.,Scheduled Replenishment
+588,20260629,6,BEN_DS_06,1,90,SNAC_NUTS_30,Snacks,15,Low,43.6,2.42,132,132,231,450,318,6,0.0,Projected inventory (132) breached ROP (231). Target: 450.,Scheduled Replenishment
+589,20260629,26,MUM_DS_06,3,109,PACK_BREA_19,Packaged Foods,15,Low,43.7,2.43,44,44,49,139,96,4,0.0,Projected inventory (44) breached ROP (49). Target: 139.,Scheduled Replenishment
+590,20260629,2,BEN_DS_02,1,16,DAIR_MILK_16,Dairy,15,Low,43.9,2.44,123,123,185,386,264,12,0.0,Projected inventory (123) breached ROP (185). Target: 386.,Scheduled Replenishment
+591,20260629,25,MUM_DS_05,3,177,STAP_RICE_27,Staples,15,Low,43.9,2.44,63,63,67,197,136,4,0.0,Projected inventory (63) breached ROP (67). Target: 197.,Scheduled Replenishment
+592,20260629,4,BEN_DS_04,1,272,PET _CAT _02,Pet Care,15,Low,58.9,3.27,18,18,28,50,36,6,0.0,Projected inventory (18) breached ROP (28). Target: 50.,Scheduled Replenishment
+593,20260629,8,BEN_DS_08,1,274,PET _PET _04,Pet Care,14,Low,35.1,1.95,16,16,39,64,48,12,0.0,Projected inventory (16) breached ROP (39). Target: 64.,Scheduled Replenishment
+594,20260629,16,DEL_DS_06,2,240,HOUS_REPE_30,Household,14,Low,35.1,1.95,10,10,15,40,48,12,0.0,Projected inventory (10) breached ROP (15). Target: 40.,Scheduled Replenishment
+595,20260629,4,BEN_DS_04,1,228,HOUS_CLEA_18,Household,14,Low,35.6,1.98,16,16,23,63,48,8,0.0,Projected inventory (16) breached ROP (23). Target: 63.,Scheduled Replenishment
+596,20260629,25,MUM_DS_05,3,290,PET _PET _20,Pet Care,14,Low,36.0,2.0,10,10,14,39,32,8,0.0,Projected inventory (10) breached ROP (14). Target: 39.,Scheduled Replenishment
+597,20260629,37,HYD_DS_07,4,235,HOUS_REPE_25,Household,14,Low,36.0,2.0,18,18,24,69,60,12,0.0,Projected inventory (18) breached ROP (24). Target: 69.,Scheduled Replenishment
+598,20260629,2,BEN_DS_02,1,217,HOUS_DISH_07,Household,14,Low,41.4,2.3,11,11,26,40,72,24,0.0,Projected inventory (11) breached ROP (26). Target: 40.,Scheduled Replenishment
+599,20260629,40,HYD_DS_10,4,75,SNAC_NUTS_15,Snacks,14,Low,44.1,2.45,91,91,137,285,216,24,0.0,Projected inventory (91) breached ROP (137). Target: 285.,Scheduled Replenishment
+600,20260629,39,HYD_DS_09,4,249,BABY_DIAP_09,Baby Care,14,Low,44.3,2.46,59,59,63,183,128,8,0.0,Projected inventory (59) breached ROP (63). Target: 183.,Scheduled Replenishment
+601,20260629,8,BEN_DS_08,1,262,BABY_BABY_22,Baby Care,14,Low,44.5,2.47,77,77,82,238,162,6,0.0,Projected inventory (77) breached ROP (82). Target: 238.,Scheduled Replenishment
+602,20260629,17,DEL_DS_07,2,26,DAIR_MILK_26,Dairy,14,Low,44.6,2.48,115,115,174,359,246,6,0.0,Projected inventory (115) breached ROP (174). Target: 359.,Scheduled Replenishment
+603,20260629,10,BEN_DS_10,1,143,FRUI_DAIL_23,Fruits & Vegetables,14,Low,45.2,2.51,227,227,332,694,480,24,0.0,Projected inventory (227) breached ROP (332). Target: 694.,Scheduled Replenishment
+604,20260629,21,MUM_DS_01,3,179,STAP_EDIB_29,Staples,14,Low,45.2,2.51,95,95,98,288,216,24,0.0,Projected inventory (95) breached ROP (98). Target: 288.,Scheduled Replenishment
+605,20260629,11,DEL_DS_01,2,88,SNAC_NAMK_28,Snacks,14,Low,45.5,2.53,127,127,185,387,264,6,0.0,Projected inventory (127) breached ROP (185). Target: 387.,Scheduled Replenishment
+606,20260629,16,DEL_DS_06,2,14,DAIR_CHEE_14,Dairy,14,Low,45.5,2.53,229,229,230,683,456,24,0.0,Projected inventory (229) breached ROP (230). Target: 683.,Scheduled Replenishment
+607,20260629,17,DEL_DS_07,2,255,BABY_BABY_15,Baby Care,14,Low,45.5,2.53,51,51,75,155,108,6,0.0,Projected inventory (51) breached ROP (75). Target: 155.,Scheduled Replenishment
+608,20260629,26,MUM_DS_06,3,44,BEVE_ENER_14,Beverages,14,Low,45.5,2.53,146,146,214,445,304,8,0.0,Projected inventory (146) breached ROP (214). Target: 445.,Scheduled Replenishment
+609,20260629,35,HYD_DS_05,4,245,BABY_DIAP_05,Baby Care,14,Low,45.5,2.53,68,68,70,205,144,12,0.0,Projected inventory (68) breached ROP (70). Target: 205.,Scheduled Replenishment
+610,20260629,39,HYD_DS_09,4,180,STAP_SPIC_30,Staples,14,Low,45.5,2.53,85,85,85,252,168,4,0.0,Projected inventory (85) breached ROP (85). Target: 252.,Scheduled Replenishment
+611,20260629,4,BEN_DS_04,1,205,PERS_SANI_25,Personal Care,13,Low,36.7,2.04,7,7,10,28,24,12,0.0,Projected inventory (7) breached ROP (10). Target: 28.,Scheduled Replenishment
+612,20260629,16,DEL_DS_06,2,194,PERS_SKIN_14,Personal Care,13,Low,36.9,2.05,26,26,35,98,72,6,0.0,Projected inventory (26) breached ROP (35). Target: 98.,Scheduled Replenishment
+613,20260629,18,DEL_DS_08,2,214,HOUS_DISP_04,Household,13,Low,37.3,2.07,21,21,38,78,64,8,0.0,Projected inventory (21) breached ROP (38). Target: 78.,Scheduled Replenishment
+614,20260629,29,MUM_DS_09,3,235,HOUS_REPE_25,Household,13,Low,37.3,2.07,32,32,40,118,96,12,0.0,Projected inventory (32) breached ROP (40). Target: 118.,Scheduled Replenishment
+615,20260629,23,MUM_DS_03,3,300,PET _CAT _30,Pet Care,13,Low,37.4,2.08,22,22,29,81,60,6,0.0,Projected inventory (22) breached ROP (29). Target: 81.,Scheduled Replenishment
+616,20260629,40,HYD_DS_10,4,224,HOUS_DISP_14,Household,13,Low,37.4,2.08,26,26,48,98,72,8,0.0,Projected inventory (26) breached ROP (48). Target: 98.,Scheduled Replenishment
+617,20260629,35,HYD_DS_05,4,183,PERS_ORAL_03,Personal Care,13,Low,40.0,2.22,19,19,19,70,60,12,0.0,Projected inventory (19) breached ROP (19). Target: 70.,Scheduled Replenishment
+618,20260629,13,DEL_DS_03,2,16,DAIR_MILK_16,Dairy,13,Low,45.7,2.54,91,91,130,273,12,12,0.0,Projected inventory (91) breached ROP (130). Target: 273. Scaled down to respect dark store physical capacity buffer.,Scheduled Replenishment
+619,20260629,28,MUM_DS_08,3,101,PACK_NOOD_11,Packaged Foods,13,Low,45.9,2.55,85,85,85,252,168,6,0.0,Projected inventory (85) breached ROP (85). Target: 252.,Scheduled Replenishment
+620,20260629,37,HYD_DS_07,4,254,BABY_BABY_14,Baby Care,13,Low,45.9,2.55,39,39,41,118,96,24,0.0,Projected inventory (39) breached ROP (41). Target: 118.,Scheduled Replenishment
+621,20260629,4,BEN_DS_04,1,262,BABY_BABY_22,Baby Care,13,Low,46.1,2.56,80,80,81,237,162,6,0.0,Projected inventory (80) breached ROP (81). Target: 237.,Scheduled Replenishment
+622,20260629,39,HYD_DS_09,4,74,SNAC_CHOC_14,Snacks,13,Low,46.1,2.56,146,146,180,465,320,8,0.0,Projected inventory (146) breached ROP (180). Target: 465.,Scheduled Replenishment
+623,20260629,10,BEN_DS_10,1,259,BABY_BABY_19,Baby Care,13,Low,46.3,2.57,41,41,42,122,84,12,0.0,Projected inventory (41) breached ROP (42). Target: 122.,Scheduled Replenishment
+624,20260629,40,HYD_DS_10,4,158,STAP_DALS_08,Staples,13,Low,46.3,2.57,80,80,115,239,162,6,0.0,Projected inventory (80) breached ROP (115). Target: 239.,Scheduled Replenishment
+625,20260629,23,MUM_DS_03,3,90,SNAC_NUTS_30,Snacks,13,Low,46.8,2.6,181,181,262,540,360,6,0.0,Projected inventory (181) breached ROP (262). Target: 540.,Scheduled Replenishment
+626,20260629,8,BEN_DS_08,1,147,FRUI_EXOT_27,Fruits & Vegetables,13,Low,47.0,2.61,141,141,164,434,296,8,0.0,Projected inventory (141) breached ROP (164). Target: 434.,Scheduled Replenishment
+627,20260629,25,MUM_DS_05,3,279,PET _DOG _09,Pet Care,12,Low,38.3,2.13,24,24,29,86,64,8,0.0,Projected inventory (24) breached ROP (29). Target: 86.,Scheduled Replenishment
+628,20260629,17,DEL_DS_07,2,220,HOUS_REPE_10,Household,12,Low,38.9,2.16,17,17,31,63,48,12,0.0,Projected inventory (17) breached ROP (31). Target: 63.,Scheduled Replenishment
+629,20260629,1,BEN_DS_01,1,100,PACK_READ_10,Packaged Foods,12,Low,47.2,2.62,110,110,179,347,240,8,0.0,Projected inventory (110) breached ROP (179). Target: 347.,Scheduled Replenishment
+630,20260629,25,MUM_DS_05,3,60,BEVE_WATE_30,Beverages,12,Low,47.2,2.62,114,114,163,337,224,4,0.0,Projected inventory (114) breached ROP (163). Target: 337.,Scheduled Replenishment
+631,20260629,38,HYD_DS_08,4,163,STAP_DALS_13,Staples,12,Low,47.5,2.64,39,39,76,120,88,8,0.0,Projected inventory (39) breached ROP (76). Target: 120.,Scheduled Replenishment
+632,20260629,7,BEN_DS_07,1,88,SNAC_NAMK_28,Snacks,12,Low,47.7,2.65,164,164,229,477,318,6,0.0,Projected inventory (164) breached ROP (229). Target: 477.,Scheduled Replenishment
+633,20260629,21,MUM_DS_01,3,16,DAIR_MILK_16,Dairy,12,Low,47.7,2.65,134,134,190,392,264,12,0.0,Projected inventory (134) breached ROP (190). Target: 392.,Scheduled Replenishment
+634,20260629,23,MUM_DS_03,3,256,BABY_BABY_16,Baby Care,12,Low,47.7,2.65,95,95,130,274,192,24,0.0,Projected inventory (95) breached ROP (130). Target: 274.,Scheduled Replenishment
+635,20260629,7,BEN_DS_07,1,261,BABY_DIAP_21,Baby Care,12,Low,47.9,2.66,47,47,85,138,92,4,0.0,Projected inventory (47) breached ROP (85). Target: 138.,Scheduled Replenishment
+636,20260629,11,DEL_DS_01,2,249,BABY_DIAP_09,Baby Care,12,Low,47.9,2.66,49,49,50,143,96,8,0.0,Projected inventory (49) breached ROP (50). Target: 143.,Scheduled Replenishment
+637,20260629,29,MUM_DS_09,3,167,STAP_RICE_17,Staples,12,Low,47.9,2.66,118,118,126,348,234,6,0.0,Projected inventory (118) breached ROP (126). Target: 348.,Scheduled Replenishment
+638,20260629,10,BEN_DS_10,1,135,FRUI_CUT _15,Fruits & Vegetables,12,Low,48.4,2.69,187,187,256,534,348,4,0.0,Projected inventory (187) breached ROP (256). Target: 534.,Scheduled Replenishment
+639,20260629,24,MUM_DS_04,3,163,STAP_DALS_13,Staples,12,Low,48.4,2.69,42,42,76,123,88,8,0.0,Projected inventory (42) breached ROP (76). Target: 123.,Scheduled Replenishment
+640,20260629,37,HYD_DS_07,4,26,DAIR_MILK_26,Dairy,12,Low,49.0,2.72,98,98,133,277,180,6,0.0,Projected inventory (98) breached ROP (133). Target: 277.,Scheduled Replenishment
+641,20260629,39,HYD_DS_09,4,158,STAP_DALS_08,Staples,12,Low,49.3,2.74,85,85,114,238,156,6,0.0,Projected inventory (85) breached ROP (114). Target: 238.,Scheduled Replenishment
+642,20260629,1,BEN_DS_01,1,73,SNAC_NAMK_13,Snacks,12,Low,49.5,2.75,225,225,301,629,408,24,0.0,Projected inventory (225) breached ROP (301). Target: 629.,Scheduled Replenishment
+643,20260629,9,BEN_DS_09,1,60,BEVE_WATE_30,Beverages,12,Low,49.9,2.77,115,115,152,318,204,4,0.0,Projected inventory (115) breached ROP (152). Target: 318.,Scheduled Replenishment
+644,20260629,21,MUM_DS_01,3,41,BEVE_JUIC_11,Beverages,12,Low,49.9,2.77,174,174,238,489,336,24,0.0,Projected inventory (174) breached ROP (238). Target: 489.,Scheduled Replenishment
+645,20260629,21,MUM_DS_01,3,90,SNAC_NUTS_30,Snacks,12,Low,50.2,2.79,184,184,247,511,330,6,0.0,Projected inventory (184) breached ROP (247). Target: 511.,Scheduled Replenishment
+646,20260629,17,DEL_DS_07,2,162,STAP_RICE_12,Staples,12,Low,50.6,2.81,108,108,182,298,192,12,0.0,Projected inventory (108) breached ROP (182). Target: 298.,Scheduled Replenishment
+647,20260629,7,BEN_DS_07,1,166,STAP_ATTA_16,Staples,12,Low,50.9,2.83,67,67,115,186,120,12,0.0,Projected inventory (67) breached ROP (115). Target: 186.,Scheduled Replenishment
+648,20260629,16,DEL_DS_06,2,26,DAIR_MILK_26,Dairy,12,Low,51.1,2.84,145,145,188,392,252,6,0.0,Projected inventory (145) breached ROP (188). Target: 392.,Scheduled Replenishment
+649,20260629,26,MUM_DS_06,3,255,BABY_BABY_15,Baby Care,12,Low,51.3,2.85,63,63,80,168,108,6,0.0,Projected inventory (63) breached ROP (80). Target: 168.,Scheduled Replenishment
+650,20260629,34,HYD_DS_04,4,119,PACK_BREA_29,Packaged Foods,12,Low,51.8,2.88,62,62,78,164,108,12,0.0,Projected inventory (62) breached ROP (78). Target: 164.,Scheduled Replenishment
+651,20260629,16,DEL_DS_06,2,255,BABY_BABY_15,Baby Care,12,Low,52.2,2.9,63,63,83,169,108,6,0.0,Projected inventory (63) breached ROP (83). Target: 169.,Scheduled Replenishment
+652,20260629,17,DEL_DS_07,2,12,DAIR_CURD_12,Dairy,12,Low,52.2,2.9,255,255,325,677,432,12,0.0,Projected inventory (255) breached ROP (325). Target: 677.,Scheduled Replenishment
+653,20260629,21,MUM_DS_01,3,169,STAP_EDIB_19,Staples,12,Low,52.2,2.9,66,66,85,176,120,12,0.0,Projected inventory (66) breached ROP (85). Target: 176.,Scheduled Replenishment
+654,20260629,10,BEN_DS_10,1,153,STAP_DALS_03,Staples,12,Low,52.4,2.91,52,52,88,142,96,24,0.0,Projected inventory (52) breached ROP (88). Target: 142.,Scheduled Replenishment
+655,20260629,28,MUM_DS_08,3,173,STAP_DALS_23,Staples,12,Low,52.6,2.92,53,53,89,143,96,24,0.0,Projected inventory (53) breached ROP (89). Target: 143.,Scheduled Replenishment
+656,20260629,2,BEN_DS_02,1,139,FRUI_SEAS_19,Fruits & Vegetables,12,Low,52.9,2.94,238,238,295,619,384,8,0.0,Projected inventory (238) breached ROP (295). Target: 619.,Scheduled Replenishment
+657,20260629,26,MUM_DS_06,3,170,STAP_SPIC_20,Staples,12,Low,53.3,2.96,125,125,156,325,200,8,0.0,Projected inventory (125) breached ROP (156). Target: 325.,Scheduled Replenishment
+658,20260629,26,MUM_DS_06,3,88,SNAC_NAMK_28,Snacks,12,Low,53.6,2.98,200,200,242,511,312,6,0.0,Projected inventory (200) breached ROP (242). Target: 511.,Scheduled Replenishment
+659,20260629,39,HYD_DS_09,4,44,BEVE_ENER_14,Beverages,12,Low,53.8,2.99,158,158,193,405,248,8,0.0,Projected inventory (158) breached ROP (193). Target: 405.,Scheduled Replenishment
+660,20260629,15,DEL_DS_05,2,158,STAP_DALS_08,Staples,12,Low,54.0,3.0,68,68,85,176,108,6,0.0,Projected inventory (68) breached ROP (85). Target: 176.,Scheduled Replenishment
+661,20260629,2,BEN_DS_02,1,164,STAP_EDIB_14,Staples,12,Low,54.4,3.02,47,47,59,121,76,4,0.0,Projected inventory (47) breached ROP (59). Target: 121.,Scheduled Replenishment
+662,20260629,39,HYD_DS_09,4,170,STAP_SPIC_20,Staples,12,Low,55.1,3.06,117,117,140,293,176,8,0.0,Projected inventory (117) breached ROP (140). Target: 293.,Scheduled Replenishment
+663,20260629,40,HYD_DS_10,4,60,BEVE_WATE_30,Beverages,12,Low,55.1,3.06,126,126,154,318,192,4,0.0,Projected inventory (126) breached ROP (154). Target: 318.,Scheduled Replenishment
+664,20260629,9,BEN_DS_09,1,44,BEVE_ENER_14,Beverages,12,Low,55.6,3.09,161,161,192,400,240,8,0.0,Projected inventory (161) breached ROP (192). Target: 400.,Scheduled Replenishment
+665,20260629,15,DEL_DS_05,2,139,FRUI_SEAS_19,Fruits & Vegetables,12,Low,55.8,3.1,178,178,213,442,264,8,0.0,Projected inventory (178) breached ROP (213). Target: 442.,Scheduled Replenishment
+666,20260629,6,BEN_DS_06,1,166,STAP_ATTA_16,Staples,12,Low,56.0,3.11,55,55,89,142,96,12,0.0,Projected inventory (55) breached ROP (89). Target: 142.,Scheduled Replenishment
+667,20260629,21,MUM_DS_01,3,73,SNAC_NAMK_13,Snacks,12,Low,56.0,3.11,263,263,312,650,408,24,0.0,Projected inventory (263) breached ROP (312). Target: 650.,Scheduled Replenishment
+668,20260629,21,MUM_DS_01,3,24,DAIR_CHEE_24,Dairy,12,Low,56.3,3.13,278,278,330,686,408,12,0.0,Projected inventory (278) breached ROP (330). Target: 686.,Scheduled Replenishment
+669,20260629,15,DEL_DS_05,2,163,STAP_DALS_13,Staples,12,Low,56.5,3.14,46,46,70,114,72,8,0.0,Projected inventory (46) breached ROP (70). Target: 114.,Scheduled Replenishment
+670,20260629,7,BEN_DS_07,1,154,STAP_EDIB_04,Staples,12,Low,56.7,3.15,88,88,103,215,132,12,0.0,Projected inventory (88) breached ROP (103). Target: 215.,Scheduled Replenishment
+671,20260629,1,BEN_DS_01,1,88,SNAC_NAMK_28,Snacks,12,Low,57.1,3.17,188,188,216,454,270,6,0.0,Projected inventory (188) breached ROP (216). Target: 454.,Scheduled Replenishment
+672,20260629,40,HYD_DS_10,4,139,FRUI_SEAS_19,Fruits & Vegetables,12,Low,57.1,3.17,244,244,283,591,352,8,0.0,Projected inventory (244) breached ROP (283). Target: 591.,Scheduled Replenishment
+673,20260629,10,BEN_DS_10,1,155,STAP_SPIC_05,Staples,12,Low,57.2,3.18,55,55,85,137,84,4,0.0,Projected inventory (55) breached ROP (85). Target: 137.,Scheduled Replenishment
+674,20260629,8,BEN_DS_08,1,119,PACK_BREA_29,Packaged Foods,12,Low,57.4,3.19,68,68,80,166,108,12,0.0,Projected inventory (68) breached ROP (80). Target: 166.,Scheduled Replenishment
+675,20260629,23,MUM_DS_03,3,110,PACK_READ_20,Packaged Foods,12,Low,57.4,3.19,134,134,156,324,192,24,0.0,Projected inventory (134) breached ROP (156). Target: 324.,Scheduled Replenishment
+676,20260629,10,BEN_DS_10,1,255,BABY_BABY_15,Baby Care,12,Low,57.6,3.2,66,66,78,161,96,6,0.0,Projected inventory (66) breached ROP (78). Target: 161.,Scheduled Replenishment
+677,20260629,16,DEL_DS_06,2,41,BEVE_JUIC_11,Beverages,12,Low,58.1,3.23,214,214,245,511,312,24,0.0,Projected inventory (214) breached ROP (245). Target: 511.,Scheduled Replenishment
+678,20260629,35,HYD_DS_05,4,16,DAIR_MILK_16,Dairy,12,Low,58.5,3.25,146,146,162,342,204,12,0.0,Projected inventory (146) breached ROP (162). Target: 342.,Scheduled Replenishment
+679,20260629,35,HYD_DS_05,4,41,BEVE_JUIC_11,Beverages,12,Low,58.5,3.25,188,188,213,445,264,24,0.0,Projected inventory (188) breached ROP (213). Target: 445.,Scheduled Replenishment
+680,20260629,17,DEL_DS_07,2,19,DAIR_CHEE_19,Dairy,12,Low,58.9,3.27,266,266,301,627,384,24,0.0,Projected inventory (266) breached ROP (301). Target: 627.,Scheduled Replenishment
+681,20260629,36,HYD_DS_06,4,60,BEVE_WATE_30,Beverages,12,Low,59.0,3.28,89,89,99,207,120,4,0.0,Projected inventory (89) breached ROP (99). Target: 207.,Scheduled Replenishment
+682,20260629,2,BEN_DS_02,1,90,SNAC_NUTS_30,Snacks,12,Low,59.2,3.29,214,214,244,504,294,6,0.0,Projected inventory (214) breached ROP (244). Target: 504.,Scheduled Replenishment
+683,20260629,26,MUM_DS_06,3,174,STAP_EDIB_24,Staples,12,Low,59.2,3.29,136,136,153,319,186,6,0.0,Projected inventory (136) breached ROP (153). Target: 319.,Scheduled Replenishment
+684,20260629,10,BEN_DS_10,1,158,STAP_DALS_08,Staples,12,Low,60.1,3.34,106,106,118,244,138,6,0.0,Projected inventory (106) breached ROP (118). Target: 244.,Scheduled Replenishment
+685,20260629,36,HYD_DS_06,4,59,BEVE_ENER_29,Beverages,12,Low,60.1,3.34,93,93,104,216,144,24,0.0,Projected inventory (93) breached ROP (104). Target: 216.,Scheduled Replenishment
+686,20260629,23,MUM_DS_03,3,105,PACK_READ_15,Packaged Foods,12,Low,60.8,3.38,125,125,134,282,168,12,0.0,Projected inventory (125) breached ROP (134). Target: 282.,Scheduled Replenishment
+687,20260629,23,MUM_DS_03,3,154,STAP_EDIB_04,Staples,12,Low,60.8,3.38,103,103,114,236,144,12,0.0,Projected inventory (103) breached ROP (114). Target: 236.,Scheduled Replenishment
+688,20260629,1,BEN_DS_01,1,173,STAP_DALS_23,Staples,12,Low,61.0,3.39,72,72,102,166,96,24,0.0,Projected inventory (72) breached ROP (102). Target: 166.,Scheduled Replenishment
+689,20260629,25,MUM_DS_05,3,170,STAP_SPIC_20,Staples,12,Low,61.6,3.42,135,135,146,304,176,8,0.0,Projected inventory (135) breached ROP (146). Target: 304.,Scheduled Replenishment
+690,20260629,7,BEN_DS_07,1,100,PACK_READ_10,Packaged Foods,12,Low,61.7,3.43,131,131,142,294,168,8,0.0,Projected inventory (131) breached ROP (142). Target: 294.,Scheduled Replenishment
+691,20260629,21,MUM_DS_01,3,44,BEVE_ENER_14,Beverages,12,Low,61.7,3.43,189,189,201,421,232,8,0.0,Projected inventory (189) breached ROP (201). Target: 421.,Scheduled Replenishment
+692,20260629,6,BEN_DS_06,1,19,DAIR_CHEE_19,Dairy,12,Low,61.9,3.44,218,218,233,486,288,24,0.0,Projected inventory (218) breached ROP (233). Target: 486.,Scheduled Replenishment
+693,20260629,37,HYD_DS_07,4,59,BEVE_ENER_29,Beverages,12,Low,61.9,3.44,132,132,176,329,216,24,0.0,Projected inventory (132) breached ROP (176). Target: 329.,Scheduled Replenishment
+694,20260629,38,HYD_DS_08,4,139,FRUI_SEAS_19,Fruits & Vegetables,12,Low,62.1,3.45,200,200,209,441,248,8,0.0,Projected inventory (200) breached ROP (209). Target: 441.,Scheduled Replenishment
+695,20260629,39,HYD_DS_09,4,162,STAP_RICE_12,Staples,12,Low,62.1,3.45,132,132,185,300,168,12,0.0,Projected inventory (132) breached ROP (185). Target: 300.,Scheduled Replenishment
+696,20260629,37,HYD_DS_07,4,156,STAP_ATTA_06,Staples,12,Low,62.5,3.47,84,84,114,187,108,12,0.0,Projected inventory (84) breached ROP (114). Target: 187.,Scheduled Replenishment
+697,20260629,25,MUM_DS_05,3,163,STAP_DALS_13,Staples,12,Low,63.4,3.52,70,70,99,159,96,8,0.0,Projected inventory (70) breached ROP (99). Target: 159.,Scheduled Replenishment
+698,20260629,18,DEL_DS_08,2,169,STAP_EDIB_19,Staples,12,Low,63.5,3.53,71,71,75,155,84,12,0.0,Projected inventory (71) breached ROP (75). Target: 155.,Scheduled Replenishment
+699,20260629,1,BEN_DS_01,1,132,FRUI_EXOT_12,Fruits & Vegetables,12,Low,63.7,3.54,332,332,362,738,408,24,0.0,Projected inventory (332) breached ROP (362). Target: 738.,Scheduled Replenishment
+700,20260629,1,BEN_DS_01,1,168,STAP_DALS_18,Staples,12,Low,63.7,3.54,118,118,162,262,144,6,0.0,Projected inventory (118) breached ROP (162). Target: 262.,Scheduled Replenishment
+701,20260629,17,DEL_DS_07,2,60,BEVE_WATE_30,Beverages,12,Low,63.7,3.54,148,148,156,324,176,4,0.0,Projected inventory (148) breached ROP (156). Target: 324.,Scheduled Replenishment
+702,20260629,21,MUM_DS_01,3,162,STAP_RICE_12,Staples,12,Low,63.7,3.54,136,136,185,301,168,12,0.0,Projected inventory (136) breached ROP (185). Target: 301.,Scheduled Replenishment
+703,20260629,11,DEL_DS_01,2,256,BABY_BABY_16,Baby Care,12,Low,63.9,3.55,94,94,101,207,120,24,0.0,Projected inventory (94) breached ROP (101). Target: 207.,Scheduled Replenishment
+704,20260629,15,DEL_DS_05,2,164,STAP_EDIB_14,Staples,12,Low,63.9,3.55,38,38,41,83,48,4,0.0,Projected inventory (38) breached ROP (41). Target: 83.,Scheduled Replenishment
+705,20260629,8,BEN_DS_08,1,44,BEVE_ENER_14,Beverages,12,Low,64.6,3.59,171,171,175,366,200,8,0.0,Projected inventory (171) breached ROP (175). Target: 366.,Scheduled Replenishment
+706,20260629,34,HYD_DS_04,4,88,SNAC_NAMK_28,Snacks,12,Low,64.8,3.6,186,186,186,393,210,6,0.0,Projected inventory (186) breached ROP (186). Target: 393.,Scheduled Replenishment
+707,20260629,10,BEN_DS_10,1,19,DAIR_CHEE_19,Dairy,12,Low,65.3,3.63,310,310,319,661,360,24,0.0,Projected inventory (310) breached ROP (319). Target: 661.,Scheduled Replenishment
+708,20260629,15,DEL_DS_05,2,24,DAIR_CHEE_24,Dairy,12,Low,65.3,3.63,230,230,237,490,264,12,0.0,Projected inventory (230) breached ROP (237). Target: 490.,Scheduled Replenishment
+709,20260629,4,BEN_DS_04,1,26,DAIR_MILK_26,Dairy,12,Low,65.5,3.64,154,154,160,329,180,6,0.0,Projected inventory (154) breached ROP (160). Target: 329.,Scheduled Replenishment
+710,20260629,21,MUM_DS_01,3,135,FRUI_CUT _15,Fruits & Vegetables,12,Low,65.5,3.64,263,263,269,558,296,4,0.0,Projected inventory (263) breached ROP (269). Target: 558.,Scheduled Replenishment
+711,20260629,24,MUM_DS_04,3,162,STAP_RICE_12,Staples,12,Low,65.5,3.64,105,105,134,221,120,12,0.0,Projected inventory (105) breached ROP (134). Target: 221.,Scheduled Replenishment
+712,20260629,26,MUM_DS_06,3,154,STAP_EDIB_04,Staples,12,Low,65.9,3.66,109,109,110,229,120,12,0.0,Projected inventory (109) breached ROP (110). Target: 229.,Scheduled Replenishment
+713,20260629,2,BEN_DS_02,1,44,BEVE_ENER_14,Beverages,12,Low,66.2,3.68,197,197,203,417,224,8,0.0,Projected inventory (197) breached ROP (203). Target: 417.,Scheduled Replenishment
+714,20260629,29,MUM_DS_09,3,154,STAP_EDIB_04,Staples,12,Low,66.4,3.69,120,120,120,250,132,12,0.0,Projected inventory (120) breached ROP (120). Target: 250.,Scheduled Replenishment
+715,20260629,28,MUM_DS_08,3,59,BEVE_ENER_29,Beverages,12,Low,67.0,3.72,148,148,148,307,168,24,0.0,Projected inventory (148) breached ROP (148). Target: 307.,Scheduled Replenishment
+716,20260629,7,BEN_DS_07,1,255,BABY_BABY_15,Baby Care,12,Low,67.3,3.74,77,77,79,161,84,6,0.0,Projected inventory (77) breached ROP (79). Target: 161.,Scheduled Replenishment
+717,20260629,39,HYD_DS_09,4,26,DAIR_MILK_26,Dairy,12,Low,67.3,3.74,179,179,181,373,198,6,0.0,Projected inventory (179) breached ROP (181). Target: 373.,Scheduled Replenishment
+718,20260629,10,BEN_DS_10,1,256,BABY_BABY_16,Baby Care,12,Low,67.7,3.76,145,145,173,327,192,24,0.0,Projected inventory (145) breached ROP (173). Target: 327.,Scheduled Replenishment
+719,20260629,17,DEL_DS_07,2,253,BABY_DIAP_13,Baby Care,12,Low,68.0,3.78,99,99,126,205,120,24,0.0,Projected inventory (99) breached ROP (126). Target: 205.,Scheduled Replenishment
+720,20260629,8,BEN_DS_08,1,100,PACK_READ_10,Packaged Foods,12,Low,68.4,3.8,131,131,131,269,144,8,0.0,Projected inventory (131) breached ROP (131). Target: 269.,Scheduled Replenishment
+721,20260629,33,HYD_DS_03,4,153,STAP_DALS_03,Staples,12,Low,70.0,3.89,47,47,64,100,72,24,0.0,Projected inventory (47) breached ROP (64). Target: 100.,Scheduled Replenishment
+722,20260629,9,BEN_DS_09,1,75,SNAC_NUTS_15,Snacks,12,Low,72.9,4.05,169,169,181,347,192,24,0.0,Projected inventory (169) breached ROP (181). Target: 347.,Scheduled Replenishment
+723,20260629,23,MUM_DS_03,3,156,STAP_ATTA_06,Staples,12,Low,74.7,4.15,146,146,171,276,132,12,0.0,Projected inventory (146) breached ROP (171). Target: 276.,Scheduled Replenishment
+724,20260629,39,HYD_DS_09,4,171,STAP_ATTA_21,Staples,12,Low,76.7,4.26,95,95,108,175,84,12,0.0,Projected inventory (95) breached ROP (108). Target: 175.,Scheduled Replenishment
+725,20260629,35,HYD_DS_05,4,153,STAP_DALS_03,Staples,12,Low,77.0,4.28,70,70,81,130,72,24,0.0,Projected inventory (70) breached ROP (81). Target: 130.,Scheduled Replenishment
+726,20260629,4,BEN_DS_04,1,261,BABY_DIAP_21,Baby Care,12,Low,77.4,4.3,71,71,81,131,60,4,0.0,Projected inventory (71) breached ROP (81). Target: 131.,Scheduled Replenishment
+727,20260629,38,HYD_DS_08,4,250,BABY_BABY_10,Baby Care,12,Low,81.4,4.52,80,80,90,143,72,12,0.0,Projected inventory (80) breached ROP (90). Target: 143.,Scheduled Replenishment
+728,20260629,23,MUM_DS_03,3,50,BEVE_WATE_20,Beverages,12,Low,81.7,4.54,247,247,253,470,228,6,0.0,Projected inventory (247) breached ROP (253). Target: 470.,Scheduled Replenishment
+729,20260629,26,MUM_DS_06,3,253,BABY_DIAP_13,Baby Care,12,Low,83.5,4.64,129,129,134,217,96,24,0.0,Projected inventory (129) breached ROP (134). Target: 217.,Scheduled Replenishment
+730,20260629,10,BEN_DS_10,1,162,STAP_RICE_12,Staples,12,Low,83.9,4.66,174,174,176,288,120,12,0.0,Projected inventory (174) breached ROP (176). Target: 288.,Scheduled Replenishment
+731,20260629,16,DEL_DS_06,2,166,STAP_ATTA_16,Staples,12,Low,84.4,4.69,124,124,125,205,84,12,0.0,Projected inventory (124) breached ROP (125). Target: 205.,Scheduled Replenishment
+732,20260629,16,DEL_DS_06,2,250,BABY_BABY_10,Baby Care,12,Low,84.6,4.7,127,127,128,209,84,12,0.0,Projected inventory (127) breached ROP (128). Target: 209.,Scheduled Replenishment
+733,20260629,8,BEN_DS_08,1,27,DAIR_CURD_27,Dairy,12,Low,88.4,4.91,307,307,309,559,252,4,0.0,Projected inventory (307) breached ROP (309). Target: 559.,Scheduled Replenishment
+734,20260629,36,HYD_DS_06,4,171,STAP_ATTA_21,Staples,12,Low,91.4,5.08,74,74,75,118,48,12,0.0,Projected inventory (74) breached ROP (75). Target: 118.,Scheduled Replenishment
+735,20260629,23,MUM_DS_03,3,279,PET _DOG _09,Pet Care,11,Low,39.2,2.18,27,27,33,95,72,8,0.0,Projected inventory (27) breached ROP (33). Target: 95.,Scheduled Replenishment
+736,20260629,23,MUM_DS_03,3,280,PET _CAT _10,Pet Care,11,Low,39.6,2.2,27,27,62,99,72,12,0.0,Projected inventory (27) breached ROP (62). Target: 99.,Scheduled Replenishment
+737,20260629,35,HYD_DS_05,4,216,HOUS_DETE_06,Household,11,Low,39.8,2.21,21,21,46,75,72,24,0.0,Projected inventory (21) breached ROP (46). Target: 75.,Scheduled Replenishment
+738,20260629,10,BEN_DS_10,1,294,PET _PET _24,Pet Care,11,Low,40.0,2.22,10,10,19,37,32,8,0.0,Projected inventory (10) breached ROP (19). Target: 37.,Scheduled Replenishment
+739,20260629,21,MUM_DS_01,3,189,PERS_SKIN_09,Personal Care,11,Low,40.0,2.22,23,23,27,79,60,6,0.0,Projected inventory (23) breached ROP (27). Target: 79.,Scheduled Replenishment
+740,20260629,23,MUM_DS_03,3,219,HOUS_DISP_09,Household,11,Low,40.1,2.23,30,30,51,105,96,24,0.0,Projected inventory (30) breached ROP (51). Target: 105.,Scheduled Replenishment
+741,20260629,18,DEL_DS_08,2,240,HOUS_REPE_30,Household,11,Low,40.5,2.25,9,9,12,32,48,12,0.0,Projected inventory (9) breached ROP (12). Target: 32.,Scheduled Replenishment
+742,20260629,24,MUM_DS_04,3,280,PET _CAT _10,Pet Care,11,Low,40.7,2.26,20,20,45,72,60,12,0.0,Projected inventory (20) breached ROP (45). Target: 72.,Scheduled Replenishment
+743,20260629,39,HYD_DS_09,4,235,HOUS_REPE_25,Household,11,Low,40.7,2.26,26,26,31,89,72,12,0.0,Projected inventory (26) breached ROP (31). Target: 89.,Scheduled Replenishment
+744,20260629,29,MUM_DS_09,3,272,PET _CAT _02,Pet Care,10,Low,41.0,2.28,14,14,24,48,36,6,0.0,Projected inventory (14) breached ROP (24). Target: 48.,Scheduled Replenishment
+745,20260629,2,BEN_DS_02,1,203,PERS_ORAL_23,Personal Care,10,Low,41.2,2.29,19,19,41,66,48,6,0.0,Projected inventory (19) breached ROP (41). Target: 66.,Scheduled Replenishment
+746,20260629,26,MUM_DS_06,3,287,PET _DOG _17,Pet Care,10,Low,41.2,2.29,10,10,19,36,32,8,0.0,Projected inventory (10) breached ROP (19). Target: 36.,Scheduled Replenishment
+747,20260629,2,BEN_DS_02,1,279,PET _DOG _09,Pet Care,10,Low,41.8,2.32,26,26,31,87,64,8,0.0,Projected inventory (26) breached ROP (31). Target: 87.,Scheduled Replenishment
+748,20260629,2,BEN_DS_02,1,300,PET _CAT _30,Pet Care,10,Low,41.8,2.32,23,23,26,76,54,6,0.0,Projected inventory (23) breached ROP (26). Target: 76.,Scheduled Replenishment
+749,20260629,21,MUM_DS_01,3,279,PET _DOG _09,Pet Care,10,Low,41.8,2.32,28,28,34,94,72,8,0.0,Projected inventory (28) breached ROP (34). Target: 94.,Scheduled Replenishment
+750,20260629,2,BEN_DS_02,1,208,PERS_ORAL_28,Personal Care,10,Low,41.9,2.33,24,24,38,80,56,8,0.0,Projected inventory (24) breached ROP (38). Target: 80.,Scheduled Replenishment
+751,20260629,17,DEL_DS_07,2,290,PET _PET _20,Pet Care,10,Low,41.9,2.33,10,10,13,35,32,8,0.0,Projected inventory (10) breached ROP (13). Target: 35.,Scheduled Replenishment
+752,20260629,40,HYD_DS_10,4,210,PERS_SANI_30,Personal Care,10,Low,41.9,2.33,19,19,31,63,48,6,0.0,Projected inventory (19) breached ROP (31). Target: 63.,Scheduled Replenishment
+753,20260629,21,MUM_DS_01,3,216,HOUS_DETE_06,Household,10,Low,42.3,2.35,27,27,56,91,72,24,0.0,Projected inventory (27) breached ROP (56). Target: 91.,Scheduled Replenishment
+754,20260629,11,DEL_DS_01,2,185,PERS_SANI_05,Personal Care,9,Low,42.7,2.37,21,21,45,72,60,12,0.0,Projected inventory (21) breached ROP (45). Target: 72.,Scheduled Replenishment
+755,20260629,40,HYD_DS_10,4,236,HOUS_DETE_26,Household,9,Low,42.7,2.37,23,23,38,76,54,6,0.0,Projected inventory (23) breached ROP (38). Target: 76.,Scheduled Replenishment
+756,20260629,7,BEN_DS_07,1,225,HOUS_REPE_15,Household,9,Low,43.0,2.39,14,14,16,46,96,24,0.0,Projected inventory (14) breached ROP (16). Target: 46.,Scheduled Replenishment
+757,20260629,29,MUM_DS_09,3,275,PET _DOG _05,Pet Care,9,Low,43.0,2.39,26,26,42,86,64,8,0.0,Projected inventory (26) breached ROP (42). Target: 86.,Scheduled Replenishment
+758,20260629,8,BEN_DS_08,1,278,PET _PET _08,Pet Care,9,Low,43.7,2.43,17,17,20,55,48,24,0.0,Projected inventory (17) breached ROP (20). Target: 55.,Scheduled Replenishment
+759,20260629,23,MUM_DS_03,3,210,PERS_SANI_30,Personal Care,9,Low,43.9,2.44,22,22,34,70,48,6,0.0,Projected inventory (22) breached ROP (34). Target: 70.,Scheduled Replenishment
+760,20260629,37,HYD_DS_07,4,224,HOUS_DISP_14,Household,9,Low,43.9,2.44,22,22,35,71,56,8,0.0,Projected inventory (22) breached ROP (35). Target: 71.,Scheduled Replenishment
+761,20260629,29,MUM_DS_09,3,299,PET _DOG _29,Pet Care,8,Low,44.3,2.46,32,32,63,102,72,24,0.0,Projected inventory (32) breached ROP (63). Target: 102.,Scheduled Replenishment
+762,20260629,7,BEN_DS_07,1,228,HOUS_CLEA_18,Household,8,Low,44.5,2.47,21,21,24,67,48,8,0.0,Projected inventory (21) breached ROP (24). Target: 67.,Scheduled Replenishment
+763,20260629,37,HYD_DS_07,4,193,PERS_ORAL_13,Personal Care,8,Low,44.5,2.47,9,9,11,29,20,4,0.0,Projected inventory (9) breached ROP (11). Target: 29.,Scheduled Replenishment
+764,20260629,16,DEL_DS_06,2,279,PET _DOG _09,Pet Care,8,Low,44.8,2.49,31,31,32,95,64,8,0.0,Projected inventory (31) breached ROP (32). Target: 95.,Scheduled Replenishment
+765,20260629,4,BEN_DS_04,1,240,HOUS_REPE_30,Household,8,Low,45.0,2.5,10,10,11,31,48,12,0.0,Projected inventory (10) breached ROP (11). Target: 31.,Scheduled Replenishment
+766,20260629,25,MUM_DS_05,3,293,PET _PET _23,Pet Care,8,Low,45.0,2.5,30,30,44,92,72,12,0.0,Projected inventory (30) breached ROP (44). Target: 92.,Scheduled Replenishment
+767,20260629,4,BEN_DS_04,1,299,PET _DOG _29,Pet Care,8,Low,45.2,2.51,24,24,48,76,72,24,0.0,Projected inventory (24) breached ROP (48). Target: 76.,Scheduled Replenishment
+768,20260629,8,BEN_DS_08,1,282,PET _PET _12,Pet Care,8,Low,45.4,2.52,11,11,18,35,48,24,0.0,Projected inventory (11) breached ROP (18). Target: 35.,Scheduled Replenishment
+769,20260629,29,MUM_DS_09,3,294,PET _PET _24,Pet Care,8,Low,45.5,2.53,13,13,20,40,32,8,0.0,Projected inventory (13) breached ROP (20). Target: 40.,Scheduled Replenishment
+770,20260629,37,HYD_DS_07,4,215,HOUS_REPE_05,Household,7,Low,45.7,2.54,20,20,20,60,40,4,0.0,Projected inventory (20) breached ROP (20). Target: 60.,Scheduled Replenishment
+771,20260629,9,BEN_DS_09,1,189,PERS_SKIN_09,Personal Care,7,Low,45.9,2.55,25,25,26,75,54,6,0.0,Projected inventory (25) breached ROP (26). Target: 75.,Scheduled Replenishment
+772,20260629,26,MUM_DS_06,3,229,HOUS_DISP_19,Household,7,Low,45.9,2.55,26,26,38,79,36,6,0.0,Projected inventory (26) breached ROP (38). Target: 79. Scaled down to respect dark store physical capacity buffer.,Scheduled Replenishment
+773,20260629,2,BEN_DS_02,1,206,PERS_SOAP_26,Personal Care,7,Low,46.1,2.56,15,15,16,46,32,4,0.0,Projected inventory (15) breached ROP (16). Target: 46.,Scheduled Replenishment
+774,20260629,11,DEL_DS_01,2,210,PERS_SANI_30,Personal Care,7,Low,46.1,2.56,17,17,26,53,36,6,0.0,Projected inventory (17) breached ROP (26). Target: 53.,Scheduled Replenishment
+775,20260629,17,DEL_DS_07,2,210,PERS_SANI_30,Personal Care,7,Low,46.1,2.56,21,21,32,65,48,6,0.0,Projected inventory (21) breached ROP (32). Target: 65.,Scheduled Replenishment
+776,20260629,17,DEL_DS_07,2,279,PET _DOG _09,Pet Care,7,Low,46.6,2.59,32,32,32,94,64,8,0.0,Projected inventory (32) breached ROP (32). Target: 94.,Scheduled Replenishment
+777,20260629,9,BEN_DS_09,1,213,HOUS_CLEA_03,Household,7,Low,46.8,2.6,13,13,21,41,30,6,0.0,Projected inventory (13) breached ROP (21). Target: 41.,Scheduled Replenishment
+778,20260629,10,BEN_DS_10,1,213,HOUS_CLEA_03,Household,7,Low,47.0,2.61,14,14,23,44,30,6,0.0,Projected inventory (14) breached ROP (23). Target: 44.,Scheduled Replenishment
+779,20260629,39,HYD_DS_09,4,187,PERS_HAIR_07,Personal Care,7,Low,47.0,2.61,19,19,28,58,48,12,0.0,Projected inventory (19) breached ROP (28). Target: 58.,Scheduled Replenishment
+780,20260629,4,BEN_DS_04,1,208,PERS_ORAL_28,Personal Care,6,Low,47.2,2.62,23,23,34,69,48,8,0.0,Projected inventory (23) breached ROP (34). Target: 69.,Scheduled Replenishment
+781,20260629,7,BEN_DS_07,1,294,PET _PET _24,Pet Care,6,Low,47.3,2.63,12,12,18,36,24,8,0.0,Projected inventory (12) breached ROP (18). Target: 36.,Scheduled Replenishment
+782,20260629,2,BEN_DS_02,1,273,PET _PET _03,Pet Care,6,Low,47.5,2.64,10,10,21,32,24,8,0.0,Projected inventory (10) breached ROP (21). Target: 32.,Scheduled Replenishment
+783,20260629,4,BEN_DS_04,1,201,PERS_SOAP_21,Personal Care,6,Low,47.5,2.64,26,26,49,79,60,12,0.0,Projected inventory (26) breached ROP (49). Target: 79.,Scheduled Replenishment
+784,20260629,38,HYD_DS_08,4,187,PERS_HAIR_07,Personal Care,6,Low,47.7,2.65,14,14,21,43,36,12,0.0,Projected inventory (14) breached ROP (21). Target: 43.,Scheduled Replenishment
+785,20260629,28,MUM_DS_08,3,280,PET _CAT _10,Pet Care,6,Low,47.9,2.66,26,26,48,77,60,12,0.0,Projected inventory (26) breached ROP (48). Target: 77.,Scheduled Replenishment
+786,20260629,40,HYD_DS_10,4,201,PERS_SOAP_21,Personal Care,6,Low,48.1,2.67,28,28,52,84,60,12,0.0,Projected inventory (28) breached ROP (52). Target: 84.,Scheduled Replenishment
+787,20260629,10,BEN_DS_10,1,281,PET _PET _11,Pet Care,6,Low,48.6,2.7,11,11,20,32,24,4,0.0,Projected inventory (11) breached ROP (20). Target: 32.,Scheduled Replenishment
+788,20260629,37,HYD_DS_07,4,218,HOUS_CLEA_08,Household,6,Low,48.6,2.7,10,10,19,30,24,6,0.0,Projected inventory (10) breached ROP (19). Target: 30.,Scheduled Replenishment
+789,20260629,25,MUM_DS_05,3,201,PERS_SOAP_21,Personal Care,6,Low,48.8,2.71,29,29,53,85,60,12,0.0,Projected inventory (29) breached ROP (53). Target: 85.,Scheduled Replenishment
+790,20260629,6,BEN_DS_06,1,279,PET _DOG _09,Pet Care,6,Low,49.7,2.76,25,25,25,70,48,8,0.0,Projected inventory (25) breached ROP (25). Target: 70.,Scheduled Replenishment
+791,20260629,7,BEN_DS_07,1,278,PET _PET _08,Pet Care,6,Low,49.9,2.77,22,22,23,63,48,24,0.0,Projected inventory (22) breached ROP (23). Target: 63.,Scheduled Replenishment
+792,20260629,7,BEN_DS_07,1,234,HOUS_DISP_24,Household,6,Low,50.0,2.78,25,25,34,70,48,6,0.0,Projected inventory (25) breached ROP (34). Target: 70.,Scheduled Replenishment
+793,20260629,21,MUM_DS_01,3,278,PET _PET _08,Pet Care,6,Low,50.4,2.8,24,24,24,66,48,24,0.0,Projected inventory (24) breached ROP (24). Target: 66.,Scheduled Replenishment
+794,20260629,40,HYD_DS_10,4,213,HOUS_CLEA_03,Household,6,Low,50.4,2.8,15,15,23,44,30,6,0.0,Projected inventory (15) breached ROP (23). Target: 44.,Scheduled Replenishment
+795,20260629,23,MUM_DS_03,3,224,HOUS_DISP_14,Household,6,Low,50.8,2.82,37,37,50,102,72,8,0.0,Projected inventory (37) breached ROP (50). Target: 102.,Scheduled Replenishment
+796,20260629,11,DEL_DS_01,2,234,HOUS_DISP_24,Household,6,Low,50.9,2.83,19,19,27,53,36,6,0.0,Projected inventory (19) breached ROP (27). Target: 53.,Scheduled Replenishment
+797,20260629,7,BEN_DS_07,1,224,HOUS_DISP_14,Household,6,Low,51.3,2.85,35,35,47,97,64,8,0.0,Projected inventory (35) breached ROP (47). Target: 97.,Scheduled Replenishment
+798,20260629,38,HYD_DS_08,4,228,HOUS_CLEA_18,Household,6,Low,51.3,2.85,21,21,24,61,40,8,0.0,Projected inventory (21) breached ROP (24). Target: 61.,Scheduled Replenishment
+799,20260629,2,BEN_DS_02,1,293,PET _PET _23,Pet Care,6,Low,52.2,2.9,33,33,43,88,60,12,0.0,Projected inventory (33) breached ROP (43). Target: 88.,Scheduled Replenishment
+800,20260629,23,MUM_DS_03,3,187,PERS_HAIR_07,Personal Care,6,Low,52.2,2.9,24,24,31,65,48,12,0.0,Projected inventory (24) breached ROP (31). Target: 65.,Scheduled Replenishment
+801,20260629,15,DEL_DS_05,2,271,PET _DOG _01,Pet Care,6,Low,52.7,2.93,9,9,16,25,24,24,0.0,Projected inventory (9) breached ROP (16). Target: 25.,Scheduled Replenishment
+802,20260629,37,HYD_DS_07,4,276,PET _CAT _06,Pet Care,6,Low,52.7,2.93,18,18,32,50,36,12,0.0,Projected inventory (18) breached ROP (32). Target: 50.,Scheduled Replenishment
+803,20260629,17,DEL_DS_07,2,218,HOUS_CLEA_08,Household,6,Low,53.6,2.98,13,13,23,36,24,6,0.0,Projected inventory (13) breached ROP (23). Target: 36.,Scheduled Replenishment
+804,20260629,25,MUM_DS_05,3,209,PERS_SKIN_29,Personal Care,6,Low,53.6,2.98,13,13,23,36,24,8,0.0,Projected inventory (13) breached ROP (23). Target: 36.,Scheduled Replenishment
+805,20260629,16,DEL_DS_06,2,197,PERS_HAIR_17,Personal Care,6,Low,53.8,2.99,31,31,51,82,52,4,0.0,Projected inventory (31) breached ROP (51). Target: 82.,Scheduled Replenishment
+806,20260629,26,MUM_DS_06,3,214,HOUS_DISP_04,Household,6,Low,54.4,3.02,36,36,44,92,8,8,0.0,Projected inventory (36) breached ROP (44). Target: 92. Scaled down to respect dark store physical capacity buffer.,Scheduled Replenishment
+807,20260629,11,DEL_DS_01,2,275,PET _DOG _05,Pet Care,6,Low,55.3,3.07,23,23,30,60,40,8,0.0,Projected inventory (23) breached ROP (30). Target: 60.,Scheduled Replenishment
+808,20260629,33,HYD_DS_03,4,206,PERS_SOAP_26,Personal Care,6,Low,55.4,3.08,11,11,11,28,20,4,0.0,Projected inventory (11) breached ROP (11). Target: 28.,Scheduled Replenishment
+809,20260629,2,BEN_DS_02,1,229,HOUS_DISP_19,Household,6,Low,56.0,3.11,30,30,36,75,48,6,0.0,Projected inventory (30) breached ROP (36). Target: 75.,Scheduled Replenishment
+810,20260629,28,MUM_DS_08,3,220,HOUS_REPE_10,Household,6,Low,56.0,3.11,20,20,25,51,36,12,0.0,Projected inventory (20) breached ROP (25). Target: 51.,Scheduled Replenishment
+811,20260629,39,HYD_DS_09,4,192,PERS_HAIR_12,Personal Care,6,Low,56.3,3.13,19,19,24,48,32,8,0.0,Projected inventory (19) breached ROP (24). Target: 48.,Scheduled Replenishment
+812,20260629,37,HYD_DS_07,4,272,PET _CAT _02,Pet Care,6,Low,56.5,3.14,13,13,16,32,24,6,0.0,Projected inventory (13) breached ROP (16). Target: 32.,Scheduled Replenishment
+813,20260629,10,BEN_DS_10,1,280,PET _CAT _10,Pet Care,6,Low,57.1,3.17,39,39,60,97,60,12,0.0,Projected inventory (39) breached ROP (60). Target: 97.,Scheduled Replenishment
+814,20260629,8,BEN_DS_08,1,234,HOUS_DISP_24,Household,6,Low,57.2,3.18,25,25,30,62,42,6,0.0,Projected inventory (25) breached ROP (30). Target: 62.,Scheduled Replenishment
+815,20260629,38,HYD_DS_08,4,290,PET _PET _20,Pet Care,6,Low,57.2,3.18,10,10,10,25,16,8,0.0,Projected inventory (10) breached ROP (10). Target: 25.,Scheduled Replenishment
+816,20260629,35,HYD_DS_05,4,289,PET _PET _19,Pet Care,6,Low,57.4,3.19,26,26,40,64,96,24,0.0,Projected inventory (26) breached ROP (40). Target: 64.,Scheduled Replenishment
+817,20260629,10,BEN_DS_10,1,274,PET _PET _04,Pet Care,6,Low,57.6,3.2,27,27,40,66,48,12,0.0,Projected inventory (27) breached ROP (40). Target: 66.,Scheduled Replenishment
+818,20260629,15,DEL_DS_05,2,236,HOUS_DETE_26,Household,6,Low,57.8,3.21,25,25,32,63,42,6,0.0,Projected inventory (25) breached ROP (32). Target: 63.,Scheduled Replenishment
+819,20260629,6,BEN_DS_06,1,220,HOUS_REPE_10,Household,6,Low,59.6,3.31,18,18,21,43,36,12,0.0,Projected inventory (18) breached ROP (21). Target: 43.,Scheduled Replenishment
+820,20260629,23,MUM_DS_03,3,220,HOUS_REPE_10,Household,6,Low,59.8,3.32,27,27,34,66,48,12,0.0,Projected inventory (27) breached ROP (34). Target: 66.,Scheduled Replenishment
+821,20260629,35,HYD_DS_05,4,199,PERS_SKIN_19,Personal Care,6,Low,60.1,3.34,16,16,24,38,24,8,0.0,Projected inventory (16) breached ROP (24). Target: 38.,Scheduled Replenishment
+822,20260629,21,MUM_DS_01,3,195,PERS_SANI_15,Personal Care,6,Low,60.5,3.36,18,18,27,43,30,6,0.0,Projected inventory (18) breached ROP (27). Target: 43.,Scheduled Replenishment
+823,20260629,15,DEL_DS_05,2,272,PET _CAT _02,Pet Care,6,Low,60.7,3.37,13,13,16,32,24,6,0.0,Projected inventory (13) breached ROP (16). Target: 32.,Scheduled Replenishment
+824,20260629,15,DEL_DS_05,2,275,PET _DOG _05,Pet Care,6,Low,61.0,3.39,23,23,25,52,32,8,0.0,Projected inventory (23) breached ROP (25). Target: 52.,Scheduled Replenishment
+825,20260629,40,HYD_DS_10,4,208,PERS_ORAL_28,Personal Care,6,Low,61.0,3.39,32,32,35,73,48,8,0.0,Projected inventory (32) breached ROP (35). Target: 73.,Scheduled Replenishment
+826,20260629,40,HYD_DS_10,4,207,PERS_HAIR_27,Personal Care,6,Low,61.2,3.4,17,17,19,39,24,6,0.0,Projected inventory (17) breached ROP (19). Target: 39.,Scheduled Replenishment
+827,20260629,34,HYD_DS_04,4,289,PET _PET _19,Pet Care,6,Low,61.7,3.43,25,25,38,60,96,24,0.0,Projected inventory (25) breached ROP (38). Target: 60.,Scheduled Replenishment
+828,20260629,38,HYD_DS_08,4,291,PET _DOG _21,Pet Care,6,Low,61.9,3.44,28,28,32,64,48,24,0.0,Projected inventory (28) breached ROP (32). Target: 64.,Scheduled Replenishment
+829,20260629,25,MUM_DS_05,3,213,HOUS_CLEA_03,Household,6,Low,62.1,3.45,20,20,22,45,30,6,0.0,Projected inventory (20) breached ROP (22). Target: 45.,Scheduled Replenishment
+830,20260629,28,MUM_DS_08,3,192,PERS_HAIR_12,Personal Care,6,Low,62.1,3.45,18,18,21,42,24,8,0.0,Projected inventory (18) breached ROP (21). Target: 42.,Scheduled Replenishment
+831,20260629,35,HYD_DS_05,4,272,PET _CAT _02,Pet Care,6,Low,62.1,3.45,16,16,18,37,24,6,0.0,Projected inventory (16) breached ROP (18). Target: 37.,Scheduled Replenishment
+832,20260629,25,MUM_DS_05,3,238,HOUS_CLEA_28,Household,6,Low,62.5,3.47,36,36,40,81,48,4,0.0,Projected inventory (36) breached ROP (40). Target: 81.,Scheduled Replenishment
+833,20260629,17,DEL_DS_07,2,234,HOUS_DISP_24,Household,6,Low,63.0,3.5,31,31,36,72,42,6,0.0,Projected inventory (31) breached ROP (36). Target: 72.,Scheduled Replenishment
+834,20260629,39,HYD_DS_09,4,203,PERS_ORAL_23,Personal Care,6,Low,63.0,3.5,30,30,44,69,42,6,0.0,Projected inventory (30) breached ROP (44). Target: 69.,Scheduled Replenishment
+835,20260629,40,HYD_DS_10,4,222,HOUS_DISH_12,Household,6,Low,63.0,3.5,29,29,31,65,48,12,0.0,Projected inventory (29) breached ROP (31). Target: 65.,Scheduled Replenishment
+836,20260629,11,DEL_DS_01,2,203,PERS_ORAL_23,Personal Care,6,Low,63.7,3.54,22,22,31,50,30,6,0.0,Projected inventory (22) breached ROP (31). Target: 50.,Scheduled Replenishment
+837,20260629,8,BEN_DS_08,1,224,HOUS_DISP_14,Household,6,Low,63.9,3.55,39,39,40,84,48,8,0.0,Projected inventory (39) breached ROP (40). Target: 84.,Scheduled Replenishment
+838,20260629,1,BEN_DS_01,1,220,HOUS_REPE_10,Household,6,Low,64.4,3.58,23,23,26,52,36,12,0.0,Projected inventory (23) breached ROP (26). Target: 52.,Scheduled Replenishment
+839,20260629,15,DEL_DS_05,2,224,HOUS_DISP_14,Household,6,Low,64.4,3.58,34,34,36,74,40,8,0.0,Projected inventory (34) breached ROP (36). Target: 74.,Scheduled Replenishment
+840,20260629,11,DEL_DS_01,2,216,HOUS_DETE_06,Household,6,Low,64.6,3.59,29,29,39,63,48,24,0.0,Projected inventory (29) breached ROP (39). Target: 63.,Scheduled Replenishment
+841,20260629,16,DEL_DS_06,2,187,PERS_HAIR_07,Personal Care,6,Low,64.6,3.59,28,28,32,63,36,12,0.0,Projected inventory (28) breached ROP (32). Target: 63.,Scheduled Replenishment
+842,20260629,15,DEL_DS_05,2,233,HOUS_CLEA_23,Household,6,Low,65.0,3.61,33,33,46,73,42,6,0.0,Projected inventory (33) breached ROP (46). Target: 73.,Scheduled Replenishment
+843,20260629,24,MUM_DS_04,3,199,PERS_SKIN_19,Personal Care,6,Low,65.2,3.62,15,15,20,32,24,8,0.0,Projected inventory (15) breached ROP (20). Target: 32.,Scheduled Replenishment
+844,20260629,35,HYD_DS_05,4,291,PET _DOG _21,Pet Care,6,Low,65.2,3.62,37,37,39,80,48,24,0.0,Projected inventory (37) breached ROP (39). Target: 80.,Scheduled Replenishment
+845,20260629,21,MUM_DS_01,3,187,PERS_HAIR_07,Personal Care,6,Low,65.5,3.64,26,26,28,56,36,12,0.0,Projected inventory (26) breached ROP (28). Target: 56.,Scheduled Replenishment
+846,20260629,10,BEN_DS_10,1,204,PERS_SKIN_24,Personal Care,6,Low,65.7,3.65,19,19,27,43,32,8,0.0,Projected inventory (19) breached ROP (27). Target: 43.,Scheduled Replenishment
+847,20260629,11,DEL_DS_01,2,219,HOUS_DISP_09,Household,6,Low,65.7,3.65,37,37,39,79,72,24,0.0,Projected inventory (37) breached ROP (39). Target: 79.,Scheduled Replenishment
+848,20260629,38,HYD_DS_08,4,220,HOUS_REPE_10,Household,6,Low,65.7,3.65,18,18,20,40,24,12,0.0,Projected inventory (18) breached ROP (20). Target: 40.,Scheduled Replenishment
+849,20260629,7,BEN_DS_07,1,238,HOUS_CLEA_28,Household,6,Low,66.1,3.67,42,42,44,90,48,4,0.0,Projected inventory (42) breached ROP (44). Target: 90.,Scheduled Replenishment
+850,20260629,10,BEN_DS_10,1,221,HOUS_DETE_11,Household,6,Low,66.2,3.68,25,25,27,54,32,8,0.0,Projected inventory (25) breached ROP (27). Target: 54.,Scheduled Replenishment
+851,20260629,38,HYD_DS_08,4,231,HOUS_DETE_21,Household,6,Low,66.8,3.71,13,13,14,28,24,12,0.0,Projected inventory (13) breached ROP (14). Target: 28.,Scheduled Replenishment
+852,20260629,4,BEN_DS_04,1,207,PERS_HAIR_27,Personal Care,6,Low,67.0,3.72,17,17,19,37,24,6,0.0,Projected inventory (17) breached ROP (19). Target: 37.,Scheduled Replenishment
+853,20260629,38,HYD_DS_08,4,224,HOUS_DISP_14,Household,6,Low,67.3,3.74,31,31,32,66,40,8,0.0,Projected inventory (31) breached ROP (32). Target: 66.,Scheduled Replenishment
+854,20260629,1,BEN_DS_01,1,272,PET _CAT _02,Pet Care,6,Low,67.7,3.76,18,18,20,39,24,6,0.0,Projected inventory (18) breached ROP (20). Target: 39.,Scheduled Replenishment
+855,20260629,16,DEL_DS_06,2,229,HOUS_DISP_19,Household,6,Low,67.7,3.76,39,39,40,81,42,6,0.0,Projected inventory (39) breached ROP (40). Target: 81.,Scheduled Replenishment
+856,20260629,17,DEL_DS_07,2,280,PET _CAT _10,Pet Care,6,Low,68.0,3.78,48,48,69,107,60,12,0.0,Projected inventory (48) breached ROP (69). Target: 107.,Scheduled Replenishment
+857,20260629,6,BEN_DS_06,1,185,PERS_SANI_05,Personal Care,6,Low,68.8,3.82,30,30,39,63,36,12,0.0,Projected inventory (30) breached ROP (39). Target: 63.,Scheduled Replenishment
+858,20260629,6,BEN_DS_06,1,272,PET _CAT _02,Pet Care,6,Low,68.8,3.82,15,15,16,32,24,6,0.0,Projected inventory (15) breached ROP (16). Target: 32.,Scheduled Replenishment
+859,20260629,9,BEN_DS_09,1,214,HOUS_DISP_04,Household,6,Low,69.8,3.88,41,41,41,83,48,8,0.0,Projected inventory (41) breached ROP (41). Target: 83.,Scheduled Replenishment
+860,20260629,34,HYD_DS_04,4,204,PERS_SKIN_24,Personal Care,6,Low,70.7,3.93,16,16,21,33,32,8,0.0,Projected inventory (16) breached ROP (21). Target: 33.,Scheduled Replenishment
+861,20260629,16,DEL_DS_06,2,272,PET _CAT _02,Pet Care,6,Low,71.5,3.97,23,23,24,47,24,6,0.0,Projected inventory (23) breached ROP (24). Target: 47.,Scheduled Replenishment
+862,20260629,38,HYD_DS_08,4,274,PET _PET _04,Pet Care,6,Low,72.4,4.02,29,29,38,60,48,12,0.0,Projected inventory (29) breached ROP (38). Target: 60.,Scheduled Replenishment
+863,20260629,6,BEN_DS_06,1,294,PET _PET _24,Pet Care,6,Low,72.7,4.04,15,15,16,30,24,8,0.0,Projected inventory (15) breached ROP (16). Target: 30.,Scheduled Replenishment
+864,20260629,8,BEN_DS_08,1,294,PET _PET _24,Pet Care,6,Low,73.3,4.07,16,16,17,33,24,8,0.0,Projected inventory (16) breached ROP (17). Target: 33.,Scheduled Replenishment
+865,20260629,33,HYD_DS_03,4,213,HOUS_CLEA_03,Household,6,Low,73.4,4.08,14,14,14,28,18,6,0.0,Projected inventory (14) breached ROP (14). Target: 28.,Scheduled Replenishment
+866,20260629,10,BEN_DS_10,1,217,HOUS_DISH_07,Household,6,Low,74.2,4.12,20,20,25,40,72,24,0.0,Projected inventory (20) breached ROP (25). Target: 40.,Scheduled Replenishment
+867,20260629,21,MUM_DS_01,3,281,PET _PET _11,Pet Care,6,Low,75.2,4.18,17,17,22,34,20,4,0.0,Projected inventory (17) breached ROP (22). Target: 34.,Scheduled Replenishment
+868,20260629,24,MUM_DS_04,3,231,HOUS_DETE_21,Household,6,Low,76.0,4.22,16,16,16,31,24,12,0.0,Projected inventory (16) breached ROP (16). Target: 31.,Scheduled Replenishment
+869,20260629,6,BEN_DS_06,1,214,HOUS_DISP_04,Household,6,Low,76.7,4.26,42,42,43,83,48,8,0.0,Projected inventory (42) breached ROP (43). Target: 83.,Scheduled Replenishment
+870,20260629,16,DEL_DS_06,2,185,PERS_SANI_05,Personal Care,6,Low,76.9,4.27,50,50,56,91,12,12,0.0,Projected inventory (50) breached ROP (56). Target: 91. Scaled down to respect dark store physical capacity buffer.,Scheduled Replenishment
+871,20260629,7,BEN_DS_07,1,280,PET _CAT _10,Pet Care,6,Low,77.4,4.3,51,51,59,95,48,12,0.0,Projected inventory (51) breached ROP (59). Target: 95.,Scheduled Replenishment
+872,20260629,10,BEN_DS_10,1,286,PET _PET _16,Pet Care,6,Low,77.4,4.3,31,31,36,58,48,24,0.0,Projected inventory (31) breached ROP (36). Target: 58.,Scheduled Replenishment
+873,20260629,35,HYD_DS_05,4,218,HOUS_CLEA_08,Household,6,Low,81.2,4.51,19,19,22,35,18,6,0.0,Projected inventory (19) breached ROP (22). Target: 35.,Scheduled Replenishment
+874,20260629,40,HYD_DS_10,4,289,PET _PET _19,Pet Care,6,Low,81.2,4.51,39,39,43,69,96,24,0.0,Projected inventory (39) breached ROP (43). Target: 69.,Scheduled Replenishment
+875,20260629,6,BEN_DS_06,1,280,PET _CAT _10,Pet Care,6,Low,83.3,4.63,40,40,44,70,48,12,0.0,Projected inventory (40) breached ROP (44). Target: 70.,Scheduled Replenishment
+876,20260629,29,MUM_DS_09,3,203,PERS_ORAL_23,Personal Care,6,Low,83.3,4.63,44,44,47,76,36,6,0.0,Projected inventory (44) breached ROP (47). Target: 76.,Scheduled Replenishment
+877,20260629,6,BEN_DS_06,1,276,PET _CAT _06,Pet Care,6,Low,84.1,4.67,26,26,30,46,24,12,0.0,Projected inventory (26) breached ROP (30). Target: 46.,Scheduled Replenishment
+878,20260629,15,DEL_DS_05,2,277,PET _PET _07,Pet Care,6,Low,84.1,4.67,21,21,23,37,18,6,0.0,Projected inventory (21) breached ROP (23). Target: 37.,Scheduled Replenishment
+879,20260629,9,BEN_DS_09,1,286,PET _PET _16,Pet Care,6,Low,84.8,4.71,33,33,34,55,48,24,0.0,Projected inventory (33) breached ROP (34). Target: 55.,Scheduled Replenishment
+880,20260629,11,DEL_DS_01,2,296,PET _CAT _26,Pet Care,6,Low,85.9,4.77,46,46,49,78,48,24,0.0,Projected inventory (46) breached ROP (49). Target: 78.,Scheduled Replenishment
+881,20260629,21,MUM_DS_01,3,199,PERS_SKIN_19,Personal Care,6,Low,86.0,4.78,28,28,30,48,24,8,0.0,Projected inventory (28) breached ROP (30). Target: 48.,Scheduled Replenishment
+882,20260629,28,MUM_DS_08,3,199,PERS_SKIN_19,Personal Care,6,Low,86.6,4.81,22,22,24,37,24,8,0.0,Projected inventory (22) breached ROP (24). Target: 37.,Scheduled Replenishment
+883,20260629,7,BEN_DS_07,1,204,PERS_SKIN_24,Personal Care,6,Low,88.7,4.93,25,25,30,45,32,8,0.0,Projected inventory (25) breached ROP (30). Target: 45.,Scheduled Replenishment
+884,20260629,39,HYD_DS_09,4,276,PET _CAT _06,Pet Care,6,Low,88.9,4.94,36,36,37,59,24,12,0.0,Projected inventory (36) breached ROP (37). Target: 59.,Scheduled Replenishment
+885,20260629,6,BEN_DS_06,1,218,HOUS_CLEA_08,Household,6,Low,89.1,4.95,18,18,18,29,12,6,0.0,Projected inventory (18) breached ROP (18). Target: 29.,Scheduled Replenishment
+886,20260629,11,DEL_DS_01,2,299,PET _DOG _29,Pet Care,6,Low,89.5,4.97,44,44,44,71,72,24,0.0,Projected inventory (44) breached ROP (44). Target: 71.,Scheduled Replenishment
+887,20260629,24,MUM_DS_04,3,218,HOUS_CLEA_08,Household,6,Low,95.0,5.28,20,20,20,31,12,6,0.0,Projected inventory (20) breached ROP (20). Target: 31.,Scheduled Replenishment
+888,20260629,24,MUM_DS_04,3,277,PET _PET _07,Pet Care,6,Low,108.0,6.0,33,33,33,50,18,6,0.0,Projected inventory (33) breached ROP (33). Target: 50.,Scheduled Replenishment
+889,20260629,7,BEN_DS_07,1,209,PERS_SKIN_29,Personal Care,6,Low,117.2,6.51,33,33,34,49,16,8,0.0,Projected inventory (33) breached ROP (34). Target: 49.,Scheduled Replenishment

@@ -1,0 +1,25 @@
+# Git Ignore for StockLane
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Data caches and local databases
+data/stocklane.duckdb*
+*.log
+
+# Keep directory structures
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/quarantine/.gitkeep
+!powerbi/exports/.gitkeep

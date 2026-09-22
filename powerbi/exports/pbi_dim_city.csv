@@ -1,0 +1,5 @@
+city_id,city_name,region,demand_multiplier
+1,Bengaluru,South,1.15
+2,Delhi,North,1.2
+3,Mumbai,West,1.25
+4,Hyderabad,South,1.05
