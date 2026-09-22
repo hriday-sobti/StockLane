@@ -1,176 +1,183 @@
-# StockLane
-### Hyperlocal Inventory & Instock Planning System for Quick-Commerce Dark Stores
+# StockLane: Hyperlocal Inventory & Instock Planning
 
-[![Python 3.14](https://img.shields.io/badge/python-3.14-blue.svg)](https://www.python.org/)
-[![PostgreSQL / DuckDB](https://img.shields.io/badge/SQL-PostgreSQL%20%7C%20DuckDB-orange.svg)](https://duckdb.org/)
-[![Power BI Ready](https://img.shields.io/badge/PowerBI-Export%20Ready-yellow.svg)](https://powerbi.microsoft.com/)
-[![Tests](https://img.shields.io/badge/pytest-154%20passed-brightgreen.svg)](https://pytest.org/)
+StockLane is an end-to-end inventory planning and dark store replenishment system built for quick-commerce networks. 
+
+In quick commerce (10- to 20-minute delivery), city-wide inventory numbers can be misleading. A city might have plenty of stock on paper, but if Store A has 10 days of cover while Store B two neighborhoods over runs out in two hours, customers experience stockouts. StockLane simulates a 40-store network across 4 cities over 180 days, tracks stock at the SKU-store-day grain, and generates automated replenishment and lateral redistribution transfers to keep products in stock.
 
 ---
 
-## 1. Executive Summary & Business Mission
-In hyperlocal quick-commerce operations (10-to-20 minute delivery windows), inventory availability is constrained by micro-catchments. Aggregating inventory across an entire city frequently conceals localized stockouts: **network inventory sufficiency does not guarantee local availability**.
+## The Problem
 
-**StockLane** is an analytical planning and decision-support system modeling a 4-city, 40-dark-store, 300-SKU, 180-day quick-commerce network. It transforms raw operational telemetry into prioritized, constraint-respecting replenishment and inter-store redistribution decisions.
+Quick-commerce fulfillment centers (dark stores) operate with tight physical constraints:
+1. **Short delivery radii (2-3 km):** A store cannot fulfill orders from across town. Inventory must be physically present in the local catchment.
+2. **Sales censoring during stockouts:** When a store runs out of an item, sales drop to zero. Training demand forecasts on raw sales data creates a downward bias where the model assumes zero customer interest.
+3. **Physical warehouse limits:** Dark stores have strict storage limits, supplier minimum order quantities (MOQs), and pack sizes. Planners cannot simply order arbitrary quantities.
+4. **Intra-city misallocation:** It is common for one dark store to hold surplus inventory while a nearby store faces an impending stockout for the exact same item.
+
+StockLane models these dynamics, calculates inventory health (Days of Cover, Safety Stock, Reorder Points), and produces constraint-aware recommendations.
+
+---
+
+## How It Works
 
 ```
-Raw Staging Data (2.16M rows)
-       ↓
-Data Quality Engine & Quarantine Layer
-       ↓
-PostgreSQL / DuckDB Relational Model (staging, core, analytics)
-       ↓
-Analytical SQL Views (Window functions, CTEs, Rolling velocity)
-       ↓
-Time-Series Forecasting Engine (Moving Average, Seasonal Naive, Holt-Winters)
-       ↓
-Inventory Health & Explainable Risk Scoring (Days of Cover, Safety Stock Z=1.645, ROP)
-       ↓
-Constrained Replenishment Engine (MOQ, Case Packs, Capacity Buffer)
-       ↓
-Explainable Greedy Redistribution Engine (Surplus -> Shortage within 25km)
-       ↓
-Intervention Simulation & Demand Scenario Stress-Testing (+10% to +50%)
-       ↓
-Authoritative KPI Reconciliation (Python vs SQL vs BI)
-       ↓
-Power BI Decision-Support Dashboards (5 Pages)
+Simulated Operational Telemetry (Demand, Footfall, Lead Times)
+                           │
+                           ▼
+Raw Staging & Quarantine (Data Quality, Balance Checks)
+                           │
+                           ▼
+Core Relational Warehouse (PostgreSQL / DuckDB Schemas & Views)
+                           │
+                           ▼
+Time-Series Forecasting (Moving Average vs Seasonal Naive vs Holt-Winters)
+                           │
+                           ▼
+Inventory Health Engine (Days of Cover, Safety Stock Z=1.645, ROP)
+                           │
+                           ├── Replenishment Queue (MOQ, Case Packs, Capacity Buffer)
+                           └── Intra-City Redistribution (Surplus -> Deficit within 25km)
+                           │
+                           ▼
+Intervention & Stress Simulation (+10% to +50% Demand Shocks)
+                           │
+                           ▼
+Cross-Layer Reconciliation (Python == SQL == Power BI)
 ```
 
 ---
 
-## 2. Key Operational Metrics (Deterministic Seed = 42)
-All metrics reflect verified executions from the pipeline:
-- **Network Availability %:** **99.74%**
-- **Order Fill Rate %:** **99.83%**
-- **Stockout Rate %:** **0.26%**
-- **Total Customer Demand Processed:** **58,054,124 units**
-- **Total Fulfilled Gross Revenue:** **$10,412,597,317.43**
-- **Forecast Model Selected:** **Additive Holt-Winters (7-day seasonality) — WAPE: 10.14%, MAE: 3.34, RMSE: 7.00**
-- **Current Critical Risk SKU-Store Pairs:** **26 pairs**
-- **Intra-City Redistribution Opportunities:** **713 transfers identified**
-- **Projected Lost Sales Avoided via Redistribution:** **$1,155,485.14**
-- **Inventory Reconciliation Invariant:** **100.0% verified (0 discrepancies across 2.16M rows)**
+## Key Numbers (Deterministic Seed: 42)
+
+- **Network Scope:** 4 cities (Bengaluru, Delhi, Mumbai, Hyderabad), 40 dark stores, 300 SKUs, 180 days (2.16M observations).
+- **Network Availability:** 99.74%
+- **Order Fill Rate:** 99.83%
+- **Total Demand Processed:** 58,054,124 units
+- **Total Fulfilled Revenue:** $10,412,597,317.43
+- **Forecast Model Selected:** Additive Holt-Winters with 7-day seasonality (WAPE: 10.14%, MAE: 3.34, RMSE: 7.00).
+- **Inventory Balance Invariant:** 0 discrepancies across 2,159,951 daily records (`Closing = Opening + Inbound + Transfer_In - Transfer_Out - Sold - Damaged`).
+- **Redistribution Impact:** Identified 713 feasible inter-store transfers, preventing an estimated $1,155,485.14 in lost sales without drawing any source store below 3.5 Days of Cover.
 
 ---
 
-## 3. Core System Architecture
+## Core Components
 
-### A. Dimensional Modeling & Latent Demand
-- **Dimensions:** `dim_city` (4 cities), `dim_store` (40 dark stores with coordinates and capacity limits), `dim_product` (300 SKUs across 10 categories with MOQs and case packs), `dim_date` (180 days deterministic), `dim_event` (promotional campaigns), and `dim_promotion`.
-- **Latent Demand:** Distinguishes underlying customer demand from fulfilled sales to eliminate sales-censoring bias during stockouts. Incorporates base velocity, day-of-week surges (Friday-Sunday peaks), regional catchment multipliers, and calendar events.
+### 1. Latent Demand vs Fulfilled Sales
+To prevent sales censoring, the simulation tracks customer demand separately from fulfilled units:
+$$\text{Fulfilled Units} = \min(\text{Available Inventory}, \text{Requested Demand})$$
+$$\text{Lost Units} = \text{Requested Demand} - \text{Fulfilled Units}$$
+This allows the forecasting engine to train on actual customer intent rather than truncated sales history.
 
-### B. Data Quality & Quarantine Pipeline
-- Synthetically injects anomalies (duplicates on business grain, referential integrity violations, negative quantities, broken inventory balance).
-- Routes bad records to `data/quarantine/` with human-readable reason codes, ensuring zero defective records enter the core relational warehouse.
+### 2. Time-Series Forecasting
+Three models are evaluated using a strict chronological holdout split (first 20 weeks for training, final 4 weeks for evaluation):
+- **Model A:** 4-week Moving Average
+- **Model B:** 7-day Seasonal Naive baseline
+- **Model C:** Additive Holt-Winters Exponential Smoothing
 
-### C. Relational SQL Warehouse & Analytical Views
-- Dual database support: Full PostgreSQL DDL/DML in `sql/schema/01_core_schema.sql` plus embedded DuckDB zero-dependency execution.
-- Window functions and CTEs in `sql/views/02_analytical_views.sql`:
-  * `v_inventory_health`: Computes rolling 7-day velocity, Days of Cover, and historical stockouts.
-  * `v_stockout_risk`: Identifies acute shortages.
-  * `v_redistribution_opportunities`: Pairs surplus and deficit stores in the same city.
-  * `v_lost_sales_summary`: Aggregates commercial impact by category and city.
+Models are evaluated using Weighted Absolute Percentage Error (WAPE) rather than MAPE to avoid division-by-zero errors on intermittent demand days:
+$$\text{WAPE} = \frac{\sum |A_t - F_t|}{\sum A_t}$$
 
-### D. Decision & Operations Engines
-1. **Inventory Health & Risk Score (0-100):**
-   * Safety stock calculated via $Z \times \sigma_{\text{demand}} \times \sqrt{L_{\text{days}}}$ ($Z=1.645$ for 95% service level).
-   * Reorder Point (ROP) and Target Stock.
-   * Explainable linear composite risk score incorporating coverage ratio, hours to stockout, and SKU priority.
-2. **Constrained Replenishment Engine:**
-   * Reorder triggered when projected inventory $\le$ ROP.
-   * Enforces supplier MOQs, whole case-pack rounding, and store physical capacity buffers.
-3. **Hyperlocal Redistribution Engine:**
-   * Explainable greedy matching pairing surplus stores ($\text{DoC} \ge 4.0$d) with deficit stores ($\text{DoC} \le 2.0$d) within a 25 km radius.
-   * **Guaranteed Source Protection:** Source store is never drawn down below 3.5 Days of Cover.
-4. **Intervention Simulator & Stress-Testing:**
-   * Simulates Before vs After intervention impact on availability and lost sales.
-   * Stress-tests demand surges (+10%, +20%, +25%, +30%, +50%).
-   * Diagnoses stockout root causes (delayed inbound vs demand spike vs forecast underestimation).
+### 3. Inventory Health & Risk Scoring
+- **Safety Stock:** $Z \times \sigma_{\text{demand}} \times \sqrt{L_{\text{days}}}$ with $Z=1.645$ (95% target cycle service level).
+- **Reorder Point (ROP):** $(\text{Daily Demand} \times L_{\text{days}}) + \text{Safety Stock}$
+- **Target Stock:** $(\text{Daily Demand} \times \text{Coverage Horizon}) + \text{Safety Stock}$
+- **Stockout Risk Score (0-100):** A composite score reflecting stock coverage against safety stock, hours to stockout, and product priority class.
 
----
+### 4. Constrained Replenishment
+Orders are triggered when projected inventory (closing stock + arriving inbound) drops to or below the Reorder Point. The engine:
+1. Calculates raw need: $\max(0, \text{Target Stock} - \text{Projected Inventory})$
+2. Enforces supplier MOQs.
+3. Rounds up to whole case-pack sizes.
+4. Checks destination dark store capacity (enforcing a 90% buffer for aisle operations).
 
-## 4. Power BI Operational Dashboard Suite
-Exported analytical datasets and DAX measures support 5 operational dashboard pages:
-1. **Instock Command Center:** Macro network health, availability trends, fill rates, and top exception queue.
-2. **Stockout & Overstock Risk:** City $\times$ Store risk heatmap, Days of Cover scatter plot, and critical SKU action list.
-3. **Hyperlocal Inventory Redistribution:** Source $\rightarrow$ Destination transfer routing, transfer distance, and avoided lost sales.
-4. **Demand Signals & Forecasting:** Forecast vs actual comparison, WAPE scorecard, and day-of-week surge profiles.
-5. **Replenishment Control & Plan Variance:** Supplier SLA adherence, delayed delivery root causes, and plan-vs-actual variance.
-
-Full dashboard specifications and DAX definitions are located in `powerbi/`.
+### 5. Hyperlocal Redistribution
+When one store has impending shortages and a nearby store in the same city has excess stock:
+- Matches stores within a 25 km radius.
+- Enforces strict source protection: the source store must retain at least safety stock plus 2.5 days of demand (minimum 3.5 DoC).
+- Models transfer costs ($20 base + $1.50/km) and case-pack rounding.
 
 ---
 
-## 5. Repository Structure
+## Power BI Operational Dashboards
+
+The repository includes pre-exported datasets and DAX measures for 5 operational dashboard pages:
+1. **Instock Command Center:** Network availability trends, fill rates, critical exception counts, and lost sales exposure.
+2. **Stockout & Overstock Risk:** City x store risk heatmap, Days of Cover scatter plot, and high-urgency action queue.
+3. **Hyperlocal Redistribution:** Source to destination transfer matrix, transfer distances, and avoided lost sales.
+4. **Demand & Forecasting:** Forecast vs actual trends, WAPE scorecards by category, and day-of-week demand curves.
+5. **Replenishment Control:** Supplier on-time SLA adherence, delivery status breakdowns, and plan-vs-actual variance.
+
+Exported CSVs are stored in `powerbi/exports/`, DAX definitions are in `powerbi/measures/dax_measures.dax`, and semantic relationships are defined in `powerbi/model/schema_relationships.py`.
+
+---
+
+## Project Structure
+
 ```
 StockLane/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
+├── .env.example
 ├── config/
-│   └── project_config.yaml
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   └── quarantine/
+│   └── project_config.yaml         # Centralized parameters (service levels, thresholds, costs)
+├── data/                           # Raw, processed, and quarantine storage (.gitkeep)
 ├── python/
-│   ├── common/             # Config loader, structured logging
-│   ├── generation/         # Dimension, demand, and inventory generators
-│   ├── validation/         # Data quality validator and quarantine routing
-│   ├── database/           # Dual PostgreSQL / DuckDB manager
-│   ├── forecasting/        # Moving average, Seasonal Naive, Holt-Winters
-│   ├── inventory/          # Health, risk scoring, action queue
-│   ├── replenishment/      # Constrained replenishment engine
-│   ├── redistribution/     # Explainable greedy redistribution
-│   ├── simulation/         # Intervention simulator, scenarios, root-cause
-│   └── reporting/          # Authoritative cross-layer KPI reconciler
+│   ├── common/                     # Config loader and structured logger
+│   ├── generation/                 # Dimensions, latent demand, and daily inventory simulation
+│   ├── validation/                 # Schema checks, referential integrity, and quarantine routing
+│   ├── database/                   # Dual PostgreSQL and DuckDB gateway
+│   ├── forecasting/                # Moving average, Seasonal Naive, and Holt-Winters engine
+│   ├── inventory/                  # Days of Cover, safety stock, risk scoring, action queue
+│   ├── replenishment/              # Constrained replenishment orders (MOQ, case packs, capacity)
+│   ├── redistribution/             # Explainable greedy transfer engine with source protection
+│   ├── simulation/                 # Intervention impact simulator and demand stress scenarios
+│   └── reporting/                  # Cross-layer KPI reconciliation (Python vs SQL vs BI)
 ├── sql/
-│   ├── schema/             # PostgreSQL DDL for core warehouse
-│   └── views/              # Analytical SQL views with window functions
+│   ├── schema/01_core_schema.sql   # Relational DDL (staging, core, analytics)
+│   └── views/02_analytical_views.sql # Analytical SQL views with window functions and CTEs
 ├── powerbi/
-│   ├── exports/            # Validated CSV exports ready for BI ingestion
-│   ├── measures/           # Authoritative DAX measures
-│   ├── model/              # Semantic star schema relationships
-│   └── documentation/      # 5-page dashboard specifications
+│   ├── exports/                    # Validated analytical CSVs for Power BI ingestion
+│   ├── measures/dax_measures.dax   # Canonical DAX measures
+│   ├── model/schema_relationships.py # Star schema relationship definitions
+│   └── documentation/              # 5-page dashboard UI and layout specifications
 ├── reports/
-│   ├── fact_sheet.yaml     # Machine-readable verified metrics
-│   ├── executive_summary.md# Operational findings
-│   └── validation_report.md# QA audit log
+│   ├── fact_sheet.yaml             # Machine-readable verified run metrics
+│   ├── executive_summary.md        # Summary of operational findings and scenario results
+│   └── validation_report.md        # Data quality and reconciliation audit log
 ├── docs/
-│   ├── architecture.md     # System architecture
-│   ├── data_dictionary.md  # Detailed table grains and field descriptions
-│   ├── kpi_dictionary.md   # Canonical KPI formulas
-│   ├── assumptions.md      # Model assumptions and logistics physics
-│   └── limitations.md      # Analytical limitations
+│   ├── architecture.md             # End-to-end system design
+│   ├── data_dictionary.md          # Table grains, schemas, and column descriptions
+│   ├── kpi_dictionary.md           # Authoritative formulas and edge-case handling
+│   ├── assumptions.md              # Model parameters and logistics assumptions
+│   └── limitations.md              # Documented operational simplifications
 ├── tests/
-│   ├── test_stocklane.py   # Core integration tests
-│   └── test_comprehensive.py # 150+ parameterized boundary condition tests
+│   ├── test_stocklane.py           # Core integration and invariant tests
+│   └── test_comprehensive.py       # 150+ parameterized boundary condition tests
 └── scripts/
-    └── run_pipeline.py     # End-to-end master orchestrator
+    └── run_pipeline.py             # End-to-end orchestrator script
 ```
 
 ---
 
-## 6. How to Reproduce & Run
+## Quickstart
 
-### A. Environment Setup
+### 1. Setup Environment
 ```bash
-# Clone and enter directory
+git clone https://github.com/hriday-sobti/StockLane.git
 cd StockLane
 
-# Install dependencies
 pip install -r requirements.txt
 ```
 
-### B. Execute Master Pipeline
-Run the end-to-end 22-stage pipeline with one command:
+### 2. Run the Full Pipeline
+Executes data generation, validation, database ingestion, forecasting, inventory risk, replenishment, redistribution, and reporting:
 ```bash
 python scripts/run_pipeline.py
 ```
 
-### C. Run Test Suite
-Run automated unit and integration tests verifying inventory invariants and constraints:
+### 3. Run the Test Suite
+Runs 154 unit and integration tests covering inventory reconciliation, pricing math, safety stock, and redistribution constraints:
 ```bash
 python -m pytest tests/ -v
 ```

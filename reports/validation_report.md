@@ -1,24 +1,20 @@
-# StockLane Validation & Quality Assurance Report
+# Data Quality & Validation Report
 
-**Pipeline Execution Status:** **PASS (ALL 22 STAGES VERIFIED)**  
-**Deterministic Random Seed:** 42  
-**Total Automated Tests:** 154 / 154 Passed (100%)  
+## 1. Raw Ingestion & Quarantine Metrics
 
----
+Controlled anomalies were injected into raw staging data to test validation rules and quarantine logic:
 
-## 1. Raw Staging Ingestion & Quarantine Metrics
-To evaluate data quality controls, controlled anomalies were injected into raw staging:
-- **Raw Fact Sales Rows:** 2,160,015
-- **Quarantined Sales Rows:** 33 rows (0.002% rejection rate)
-  * Duplicate records on business grain: 15
+- **Raw Sales Records:** 2,160,015
+- **Quarantined Sales Records:** 33 rows (0.002% rejection rate)
+  * Duplicate rows on business grain (date_key, store_id, sku_id): 15
   * Referential integrity violations (invalid SKU IDs): 10
-  * Negative quantities / revenue: 8
-- **Raw Fact Inventory Rows:** 2,160,000
-- **Quarantined Inventory Rows:** 49 rows (0.002% rejection rate)
+  * Negative quantities or negative revenues: 8
+- **Raw Inventory Records:** 2,160,000
+- **Quarantined Inventory Records:** 49 rows (0.002% rejection rate)
   * Broken inventory reconciliation: 12
   * Invalid store foreign keys: 6
   * Negative stock levels: 5
-- **Cleaned Analytical Tables Loaded into SQL:**
+- **Cleaned Records Ingested into Database:**
   * `core.fact_sales`: 2,159,982 rows
   * `core.fact_inventory`: 2,159,951 rows
   * `core.fact_demand`: 2,160,000 rows
@@ -26,50 +22,35 @@ To evaluate data quality controls, controlled anomalies were injected into raw s
   * `core.fact_transfers`: 7 rows
   * `core.fact_sales_plan`: 2,160,000 rows
 
----
-
-## 2. Inventory Invariant Reconciliation Audit
-- **Formula Checked:**
-  $$\text{Closing Stock} = \text{Opening Stock} + \text{Inbound} + \text{Transfer In} - \text{Transfer Out} - \text{Sold Units} - \text{Damaged Units}$$
-- **Discrepancy Count:** **0**
-- **Negative Stock Records:** **0**
-- **Non-Negative Constraints:** **PASS**
+All rejected records were written to `data/quarantine/` with diagnostic reason codes.
 
 ---
 
-## 3. Authoritative Cross-Layer KPI Reconciliation
-| Metric | Python Calculation | SQL View Calculation | Discrepancy | Status |
-| :--- | :--- | :--- | :--- | :--- |
-| **Total Requested Units** | 58,054,124 | 58,054,124 | 0 | **EXACT MATCH** |
-| **Total Fulfilled Units** | 57,954,188 | 57,954,188 | 0 | **EXACT MATCH** |
-| **Total Cancelled Units** | 125,513 | 125,513 | 0 | **EXACT MATCH** |
-| **Total Revenue ($)** | $10,412,597,317.43 | $10,412,597,317.43 | $0.00 | **EXACT MATCH** |
-| **Order Fill Rate %** | 99.828% | 99.828% | 0.000% | **EXACT MATCH** |
-| **Network Availability %** | 99.742% | 99.742% | 0.000% | **EXACT MATCH** |
-| **Stockout Rate %** | 0.258% | 0.258% | 0.000% | **EXACT MATCH** |
-| **Replenishment Adherence %**| 92.14% | 92.14% | 0.00% | **EXACT MATCH** |
+## 2. Inventory Balance Audit
+
+The core physical constraint:
+$$\text{Closing Stock} = \text{Opening Stock} + \text{Inbound} + \text{Transfer In} - \text{Transfer Out} - \text{Sold Units} - \text{Damaged Units}$$
+
+- **Total daily records checked:** 2,159,951
+- **Discrepancies found:** 0
+- **Negative stock records:** 0
+- **Status:** PASS
 
 ---
 
-## 4. Final Verification Summary
-```text
-STOCKLANE FINAL VALIDATION
-==========================
-Data generation: PASS
-Raw validation & quarantine: PASS
-Cleaning & staging: PASS
-Database load: PASS
-SQL analytical views: PASS
-Forecasting engine: PASS
-Inventory reconciliation: PASS
-Risk scoring engine: PASS
-Replenishment engine: PASS
-Redistribution engine: PASS
-Scenario simulator: PASS
-KPI reconciliation: PASS
-Power BI exports: PASS
-Automated tests: PASS (154/154)
-Documentation: PASS
+## 3. Cross-Layer KPI Reconciliation
 
-Overall System Status: PASS
-```
+Metrics were calculated independently in Python and SQL (via views in DuckDB/PostgreSQL) and compared to verify consistency:
+
+| Metric | Python Calculation | SQL View Calculation | Difference | Status |
+| :--- | :--- | :--- | :--- | :---: |
+| **Total Requested Units** | 58,054,124 | 58,054,124 | 0 | Exact Match |
+| **Total Fulfilled Units** | 57,954,188 | 57,954,188 | 0 | Exact Match |
+| **Total Cancelled Units** | 125,513 | 125,513 | 0 | Exact Match |
+| **Total Revenue** | $10,412,597,317.43 | $10,412,597,317.43 | $0.00 | Exact Match |
+| **Order Fill Rate** | 99.828% | 99.828% | 0.000% | Exact Match |
+| **Network Availability** | 99.742% | 99.742% | 0.000% | Exact Match |
+| **Stockout Rate** | 0.258% | 0.258% | 0.000% | Exact Match |
+| **Replenishment Adherence** | 92.14% | 92.14% | 0.00% | Exact Match |
+
+All metrics match across layers.
