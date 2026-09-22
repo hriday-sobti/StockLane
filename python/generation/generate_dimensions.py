@@ -1,11 +1,5 @@
-"""Synthetic Dimension Generator for StockLane.
-Generates:
-  - dim_city (4 synthetic cities)
-  - dim_store (40 stores, 10 per city, varied capacities and coordinates)
-  - dim_product (300 SKUs, realistic price, lead times, shelf life, MOQs, case packs)
-  - dim_date (180 days with calendar attributes, deterministic)
-  - dim_event (synthetic events like Weekend Rush, Festive Spike, Payday)
-  - dim_promotion (SKU-level discount/promotion campaigns)
+"""Generates dimensional tables for cities, dark stores, products, calendar dates,
+events, and promotions used across the analytical pipeline.
 """
 from typing import Dict, Any, Tuple
 import numpy as np

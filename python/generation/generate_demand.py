@@ -1,16 +1,5 @@
-"""Synthetic Demand Generation Engine for StockLane.
-Formula:
-  Demand = Base Demand (by SKU velocity)
-         * Day-of-Week Factor
-         * Store Factor (local footfall / catchment)
-         * City Factor (regional index)
-         * Seasonality (slow cycle over 180 days)
-         * Event Uplift (dim_event match)
-         * Promotion Uplift (dim_promotion match)
-         + Controlled Random Noise
-         + Synthetic Demand Spikes (known vs unexpected)
-
-Underlying Demand is generated separately from fulfilled sales.
+"""Generates daily customer demand across stores and products, incorporating
+base velocity, day-of-week patterns, city indices, and marketing campaigns.
 """
 from typing import Dict, Any
 import numpy as np

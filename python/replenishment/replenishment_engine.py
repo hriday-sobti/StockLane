@@ -1,16 +1,5 @@
-"""Constrained Replenishment and Prioritization Queue Engine for StockLane.
-Logic:
-  1. Projected Inventory = Current Closing Stock + Arriving Inbound
-  2. Replenishment Trigger: Projected Inventory <= Reorder Point (ROP)
-  3. Theoretical Quantity = Target Stock - Projected Inventory
-  4. Physical Constraints Applied:
-     - Minimum Order Quantity (MOQ)
-     - Case Pack Sizing (round UP to whole case packs)
-     - Dark Store Physical Capacity Limits (Inventory + Inbound <= 90% Capacity Buffer)
-  5. Post-Rounding Validation:
-     - Confirms capacity is strictly satisfied after rounding up
-  6. Action Prioritization Queue:
-     - Prioritizes by: Stockout Risk Score, Lost Sales Exposure, Hours to Stockout, Priority Class
+"""Generates purchase orders based on reorder thresholds, constrained by
+supplier MOQs, case-pack sizes, and dark store holding capacity.
 """
 from typing import Dict, Any
 import numpy as np

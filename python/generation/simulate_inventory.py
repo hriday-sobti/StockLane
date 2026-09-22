@@ -1,18 +1,5 @@
-"""Simulation Engine for Inventory, Sales, Transfers, Replenishments, and Disruptions.
-Simulates day-by-day inventory progression for every (store, sku) adhering to:
-  Closing Stock = Opening Stock + Inbound Stock + Transfer In - Transfer Out - Sold Units - Damaged Units
-
-Critical Invariants & Business Logic:
-  1. Requested Units = Latent Customer Demand
-  2. If Available Inventory (Opening + Inbound + Transfer In) < Requested Units:
-     - Stockout occurs
-     - Sold Units (Fulfilled) = Available Inventory
-     - Lost Units = Requested Units - Fulfilled Units
-  3. Realistic Operational Disruptions:
-     - Delayed Inbound (Supplier delivery delayed past SLA)
-     - Under-replenished quantities
-     - Damaged units in transit/handling
-     - Inter-store transfers creating surplus in one store and deficit relief in another
+"""Simulates day-by-day inventory progression for every store-SKU combination,
+tracking opening stock, receipts, transfers, sales fulfillment, and closing stock.
 """
 from typing import Dict, Any, Tuple
 import numpy as np

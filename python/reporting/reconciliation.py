@@ -1,13 +1,5 @@
-"""KPI Reconciliation Engine across Python, PostgreSQL/DuckDB, and Power BI Exports.
-Verifies exact numerical agreement across layers:
-  1. Overall Availability % (Demanded instances fulfilled without stockout)
-  2. Overall Fill Rate % (Total Fulfilled Units / Total Requested Units)
-  3. Stockout Rate % (Stockout Days / Total Store-SKU Days)
-  4. Total Requested vs Fulfilled Sales Volume
-  5. Total Lost Sales Value ($)
-  6. Total Net Revenue ($)
-  7. Average Days of Cover (DoC)
-  8. Replenishment Execution Adherence Rate %
+"""Compares key operational metrics calculated in Python against SQL views
+in DuckDB/PostgreSQL to verify cross-layer consistency.
 """
 from typing import Dict, Any
 import numpy as np

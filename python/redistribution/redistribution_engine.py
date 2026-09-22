@@ -1,26 +1,5 @@
-"""Explainable Greedy Inventory Redistribution Engine for StockLane.
-Solves the central dark-store paradox:
-  "Network inventory sufficiency is not the same as local availability."
-
-Algorithm:
-  Step 1: Identify Deficit (Destination) Stores:
-          - Days of Cover < minimum_days_of_cover (e.g. < 2.0)
-          - Stockout risk score >= 60 (High/Critical)
-          - Projected inventory < Safety Stock
-  Step 2: Identify Surplus (Source) Stores:
-          - In the SAME city
-          - Days of Cover >= source_protection_doc (e.g. >= 4.0)
-          - Stock exceeds Target Stock
-  Step 3: Pair geographically nearest feasible source with destination for the SAME SKU.
-  Step 4: Protect Source Safety Stock:
-          - Maximum allowable transfer = Source Inventory - Source Safety Stock - (Source Daily Demand * 3.5)
-  Step 5: Constrain Destination Capacity & Minimum Transfer Units:
-          - Must satisfy case packs and min_transfer_units
-          - Destination Inventory + Transfer <= Destination Capacity Buffer
-  Step 6: Compute Explainable Business Impact:
-          - Distance (km) & Transfer Cost ($20 base + $1.50/km)
-          - Destination Days of Cover Before vs After
-          - Avoided Lost Sales ($)
+"""Lateral redistribution module pairing dark stores with surplus inventory
+to nearby stores facing stockouts within the same city.
 """
 from typing import Dict, Any, List
 import numpy as np

@@ -1,17 +1,5 @@
-"""Inventory Health, Risk Scoring, and Safety Stock Engine for StockLane.
-Implements:
-  1. Days of Cover (DoC) = Current Inventory / Expected Daily Demand
-  2. Safety Stock = Z * Demand_Std * sqrt(Lead_Time_Days) (Z=1.645 for 95% service level)
-  3. Reorder Point (ROP) = (Expected Daily Demand * Lead_Time_Days) + Safety Stock
-  4. Target Stock = (Expected Daily Demand * Coverage_Horizon_Days) + Safety Stock
-  5. Stockout Risk Score (0 - 100):
-     Explainable linear combination:
-       - 45% weight: Inventory vs Safety Stock & Days of Cover
-       - 25% weight: Time to stockout (operating hours / demand velocity)
-       - 15% weight: Demand variability and recent velocity surge
-       - 15% weight: Store priority and lead time vulnerability
-  6. Overstock Classification:
-     Flagged if Days of Cover > Configured Excess Days (e.g. > 14 days) or Stock > 2x Target Stock
+"""Computes store-level Days of Cover, safety stock, reorder thresholds,
+and composite stockout risk scores for dark store planning.
 """
 from typing import Dict, Any
 import numpy as np

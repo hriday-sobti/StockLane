@@ -1,16 +1,5 @@
-"""Intervention Simulation, Stress-Testing Scenarios, Plan-vs-Actual, and Root-Cause Engine.
-Implements:
-  1. Intervention Simulation:
-     - Calculates Before vs After intervention metrics:
-       * Availability %, Fill Rate %, Stockout Hours, Lost Sales Avoided, Excess Inventory Change
-  2. Scenario Simulator:
-     - Stress-tests demand uplifts (+10%, +20%, +25%, +30%, +50%)
-     - Recalculates Days of Cover, Stockout Risk, Replenishment Requirements, and Lost Sales Exposure
-  3. Plan-vs-Actual Variance Analysis:
-     - Distinguishes Demand Misses (low demand) from Availability Misses (insufficient inventory)
-  4. Root-Cause Classification Hierarchy:
-     - Classifies stockout/availability incidents:
-       * Demand Spike vs Forecast Underestimation vs Delayed Inbound vs Low Opening Stock
+"""Simulation utilities for evaluating intervention outcomes, running demand
+stress scenarios, and diagnosing stockout root causes.
 """
 from typing import Dict, Any, List
 import numpy as np

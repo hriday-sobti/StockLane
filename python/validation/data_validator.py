@@ -1,16 +1,5 @@
-"""Data Quality, Validation, and Quarantine Engine for StockLane.
-Implements:
-  1. Synthetic controlled anomalies in raw staging (duplicates, null IDs, negative values, referential violations)
-  2. Strict validation rules:
-     - Referential integrity (SKU in dim_product, Store in dim_store, City in dim_city)
-     - Inventory reconciliation (Closing = Opening + Inbound + Xfer_in - Xfer_out - Sold - Damaged)
-     - Non-negative constraints (inventory, demand, prices)
-     - Business grain duplicate detection
-     - Date range integrity
-  3. Quarantine routing:
-     - Isolates bad records into quarantine dataframes with error reason codes
-     - Outputs clean validated dataframes ready for SQL loading and analytics
-     - Generates data validation summary report
+"""Data quality validation rules and quarantine routing for staging tables.
+Checks referential integrity, physical balance equations, and grain duplicates.
 """
 from typing import Dict, Any, Tuple
 import numpy as np

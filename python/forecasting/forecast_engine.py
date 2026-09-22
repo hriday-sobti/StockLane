@@ -1,13 +1,5 @@
-"""Feature Engineering and Time-Series Forecasting Engine for StockLane.
-Implements:
-  1. Chronological Train/Validation Splitting (e.g., First 140 days Train, Last 40 days Validation)
-  2. Model A: 4-week (28-day) Moving Average
-  3. Model B: Seasonal Naive Baseline (value from 7 days ago)
-  4. Model C: Holt-Winters Exponential Smoothing (level + trend + 7-day seasonality)
-  5. Holdout Evaluation: MAE, RMSE, WAPE (Weighted Absolute Percentage Error)
-     - Safe handling of zero-demand edge cases (No divide-by-zero MAPE bugs)
-  6. Model Selection: Selects top model based on empirical validation performance
-  7. Final Forecast Generation for upcoming planning horizon.
+"""Time-series forecasting module comparing Moving Average, Seasonal Naive,
+and Holt-Winters across a chronological holdout split.
 """
 from typing import Dict, Any, Tuple, List
 import numpy as np

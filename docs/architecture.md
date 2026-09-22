@@ -1,12 +1,9 @@
 # StockLane: System Architecture
 
-## System Mission & Core Philosophy
-**StockLane** is a hyperlocal inventory and instock planning system modeling a multi-city quick-commerce dark-store network (4 cities, 40 dark stores, 300 SKUs, 180 days).
+## System Overview
+StockLane models an inventory planning workflow for a 4-city, 40-store quick-commerce network. 
 
-The foundational philosophy follows an analytical progression:
-$$\text{Business Problem} \longrightarrow \text{Data Model} \longrightarrow \text{Data Quality} \longrightarrow \text{Analytical Logic} \longrightarrow \text{Decision Engine} \longrightarrow \text{Validation} \longrightarrow \text{Visualization} \longrightarrow \text{Documentation}$$
-
-The core operational principle is that **network inventory sufficiency is not the same as local availability**. Store A may hold excess stock while Store B nearby faces an impending stockout.
+The project addresses a common quick-commerce problem: store-level stockouts often happen even when city-wide inventory is sufficient. Delivery zones are small (2-3 km), so stock in Store A cannot serve customers ordering from Store B. StockLane tracks local demand, models physical store constraints, and automates replenishment and inter-store transfers.
 
 ## End-to-End Analytical Flow
 ```

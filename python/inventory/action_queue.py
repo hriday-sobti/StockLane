@@ -1,16 +1,5 @@
-"""Consolidated Operations Action Queue Engine for StockLane.
-Aggregates prioritized decisions into a single operational interface:
-  - Priority Rank
-  - Date
-  - City / Store / SKU / Category
-  - Issue Type (Impending Stockout, Severe Overstock, Inter-Store Misallocation)
-  - Risk Score
-  - Recommended Action (Replenish, Redistribute, Monitor, Liquidate/Slow Inbound)
-  - Recommended Quantity
-  - Hours to Stockout
-  - Expected Impact
-  - Source / Destination Store
-  - Explainable Reason
+"""Consolidates replenishment orders, lateral transfers, and overstock items
+into a unified priority queue for daily dark store operations.
 """
 from typing import Dict, Any
 import numpy as np
